@@ -1,7 +1,7 @@
 Eniere's Improved default HUD v1.1
 
 — Health HP numbers for target ID, spectator hud, killer's health panel etc.
-— Two wariants of damage indicator:
+— Two variants of damage indicator:
 	— Thin white numbers for damage and light blue for health. Damage/health numbers near hudhealthaccount position (activated by default.)
 	— Bold yellow numbers above enemy's positions (can be selected manually.)
 — Medic: new uberbar position in middle of screen;
