@@ -99,13 +99,11 @@
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"TFFontMedium"
-		"font_minmode"	"DefaultVerySmall"		//DefaultVerySmall
+		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"53"
-		"xpos_minmode"	"50"				//50
-		"ypos"			"17"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]	//12
-		"ypos"			"22"	[$X360]
-		"ypos_hidef"	"25"	[$X360]
+		"xpos_minmode"	"50"
+		"ypos"			"17"
+		"ypos_minmode"	"12"
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -142,18 +140,18 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"53"			//34
+		"xpos"			"53"		//34
 		"xpos_minmode"	"49"		//30
-		"ypos"			"21"			//21
+		"ypos"			"21"		//21
 		"ypos_minmode"	"16"		//19
 		"zpos"			"12"
 		"wide_minmode"	"8"			//8
 		"tall_minmode"	"8"			//8
-		"wide"			"9"				//8
-		"tall"			"9"				//8
+		"wide"			"9"			//8
+		"tall"			"9"			//8
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_soldier" 	//"../hud/leaderboard_class_heavy"
+		"image"			"../hud/leaderboard_class_soldier"
 		"scaleImage"	"1"
 	}
 	
