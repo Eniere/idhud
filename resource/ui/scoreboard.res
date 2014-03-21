@@ -40,7 +40,7 @@
 		"xpos"			"-2"
 		"xpos_hidef"	"18"
 		"ypos"			"9"
-		"ypos_minmode"	"69"
+		"ypos_minmode"	"79"
 		"wide"			"304"
 		"wide_lodef"	"284"
 		"wide_hidef"	"294"
@@ -66,7 +66,7 @@
 		"xpos_lodef"	"276"
 		"xpos_hidef"	"306"
 		"ypos"			"9"
-		"ypos_minmode"	"69"
+		"ypos_minmode"	"79"
 		"wide"			"304"
 		"wide_lodef"	"284"
 		"wide_hidef"	"294"
@@ -91,7 +91,7 @@
 		"xpos"			"0"
 		"xpos_hidef"	"14"
 		"ypos"			"60"
-		"ypos_minmode"	"120"
+		"ypos_minmode"	"130"
 		"zpos"			"-1"
 		"wide"			"600"
 		"wide_lodef"	"570"
@@ -122,7 +122,7 @@
 		"xpos_hidef"		"40"
 		"ypos"			"23"	[$WIN32]
 		"ypos"			"29"	[$X360]
-		"ypos_minmode"	"83"	[$WIN32]
+		"ypos_minmode"	"93"	[$WIN32]
 		"wide"			"140"
 		"tall"			"34"
 		"autoResize"		"0"
@@ -146,7 +146,7 @@
 		"xpos_lodef"		"170"
 		"xpos_hidef"		"190"
 		"ypos"			"8" 
-		"ypos_minmode"	"68"
+		"ypos_minmode"	"78"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -174,7 +174,7 @@
 		"xpos_lodef"	"171"
 		"xpos_hidef"	"191"
 		"ypos"			"9" 
-		"ypos_minmode"	"69"
+		"ypos_minmode"	"79"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -200,7 +200,7 @@
 		"xpos"			"150"
 		"xpos_hidef"		"100"
 		"ypos"			"33"
-		"ypos_minmode"	"93"
+		"ypos_minmode"	"103"
 		"wide"			"100"
 		"tall"			"29"
 		"autoResize"		"0"
@@ -226,7 +226,7 @@
 		"xpos_hidef"	"488"
 		"ypos"			"23"	[$WIN32]
 		"ypos"			"29"	[$X360]
-		"ypos_minmode"	"83"	[$WIN32]
+		"ypos_minmode"	"93"	[$WIN32]
 		"wide"			"140"
 		"tall"			"34"
 		"autoResize"	"0"
@@ -250,7 +250,7 @@
 		"xpos_lodef"	"290"
 		"xpos_hidef"	"330"
 		"ypos"			"8" 
-		"ypos_minmode"	"68"
+		"ypos_minmode"	"78"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -278,7 +278,7 @@
 		"xpos_lodef"	"291"
 		"xpos_hidef"	"331"
 		"ypos"			"9"
-		"ypos_minmode"	"69"
+		"ypos_minmode"	"79"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -305,7 +305,7 @@
 		"xpos_lodef"	"376"
 		"xpos_hidef"	"418"
 		"ypos"			"33"
-		"ypos_minmode"	"93"
+		"ypos_minmode"	"103"
 		"wide"			"100"
 		"tall"			"29"
 		"autoResize"	"0"
@@ -329,8 +329,8 @@
 		"xpos_hidef"	"31"
 		"ypos"			"60"
 		"ypos_lodef"	"62"
-		"ypos_minmode"	"120"
-		"ypos_lodef_minmode"	"122"
+		"ypos_minmode"	"130"
+		"ypos_lodef_minmode"	"132"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -355,8 +355,8 @@
 		"xpos_hidef"	"31"
 		"ypos"			"60"
 		"ypos_lodef"	"62"
-		"ypos_minmode"	"120"
-		"ypos_lodef_minmode"	"122"
+		"ypos_minmode"	"130"
+		"ypos_lodef_minmode"	"132"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -378,14 +378,14 @@
 		"xpos_lodef"	"10"
 		"xpos_hidef"	"30"
 		"ypos"			"72"
-		"ypos_minmode"	"132"
+		"ypos_minmode"	"142"
 		"zpos"			"20"
 		"wide"			"290"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
 		"tall"			"280"	[$WIN32]
 		"tall"			"255"	[$X360]
-		"tall_minmode"	"145"	[$WIN32]
+		"tall_minmode"	"150"	[$WIN32]	//145
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -407,14 +407,14 @@
 		"xpos_lodef"	"284"
 		"xpos_hidef"	"314"
 		"ypos"			"72"
-		"ypos_minmode"	"132"
+		"ypos_minmode"	"142"
 		"zpos"			"20"
 		"wide"			"290"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
 		"tall"			"280"	[$WIN32]
 		"tall"			"255"	[$X360]
-		"tall_minmode"	"145"	[$WIN32]
+		"tall_minmode"	"150"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -436,7 +436,7 @@
 		"xpos_lodef"	"279"
 		"xpos_hidef"	"309"
 		"ypos"			"70"
-		"ypos_minmode"	"130"
+		"ypos_minmode"	"140"
 		"zpos"			"2"
 		"wide"			"2"
 		"tall"			"292"
@@ -469,7 +469,7 @@
 		"xpos_hidef"	"135"
 		"ypos"			"357"	[$WIN32]
 		"ypos"			"277"	[$X360]
-		"ypos_minmode"	"282"	[$WIN32]
+		"ypos_minmode"	"292"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
@@ -495,7 +495,7 @@
 		"xpos_hidef"	"135"
 		"ypos"			"348"	[$WIN32]
 		"ypos"			"277"	[$X360]
-		"ypos_minmode"	"273"	[$WIN32]
+		"ypos_minmode"	"283"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
@@ -517,7 +517,7 @@
 		"xpos_hidef"	"30"
 		"ypos"			"372"	[$WIN32]
 		"ypos"			"297"	[$X360]
-		"ypos_minmode"	"297"	[$WIN32]
+		"ypos_minmode"	"307"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"580"
 		"wide_lodef"	"539"
@@ -545,7 +545,7 @@
 		"xpos_lodef"	"12"
 		"ypos"			"350"	[$WIN32]
 		"ypos"			"275"	[$X360]
-		"ypos_minmode"	"275"	[$WIN32]
+		"ypos_minmode"	"285"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"92"
 		"tall"			"92"
@@ -571,7 +571,7 @@
 		"xpos_lodef"	"105"
 		"ypos"			"377"	[$WIN32]
 		"ypos"			"302"	[$X360]
-		"ypos_minmode"	"302"	[$WIN32]
+		"ypos_minmode"	"312"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"325"	[$WIN32]
 		"wide"			"410"	[$X360]
@@ -595,7 +595,7 @@
 		"xpos_lodef"	"105"
 		"ypos"			"397"	[$WIN32]
 		"ypos"			"322"	[$X360]
-		"ypos_minmode"	"322"	[$WIN32]
+		"ypos_minmode"	"332"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"465"
 		"wide_lodef"	"434"
@@ -627,7 +627,7 @@
 		"xpos_hidef"	"439"
 		"ypos"			"377"	[$WIN32]
 		"ypos"			"302"	[$X360]
-		"ypos_minmode"	"302"	[$WIN32]
+		"ypos_minmode"	"312"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"140"
 		"tall"			"20"
@@ -859,7 +859,7 @@
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
 		"ypos"			"395"
-		"ypos_minmode"	"320"
+		"ypos_minmode"	"330"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"448"

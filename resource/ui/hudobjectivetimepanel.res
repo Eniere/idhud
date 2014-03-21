@@ -243,7 +243,7 @@
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
 		"ypos"			"33"
-		"ypos_minmode"	"28"		//24
+		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
 		"zpos"			"5"
@@ -261,7 +261,9 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-		"font_minmode"	"HudFontSmallBold"		//"ClockSubTextSuddenDeath"
+		"font_minmode"	"DefaultOutline"	//"ClockSubTextSuddenDeath"
+		//"font"			"TFFontMedium"	//"HudFontSmall"
+		//"font_minmode"	"Default"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 	}	

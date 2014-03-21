@@ -1,457 +1,381 @@
 "Resource/HudLayout.res"
 {
-
-	BroCross				//1.1	crosshairs below from broeselhud
+//							* Custom crosshairs section *
+	Cross					//1.1
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 		"BroCross"
+		"fieldName"			"Cross"
 		"visible"			"0"
 		"enabled"			"1"
 		"zpos"				"2"
-
 		"xpos"				"c-25"
 		"ypos"				"c-24"
 		"wide"				"50"
 		"tall"				"49"
-
-		"font"				"BCrosshairsOutline16"
+		"font"				"CrosshairsOutline16"
 		"labelText"			"a"
-		"textAlignment"		"center"	
-		
-		"fgcolor"			"222 222 222 255"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroHollowCross			//1.2
+	HollowCross				//1.2
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 		"BroHollowCross"
+		"fieldName"			"HollowCross"
 		"visible"			"0"
 		"enabled"			"1"
 		"zpos"				"2"
-
 		"xpos"				"c-25"
 		"ypos"				"c-25"
 		"wide"				"51"
 		"tall"				"52"
-
-		"font"				"BCrosshairsOutline16"
+		"font"				"CrosshairsOutline16"
 		"labelText"			"b"
-		"textAlignment"		"center"	
-		
+		"textAlignment"		"center"
 		"fgcolor"			"255 255 255 255"
 	}
 
-	BroHollowCrossDot		//1.3
+	HollowCrossDot			//1.3
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 		"BroHollowCrossDot"
+		"fieldName"			"HollowCrossDot"
 		"visible"			"0"
 		"enabled"			"1"
 		"zpos"				"2"
-
 		"xpos"				"c-25"
 		"ypos"				"c-25"
 		"wide"				"51"
 		"tall"				"52"
-
-		"font"				"BCrosshairsOutline16"
+		"font"				"CrosshairsOutline16"
 		"labelText"			"c"
-		"textAlignment"		"center"	
-		
+		"textAlignment"		"center"
 		"fgcolor"			"255 255 255 255"
 	}
 
-	BroThickCross			//1.4
+	ThickCross				//1.4
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroThickCross"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"wide"			"49"
-		"tall"			"51"
-
-		"font"			"BCrosshairsOutline15"
-		"labelText"		"d"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"ThickCross"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-25"
+		"wide"				"49"
+		"tall"				"51"
+		"font"				"CrosshairsOutline15"
+		"labelText"			"d"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroSmallCross			//1.5
+	SmallCross				//1.5
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroSmallCross"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-24"
-		"ypos"			"c-25"
-		"wide"			"49"
-		"tall"			"51"
-
-		"font"			"BCrosshairsOutline16"
-		"labelText"		"e"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"SmallCross"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-24"
+		"ypos"				"c-25"
+		"wide"				"49"
+		"tall"				"51"
+		"font"				"CrosshairsOutline16"
+		"labelText"			"e"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroWideCross			//1.6
+	WideCross				//1.6
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroWideCross"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-25"
-		"ypos"			"c-24"
-		"wide"			"50"
-		"tall"			"48"
-
-		"font"			"BCrosshairsOutline24"
-		"labelText"		"f"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"WideCross"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-24"
+		"wide"				"50"
+		"tall"				"48"
+		"font"				"CrosshairsOutline24"
+		"labelText"			"f"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroThickWideCross		//1.7
+	ThickWideCross			//1.7
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroThickWideCross"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-25"
-		"ypos"			"c-24"
-		"wide"			"51"
-		"tall"			"48"
-
-		"font"			"BCrosshairsOutline24"
-		"labelText"		"g"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"ThickWideCross"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-24"
+		"wide"				"51"
+		"tall"				"48"
+		"font"				"CrosshairsOutline24"
+		"labelText"			"g"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroThinCircle			//1.8
+	ThinCircle				//1.8
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroThinCircle"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-24"
-		"ypos"			"c-25"
-		"wide"			"48"
-		"tall"			"50"
-
-		"font"			"BCrosshairs28"
-		"labelText"		"h"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"ThinCircle"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-24"
+		"ypos"				"c-25"
+		"wide"				"48"
+		"tall"				"50"
+		"font"				"Crosshairs28"
+		"labelText"			"h"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroThickCircle			//1.9
+	ThickCircle				//1.9
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroThickCircle"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-23"
-		"ypos"			"c-23"
-		"wide"			"46"
-		"tall"			"52"
-
-		"font"			"BCrosshairs32"
-		"labelText"		"i"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"ThickCircle"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-23"
+		"ypos"				"c-23"
+		"wide"				"46"
+		"tall"				"52"
+		"font"				"Crosshairs32"
+		"labelText"			"i"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroQuarteredCircle		//1.10
+	QuarteredCircle			//1.10
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroQuarteredCircle"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-24"
-		"ypos"			"c-23"
-		"wide"			"49"
-		"tall"			"50"
-
-		"font"			"BCrosshairs25"
-		"labelText"		"j"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"QuarteredCircle"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-24"
+		"ypos"				"c-23"
+		"wide"				"49"
+		"tall"				"50"
+		"font"				"Crosshairs25"
+		"labelText"			"j"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroDot				//1.11
+	Dot						//1.11
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroDot"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"wide"			"48"
-		"tall"			"51"
-
-		"font"			"BCrosshairs32"
-		"labelText"		"k"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"Dot"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-25"
+		"wide"				"48"
+		"tall"				"51"
+		"font"				"Crosshairs32"
+		"labelText"			"k"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroSquare			//1.12
+	Square					//1.12
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroSquare"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-26"
-		"ypos"			"c-25"
-		"wide"			"50"
-		"tall"			"51"
-
-		"font"			"BCrosshairs32"
-		"labelText"		"l"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"Square"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-26"
+		"ypos"				"c-25"
+		"wide"				"50"
+		"tall"				"51"
+		"font"				"Crosshairs32"
+		"labelText"			"l"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroRoundBracketsCross		//1.13
+	RoundBracketsCross		//1.13
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroRoundBracketsCross"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-26"
-		"ypos"			"c-24"
-		"wide"			"51"
-		"tall"			"50"
-
-		"font"			"BCrosshairs28"
-		"labelText"		"m"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"RoundBracketsCross"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-26"
+		"ypos"				"c-24"
+		"wide"				"51"
+		"tall"				"50"
+		"font"				"Crosshairs28"
+		"labelText"			"m"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroRoundBracketsDot		//1.14
+	RoundBracketsDot		//1.14
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroRoundBracketsDot"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-24"
-		"ypos"			"c-25"
-		"wide"			"46"
-		"tall"			"50"
-
-		"font"			"BCrosshairs28"
-		"labelText"		"n"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"RoundBracketsDot"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-24"
+		"ypos"				"c-25"
+		"wide"				"46"
+		"tall"				"50"
+		"font"				"Crosshairs28"
+		"labelText"			"n"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroRoundBrackets		//1.15
+	RoundBrackets			//1.15
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroRoundBrackets"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"wide"			"48"
-		"tall"			"51"
-
-		"font"			"BCrosshairs28"
-		"labelText"		"o"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"0 255 0 255"
+		"fieldName"			"RoundBrackets"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-25"
+		"wide"				"48"
+		"tall"				"51"
+		"font"				"Crosshairs28"
+		"labelText"			"o"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroLozenge			//1.16
+	Lozenge					//1.16
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroLozenge"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"wide"			"50"
-		"tall"			"50"
-
-		"font"			"BCrosshairs26"
-		"labelText"		"p"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"Lozenge"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-25"
+		"wide"				"50"
+		"tall"				"50"
+		"font"				"Crosshairs26"
+		"labelText"			"p"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	BroHiddenRhombus		//1.17
+	Rhombus					//1.17
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"BroHiddenRhombus"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-25"
-		"ypos"			"c-24"
-		"wide"			"50"
-		"tall"			"48"
-
-		"font"			"BCrosshairs24"
-		"labelText"		"q"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"Rhombus"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-24"
+		"wide"				"50"
+		"tall"				"48"
+		"font"				"Crosshairs24"
+		"labelText"			"q"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-	Garm3nKonrWings			//2.1	crosshairs below from garm3n
+	KonrWings				//2.1
 	{
 		"controlName"		"CExLabel"
-		"fieldName"	 	"Garm3nKonrWings"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-29"
-		"ypos"			"c-24"
-		"wide"			"49"
-		"tall"			"48"
-
-		"font"			"Garm3nKonrWings"
-		"labelText"		"Z"
-		"textAlignment"		"center"	
-		
-		"fgcolor"		"255 255 255 255"
+		"fieldName"			"KonrWings"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-29"
+		"ypos"				"c-24"
+		"wide"				"49"
+		"tall"				"48"
+		"font"				"KonrWings"
+		"labelText"			"Z"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
 	}
 
-  	"CODxhairLeftTop"		//3.1.1	COD-like damage indicator
-  	{
-		"xpos"			"c-21"											//c-20
-		"ypos"			"c-20"
-		"wide"			"26"
-		"tall"			"24"
-    		"fgcolor"		"0 0 0 0"
-    		"controlName"		"ceXLabel"
-    		"fieldName"		"CODxhairLeftTop"
-    		"visible"         	"0"
-    		"visible_minmode" 	"0"
-    		"enabled"		"1"
-    		"zpos"			"1"
-    		"font"			"CODxhair"
-    		"labelText"		"\"
-    		"textAlignment"		"center" 
-  	}
-
-  	"CODxhairLeftBottom"		//3.1.2
-  	{
-		"xpos"			"c-21"											//c-20
-		"ypos"			"c-4"
-		"wide"			"26"
-		"tall"			"24"
-    		"fgcolor"		"0 0 0 0"
-    		"controlName"		"ceXLabel"
-    		"fieldName"		"CODxhairLeftBottom"
-    		"visible"		"0"
-    		"visible_minmode"	"0"
-    		"enabled"		"1"
-    		"zpos"			"1"
-    		"font"			"CODxhair"
-    		"labelText"		"/"
-    		"textAlignment"		"center" 
-  	}
-
-  	"CODxhairRightTop"		//3.1.3
-  	{
-		"xpos"			"c-4"
-		"ypos"			"c-20"
-		"wide"			"26"
-		"tall"			"24"
-    		"fgcolor"		"0 0 0 0"
-    		"controlName"		"ceXLabel"
-    		"fieldName"		"CODxhairRightTop"
-    		"visible"		"0"
-    		"visible_minmode"	"0"
-    		"enabled"		"1"
-    		"zpos"			"1"
-    		"font"			"CODxhair"
-    		"labelText"		"/"
-    		"textAlignment"		"center" 
-  	}
-
-  	"CODxhairRightBottom"		//3.1.4
-  	{
-		"xpos"			"c-4"
-		"ypos"			"c-4"
-		"wide"			"26"
-		"tall"			"24"
-    		"fgcolor"		"0 0 0 0"
-    		"controlName"		"ceXLabel"
-    		"fieldName"		"CODxhairRightBottom"
-    		"visible"		"0"
-    		"visible_minmode"	"0"
-    		"enabled"		"1"
-    		"zpos"			"1"
-    		"font"			"CODxhair"
-    		"labelText"		"\"
-    		"textAlignment"		"center" 
-  	}
-
-	"Hitmarker"					//3.2
+	"CODxhairLeftTop"		//3.1
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Hitmarker"
-		"xpos"			"c-4"
-		"ypos"			"c-4"
-		"zpos"			"20"
-		"wide"			"8"
-		"wide_minmode"	"8"
-		"tall"			"8"
-		"tall_minmode"	"8"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/cart_point_red"
-		"scaleImage"	"1"	
-		"Alpha"			"0"
-		"teambg_2"			"../hud/cart_point_red"
-		"teambg_3"			"../hud/cart_point_blue"
+		"xpos"				"c-21"
+		"ypos"				"c-20"
+		"wide"				"26"
+		"tall"				"24"
+		"fgcolor"			"0 0 0 0"
+		"controlName"		"ceXLabel"
+		"fieldName"			"CODxhairLeftTop"
+		"visible"			"1"
+		"visible_minmode"	"1"
+		"enabled"			"1"
+		"zpos"				"1"
+		"font"				"CODHitmarker"
+		"labelText"			"\"
+		"textAlignment"		"center" 
 	}
+	"CODxhairLeftBottom"	//3.2
+	{
+		"xpos"				"c-21"
+		"ypos"				"c-4"
+		"wide"				"26"
+		"tall"				"24"
+		"fgcolor"			"0 0 0 0"
+		"controlName"		"ceXLabel"
+		"fieldName"			"CODxhairLeftBottom"
+		"visible"			"1"
+		"visible_minmode"	"1"
+		"enabled"			"1"
+		"zpos"				"1"
+		"font"				"CODHitmarker"
+		"labelText"			"/"
+		"textAlignment"		"center" 
+	}
+	"CODxhairRightTop"		//3.3
+	{
+		"xpos"				"c-4"
+		"ypos"				"c-20"
+		"wide"				"26"
+		"tall"				"24"
+		"fgcolor"			"0 0 0 0"
+		"controlName"		"ceXLabel"
+		"fieldName"			"CODxhairRightTop"
+		"visible"			"1"
+		"visible_minmode"	"1"
+		"enabled"			"1"
+		"zpos"				"1"
+		"font"				"CODHitmarker"
+		"labelText"			"/"
+		"textAlignment"		"center" 
+	}
+	"CODxhairRightBottom"	//3.4
+	{
+		"xpos"				"c-4"
+		"ypos"				"c-4"
+		"wide"				"26"
+		"tall"				"24"
+		"fgcolor"			"0 0 0 0"
+		"controlName"		"ceXLabel"
+		"fieldName"			"CODxhairRightBottom"
+		"visible"			"1"
+		"visible_minmode"	"1"
+		"enabled"			"1"
+		"zpos"				"1"
+		"font"				"CODHitmarker"
+		"labelText"			"\"
+		"textAlignment"		"center" 
+	}
+	//						* End of custom crosshairs section *
 
 	HudPlayerStatus
 	{
@@ -529,14 +453,14 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"	[$WIN32]
-		"xpos_minmode"		"0"	[$WIN32]
-		"ypos"			"0"	[$WIN32]			//r90 136
-		"ypos_minmode"		"0"	[$WIN32]			//r75 136
-		"xpos"			"0"	[$X360]
-		"ypos"			"0"	[$X360]
-		"wide"			"f0"
-		"tall"			"480"
+		"xpos"			"0" //"r138"	[$WIN32]
+		"xpos_minmode"	"38" //"r100"	[$WIN32]
+		"ypos"			"0" //"r69"	[$WIN32]
+		"ypos_minmode"	"35" //"r34"	[$WIN32]
+		"xpos"			"0" //"r174"	[$X360]
+		"ypos"			"0" //"r90"	[$X360]
+		"wide"			"f0" //"200"
+		"tall"			"480" //"100"
 	}
 	
 	HudDemomanCharge
@@ -932,7 +856,7 @@
 		"tall"	 "480"
 	}
 
-	HudDeathNotice
+	HudDeathNotice			//killfeed
 	{
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
@@ -1048,26 +972,25 @@
 		"ItemFontPulsing"		"Default"
 	}
 	
-	HudCloseCaption
+	HudCloseCaption				//closecaptions
 	{
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-414"
-		"ypos"		"100"	[$WIN32]	//276
+		"xpos"		"c-250"
+		"ypos"		"276"	[$WIN32]
 		"ypos"		"236"	[$X360]
-		"wide"		"500"
 		"wide"		"500"
 		"tall"		"136"	[$WIN32]
 		"tall"		"176"	[$X360]
 
-		"BgAlpha"	"0"
+		"BgAlpha"	"128"
 
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"	"0.2"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
 		"ItemFadeOutTime"	"0.3"
-		"topoffset"		"1"
+		"topoffset"		"0"
 	}
 
 	HudHistoryResource 
@@ -1285,6 +1208,9 @@
 		"separator_width"		"9"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
+		"separator_width_minmode"		"4"
+		"separator_height_minmode"		"7"
+		"height_offset_minmode"			"-6"
 		"height_offset"			"26"	[$X360]
 	}
 
@@ -1808,7 +1734,6 @@
 		"wide"			"320"
 		"tall"			"150"
 	}
-}
 
 
 	"CTFKillStreakNotice"

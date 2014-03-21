@@ -46,7 +46,7 @@
 		"wide_minmode"	"22"
 		"tall"			"28"
 		"tall_minmode"	"22"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
@@ -69,13 +69,13 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	"PlayerStatusHealthValue" 
-	{	
+	"PlayerStatusHealthValue"
+	{
 		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"31"
 		"xpos_minmode"	"30"
-		"ypos"			"19"
+		"ypos"			"18"
 		"ypos_minmode"	"14"
 		"zpos"			"6"
 		"wide"			"30"
@@ -84,7 +84,7 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"	"west"
-		"font"			"HudFontSmall"
+		"font"			"TFFontMedium"	//"HudFontSmall"
 		"font_minmode"	"Default"
 	}
 	"PlayerStatusPlayerLevel"

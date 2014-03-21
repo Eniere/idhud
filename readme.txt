@@ -1,19 +1,5 @@
-Eniere's Improved default HUD v1.1
+Eniere's Improved default HUD v2.0
+March 21, 2014
 
-— Health points numbers for target ID, spectator hud, killer's health panel etc.
-— Two variants of damage indicator:
-	— Thin white numbers for damage and light blue for health. Damage/health numbers near hudhealthaccount position (activated by default.)
-	— Bold yellow numbers above enemy's positions (can be selected manually.)
-— Medic: new uberbar position in middle of screen;
-	— Improved uberbar (supports Vaccinator.)
-— A lot of popular custom crosshairs.
-— Two useful hit indicators (COD-style and red dot.)
-— New scoreboard for minmode. Now cl_hudminmode “1” activate the new scoreboard created especially for 6v6. If you not pleasured with it, just delete scoreboard.res file in HUD /resource/ui folder.
-— Bigger servertimeleft timer for minmode.
-— cp_badlands wallpaper for main menu. It's appear randomly (instead of MvM's one) with 1:4 chance.
-— Subtitles will be useful for medics — write closecaptions “1” to console and restart Team Fortress 2 (works only when game AND Steam language is English.)
-— Keyboard navigation between Backpack pages (A&D keys.)
-
-Gallery: http://imgur.com/a/SuwzN#0
-Video (medic HUD, damage, subtitles): http://youtu.be/AOBrxCB9bzo
-Included crosshairs: https://dl.dropboxusercontent.com/u/68363171/crosshairs_table.pdf
+Gallery: http://imgur.com/a/lKTpY
+Included crosshairs: https://dl.dropboxusercontent.com/u/68363171/crosshairs_2.pdf

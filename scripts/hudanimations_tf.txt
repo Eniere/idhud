@@ -405,55 +405,50 @@ event HudReplayTipOut
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup	Position	"c-90 -70"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-90 70"	Spline 0.001 0.2
+	Animate HudTournamentSetup	Position	"c-90 -63"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 63"	Spline 0.001 0.2
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup	Position	"c-90 70"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-90 -70"	Spline 0.001 0.2
+	Animate HudTournamentSetup	Position	"c-90 63"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 -63"	Spline 0.001 0.2
 }
+
 
 //====================================
 
 // Flash the medic charge hud when we have full charge
 
-event HudMedicChargedBlink
-{
-	Animate	ChargeLabel 			FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeLabel 			FgColor		"TanDarker"		Linear 0.3 0.4
-
-	Animate	ChargeMeter 			FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeMeter 			FgColor		"TanDarker"		Linear 0.3 0.4
-	
-	Animate	MedicChargeNotice 	Alpha		"255"			Linear 0.0 0.4
-	Animate	MedicChargeNotice 	fgcolor		"255 255 255 255"		Linear 0.0 0.1
-	Animate	MedicChargeNotice 	fgcolor		"TanDarker"		Linear 0.3 0.4
-	
-	RunEvent HudMedicChargedLoop		0.6
-}
-
 event HudMedicCharged
 {
-	RunEvent HudMedicChargedBlink		0.0
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	
+	Animate	ChargeLabelSmall 	FgColor		"ForTesting_Magenta"		Linear 0.0 0.1
+	Animate	ChargeLabelSmall 	FgColor		"255 150 255 255"		Linear 0.3 0.4
+
+	RunEvent HudMedicChargedLoop	0.6
 }
 
 // call to loop HudHealthBonusPulse
 event HudMedicChargedLoop
 {
-	RunEvent HudMedicChargedBlink 		0.0
+	RunEvent HudMedicCharged 0.0
 }
 
 event HudMedicChargedStop
 {
-	StopEvent HudMedicCharged 		0.0
-	StopEvent HudMedicChargedLoop 		0.0
-	StopEvent HudMedicChargedBlink 		0.0
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 			FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter 			FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	MedicChargeNotice 		Alpha		"0"				Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	
+	Animate	ChargeLabelSmall 	FgColor		"HudWhite"		Linear 0.0 0.0001
 }
 
 //====================================
@@ -735,20 +730,17 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	Animate CODxhairLeftTop FgColor "222 222 222 255" 			Linear 0.0 0.00001
+	Animate CODxhairLeftTop FgColor "255 255 255 255" 			Linear 0.0 0.00001
 	Animate CODxhairLeftTop FgColor "0 0 0 0" 					Linear 0.15 0.11
 	
-	Animate CODxhairLeftBottom FgColor "222 222 222 255" 		Linear 0.0 0.00001
+	Animate CODxhairLeftBottom FgColor "255 255 255 255" 		Linear 0.0 0.00001
 	Animate CODxhairLeftBottom FgColor "0 0 0 0" 				Linear 0.15 0.1
 	
-	Animate CODxhairRightTop FgColor "222 222 222 255" 			Linear 0.0 0.00001
+	Animate CODxhairRightTop FgColor "255 255 255 255" 			Linear 0.0 0.00001
 	Animate CODxhairRightTop FgColor "0 0 0 0" 					Linear 0.15 0.1
 	
-	Animate CODxhairRightBottom FgColor "222 222 222 255" 		Linear 0.0 0.00001
+	Animate CODxhairRightBottom FgColor "255 255 255 255" 		Linear 0.0 0.00001
 	Animate CODxhairRightBottom FgColor "0 0 0 0" 				Linear 0.15 0.1
-	
-	Animate	Hitmarker Alpha "255" 								Linear 0.0 0.0
-	Animate	Hitmarker Alpha "0" 								Linear 0.0 0.95
 }
 
 //===========================================
@@ -793,3 +785,49 @@ event HudReadyPulseEnd
 	StopEvent HudReadyPulseLoop		0.0
 }
 
+// Respec in Win
+event RespecEarnedPulse
+{
+	Animate	RespecTextLabelWin	FgColor	"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelWin	FgColor	"RedSolid"		Linear 0.3 0.4
+	
+	RunEvent RespecEarnedPulseLoop		0.5
+}
+
+event RespecEarnedPulseLoop
+{
+	RunEvent RespecEarnedPulse			0.0
+}
+
+event RespecEarnedPulseEnd
+{
+	Animate	RespecTextLabelWin 	FgColor		"TanLight"		Linear 0.0 0.1
+	
+	StopEvent RespecEarnedPulse			0.0
+	StopEvent RespecEarnedPulseLoop		0.0
+}
+
+// Respec on Loss
+event RespecEarnedPulseLoss
+{
+	Animate	RespecTextLabelLoss	FgColor	"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss	FgColor	"RedSolid"		Linear 0.3 0.4
+	
+	RunEvent RespecEarnedPulseLoopLoss		0.5
+}
+
+event RespecEarnedPulseLoopLoss
+{
+	RunEvent RespecEarnedPulseLoss			0.0
+}
+
+event RespecEarnedPulseEndLoss
+{
+	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
+	
+	StopEvent RespecEarnedPulseLoss		0.0
+	StopEvent RespecEarnedPulseLoopLoss	0.0
+}
+
+//

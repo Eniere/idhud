@@ -1,14 +1,14 @@
-"Resource/UI/FreezePanelKillerHealth.res"
+"Resource/UI/SpectatorTournamentGUIHealth.res"
 {
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"9"		//7
-		"ypos"			"6"		//7
+		"xpos"			"7"
+		"ypos"			"7"
 		"zpos"			"4"
-		"wide"			"14"	//18
-		"tall"			"14"	//18
+		"wide"			"14"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -17,11 +17,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"7"		//5
-		"ypos"			"4"		//5
+		"xpos"			"6"
+		"ypos"			"6"
 		"zpos"			"3"
-		"wide"			"18"	//22
-		"tall"			"18"	//22
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
@@ -30,13 +30,13 @@
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"1"
-		"ypos"			"2"
-		"zpos"			"3"
-		"wide"			"28"
-		"tall"			"28"
-		"visible"		"1"
+		"fieldName"		"BuildingStatusHealthImageBG"
+		"xpos"	"2"
+		"ypos"	"3"
+		"zpos"			"2"
+		"wide"	"22"
+		"tall"	"22"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
@@ -45,11 +45,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"5"		//5
-		"ypos"			"2"		//5
+		"xpos"	"8"
+		"ypos"	"8"
 		"zpos"			"3"
-		"wide"			"21"	//22
-		"tall"			"21"	//22
+		"wide"	"12"
+		"tall"	"12"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -59,16 +59,13 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"4"	//"75"
-		"ypos"			"20"	//"32"
+		"xpos"			"75"
+		"ypos"			"32"
 		"zpos"			"5"
-		"wide"			"25"
-		"tall"			"10"	//"18"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"labeltext"		"%Health%"
-		"font"			"TFFontMedium"
-		"font_minmode"	"Default"
-	}
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"0"
+		"enabled"		"0"
+		"textAlignment"	"center"	
+	}								
 }
