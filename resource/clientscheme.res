@@ -605,6 +605,31 @@ Scheme
 				"outline"	"0"
 			}
 		}
+
+		"BoldYellowDamage"		//huddamageaccount_yellow.res
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"24"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
+
+		"M0reDamage"			//huddamageaccount_m0re.res
+		{
+			"1"
+			{
+				"name"			"Surface"
+				"tall"			"18"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
 //							* End of custom fonts section *
 
 		"Default"
@@ -4492,6 +4517,11 @@ Scheme
 		{
 			"font" "resource/fonts/crtfc.ttf"
 			"name" "crtfc"
+		}
+		"10" 
+		{
+			"font" "resource/fonts/Surface.otf"
+			"name" "Surface"
 		}
 	}
 }
