@@ -1,4 +1,4 @@
-"Resource/UI/HudDamageAccount.res"		// For 16x9 screen resolution (1280x720, 1366x768, 1920x1080, etc.)
+"Resource/UI/HudDamageAccount.res"		// For 16x10 screen resolution (800x480, 1280x768, 1920x1200, etc.)
 {
 	"CDamageAccountPanel"
 	{
@@ -18,9 +18,9 @@
 		"fieldName"				"CDamageAccountValue"
 		"fgcolor"				"TanLight"
 		"font"					"HudFontBiggerBold"
-		"xpos"					"c-302"
+		"xpos"					"c-272"
 		"ypos"					"r110"
-		"xpos_minmode"			"c-316"
+		"xpos_minmode"			"c-291"
 		"ypos_minmode"			"r75"
 		"zpos"					"2"
 		"wide"					"100"
@@ -36,9 +36,9 @@
 		"fieldName"				"CDamageAccountValueShadow"
 		"fgcolor"				"Black"
 		"font"					"HudFontBiggerBold"
-		"xpos"					"c-301"
+		"xpos"					"c-271"
 		"ypos"					"r108"
-		"xpos_minmode"			"c-315"
+		"xpos_minmode"			"c-290"
 		"ypos_minmode"			"r73"
 		"zpos"					"1"
 		"wide"					"100"

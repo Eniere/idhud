@@ -1,4 +1,4 @@
-"Resource/UI/Scoreboard.res"		// 12v12 on 'cl_hud_minmode 0', 6v6 on 'cl_hud_minmode 1'
+"Resource/UI/Scoreboard.res"		// 6v6-only version
 {
 	"scores"
 	{
@@ -18,7 +18,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"avatar_width"		"57"
-		"name_width"		"114"	//for 640x480 use 100
+		"name_width"		"114"	// For 640x480 use 100
 		"status_width"		"15"
 		"nemesis_width"		"15"
 		"class_width"		"15"
@@ -33,8 +33,7 @@
 		"fieldName"			"BlueScoreBG"
 		"xpos"				"-2"
 		"xpos_hidef"		"18"
-		"ypos"				"9"
-		"ypos_minmode"		"79"
+		"ypos"				"79"
 		"wide"				"304"
 		"wide_lodef"		"284"
 		"wide_hidef"		"294"
@@ -59,8 +58,7 @@
 		"xpos"				"296"
 		"xpos_lodef"		"276"
 		"xpos_hidef"		"306"
-		"ypos"				"9"
-		"ypos_minmode"		"79"
+		"ypos"				"79"
 		"wide"				"304"
 		"wide_lodef"		"284"
 		"wide_hidef"		"294"
@@ -84,14 +82,12 @@
 		"fieldName"			"MainBG"
 		"xpos"				"0"
 		"xpos_hidef"		"14"
-		"ypos"				"60"
-		"ypos_minmode"		"130"
+		"ypos"				"130"
 		"zpos"				"-1"
 		"wide"				"600"
 		"wide_lodef"		"570"
 		"wide_hidef"		"590"
-		"tall"				"388"
-		"tall_minmode"		"253"
+		"tall"				"253"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -114,8 +110,7 @@
 		"xpos"				"10" [!$OSX]
 		"xpos"				"15" [$OSX]
 		"xpos_hidef"		"40"
-		"ypos"				"23"
-		"ypos_minmode"		"93"
+		"ypos"				"93"
 		"wide"				"140"
 		"tall"				"34"
 		"autoResize"		"0"
@@ -138,8 +133,7 @@
 		"xpos"				"190"
 		"xpos_lodef"		"170"
 		"xpos_hidef"		"190"
-		"ypos"				"8" 
-		"ypos_minmode"		"78"
+		"ypos"				"78"
 		"zpos"				"4"
 		"wide"				"100"
 		"tall"				"55"
@@ -166,8 +160,7 @@
 		"xpos"				"191"
 		"xpos_lodef"		"171"
 		"xpos_hidef"		"191"
-		"ypos"				"9" 
-		"ypos_minmode"		"79"
+		"ypos"				"79"
 		"zpos"				"4"
 		"wide"				"100"
 		"tall"				"55"
@@ -192,8 +185,7 @@
 		"textAlignment"		"west"
 		"xpos"				"150"
 		"xpos_hidef"		"100"
-		"ypos"				"33"
-		"ypos_minmode"		"103"
+		"ypos"				"103"
 		"wide"				"100"
 		"tall"				"29"
 		"autoResize"		"0"
@@ -205,7 +197,7 @@
 		{
 			"visible"		"0"
 		}
-	}	
+	}
 	"RedTeamLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -217,8 +209,7 @@
 		"xpos"				"445" [$OSX]
 		"xpos_lodef"		"446"
 		"xpos_hidef"		"488"
-		"ypos"				"23"
-		"ypos_minmode"		"93"
+		"ypos"				"93"
 		"wide"				"140"
 		"tall"				"34"
 		"autoResize"		"0"
@@ -241,8 +232,7 @@
 		"xpos"				"310"
 		"xpos_lodef"		"290"
 		"xpos_hidef"		"330"
-		"ypos"				"8" 
-		"ypos_minmode"		"78"
+		"ypos"				"78"
 		"zpos"				"4"
 		"wide"				"100"
 		"tall"				"55"
@@ -269,8 +259,7 @@
 		"xpos"				"311"
 		"xpos_lodef"		"291"
 		"xpos_hidef"		"331"
-		"ypos"				"9"
-		"ypos_minmode"		"79"
+		"ypos"				"79"
 		"zpos"				"4"
 		"wide"				"100"
 		"tall"				"55"
@@ -296,8 +285,7 @@
 		"xpos"				"350"
 		"xpos_lodef"		"376"
 		"xpos_hidef"		"418"
-		"ypos"				"33"
-		"ypos_minmode"		"103"
+		"ypos"				"103"
 		"wide"				"100"
 		"tall"				"29"
 		"autoResize"		"0"
@@ -319,9 +307,8 @@
 		"textAlignment"		"west"
 		"xpos"				"11"
 		"xpos_hidef"		"31"
-		"ypos"				"60"
-		"ypos_lodef"		"62"
-		"ypos_minmode"		"130"
+		"ypos"				"130"
+		"ypos_lodef"		"132"
 		"wide"				"300"
 		"tall"				"20"
 		"autoResize"		"0"
@@ -343,9 +330,8 @@
 		"textAlignment"		"east"
 		"xpos"				"285"
 		"xpos_hidef"		"31"
-		"ypos"				"60"
-		"ypos_lodef"		"62"
-		"ypos_minmode"		"130"
+		"ypos"				"130"
+		"ypos_lodef"		"132"
 		"wide"				"300"
 		"tall"				"20"
 		"autoResize"		"0"
@@ -365,14 +351,12 @@
 		"xpos"				"5"
 		"xpos_lodef"		"10"
 		"xpos_hidef"		"30"
-		"ypos"				"72"
-		"ypos_minmode"		"142"
+		"ypos"				"142"
 		"zpos"				"20"
 		"wide"				"290"
 		"wide_lodef"		"267"
 		"wide_hidef"		"277"
-		"tall"				"280"
-		"tall_minmode"		"150"
+		"tall"				"150"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -393,14 +377,12 @@
 		"xpos"				"305"
 		"xpos_lodef"		"284"
 		"xpos_hidef"		"314"
-		"ypos"				"72"
-		"ypos_minmode"		"142"
+		"ypos"				"142"
 		"zpos"				"20"
 		"wide"				"290"
 		"wide_lodef"		"267"
 		"wide_hidef"		"277"
-		"tall"				"280"
-		"tall_minmode"		"150"
+		"tall"				"150"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -421,14 +403,12 @@
 		"xpos"				"299"
 		"xpos_lodef"		"279"
 		"xpos_hidef"		"309"
-		"ypos"				"70"
-		"ypos_minmode"		"140"
+		"ypos"				"140"
 		"zpos"				"2"
 		"wide"				"2"
-		"tall"				"292"
-		"tall_lodef"		"206"
-		"tall_hidef"		"212"
-		"tall_minmode"		"157"
+		"tall"				"157"
+		"tall_lodef"		"71"
+		"tall_hidef"		"77"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -451,8 +431,7 @@
 		"textAlignment"		"west"
 		"xpos"				"115"
 		"xpos_hidef"		"135"
-		"ypos"				"357"
-		"ypos_minmode"		"292"
+		"ypos"				"292"
 		"zpos"				"4"
 		"wide"				"424"
 		"tall"				"20"
@@ -464,7 +443,6 @@
 		if_mvm
 		{
 			"ypos"			"428"
-			"ypos_minmode"	"428"
 		}
 	}
 	"SpectatorsInQueue"
@@ -476,8 +454,7 @@
 		"textAlignment"		"west"
 		"xpos"				"115"
 		"xpos_hidef"		"135"
-		"ypos"				"348"
-		"ypos_minmode"		"283"
+		"ypos"				"283"
 		"zpos"				"4"
 		"wide"				"424"
 		"tall"				"20"
@@ -497,8 +474,7 @@
 		"fieldName"			"ShadedBar"
 		"xpos"				"10"
 		"xpos_hidef"		"30"
-		"ypos"				"372"
-		"ypos_minmode"		"307"
+		"ypos"				"307"
 		"zpos"				"2"
 		"wide"				"580"
 		"wide_lodef"		"539"
@@ -515,7 +491,7 @@
 		if_mvm
 		{
 			"visible"		"1"
-			"ypos_minmode"	"372"
+			"ypos"			"372"
 		}
 	}
 	"ClassImage"
@@ -524,20 +500,19 @@
 		"fieldName"			"ClassImage"
 		"xpos"				"22"
 		"xpos_lodef"		"12"
-		"ypos"				"350"
-		"ypos_minmode"		"285"
+		"ypos"				"285"
 		"zpos"				"3"
 		"wide"				"92"
 		"tall"				"92"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/class_scoutred"
-		"scaleImage"		"1"
+		"scaleImage"		"1"	
 		
 		if_mvm
 		{
 			"visible"		"1"
-			"ypos_minmode"	"350"
+			"ypos"			"350"
 		}
 	}
 	"PlayerNameLabel"
@@ -549,8 +524,7 @@
 		"textAlignment"		"west"
 		"xpos"				"115"
 		"xpos_lodef"		"105"
-		"ypos"				"377"
-		"ypos_minmode"		"312"
+		"ypos"				"312"
 		"zpos"				"3"
 		"wide"				"325"
 		"tall"				"20"
@@ -562,7 +536,7 @@
 		if_mvm
 		{
 			"visible"		"1"
-			"ypos_minmode"	"377"
+			"ypos"			"377"
 		}
 	}
 	"HorizontalLine"
@@ -571,8 +545,7 @@
 		"fieldName"			"HorizontalLine"
 		"xpos"				"115"
 		"xpos_lodef"		"105"
-		"ypos"				"397"
-		"ypos_minmode"		"332"
+		"ypos"				"332"
 		"zpos"				"3"
 		"wide"				"465"
 		"wide_lodef"		"434"
@@ -582,14 +555,14 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
+		"tabPosition"		"0"	
 		"fillcolor"			"127 127 127 153"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
 		{
 			"visible"		"1"
-			"ypos_minmode"	"397"
+			"ypos"			"397"
 		}
 	}
 	"PlayerScoreLabel"
@@ -602,8 +575,7 @@
 		"xpos"				"440"
 		"xpos_lodef"		"399"
 		"xpos_hidef"		"439"
-		"ypos"				"377"
-		"ypos_minmode"		"312"
+		"ypos"				"312"
 		"zpos"				"3"
 		"wide"				"140"
 		"tall"				"20"
@@ -635,8 +607,8 @@
 		if_mvm
 		{
 			"visible"		"0"
-		}
 
+		}
 		"DuelingLabel"
 		{
 			"ControlName"		"CExLabel"

@@ -1,4 +1,4 @@
-"Resource/UI/HudDamageAccount.res"
+"Resource/UI/HudDamageAccount.res"		// For 4x3 screen resolution (640x480, 800x600, 1024x768, etc.)
 {
 	"CDamageAccountPanel"
 	{
@@ -16,42 +16,36 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CDamageAccountValue"
-		
 		"fgcolor"				"255 255 0 255"
 		"font"					"HudFontBiggerBold"
-		"xpos"					"c-322"
+		"xpos"					"c-192"
 		"ypos"					"r110"
-		"xpos_minmode"			"c-335"
+		"xpos_minmode"			"c-215"
 		"ypos_minmode"			"r75"
-		
 		"zpos"					"2"
 		"wide"					"100"
-		"tall"					"26" [!$OSX]
-		"tall"					"36" [$OSX]
+		"tall"					"26"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"%metal%"
-		"textAlignment"			"center"
+		"textAlignment"			"left"
 	}
 	"CDamageAccountValueShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CDamageAccountValueShadow"
-		
 		"fgcolor"				"20 20 20 255"
 		"font"					"HudFontBiggerBold"
-		"xpos"					"c-320"
+		"xpos"					"c-191"
 		"ypos"					"r108"
-		"xpos_minmode"			"c-333"
+		"xpos_minmode"			"c-214"
 		"ypos_minmode"			"r73"
-		
 		"zpos"					"1"
 		"wide"					"100"
-		"tall"					"26" [!$OSX]
-		"tall"					"36" [$OSX]
+		"tall"					"26"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"%metal%"
-		"textAlignment"			"center"
+		"textAlignment"			"left"
 	}
 }

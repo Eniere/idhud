@@ -1,4 +1,4 @@
-"Resource/UI/HudDamageAccount.res"		// For 16x9 screen resolution (1280x720, 1366x768, 1920x1080, etc.)
+"Resource/UI/HudDamageAccount.res"		// For 16x10 screen resolution (800x480, 1280x768, 1920x1200, etc.)
 {
 	"CDamageAccountPanel"
 	{
@@ -6,21 +6,21 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"HudWhite"
-		"NegativeColor"			"HudWhite"
-		"delta_lifetime"		"3.0"
-		"delta_item_font"		"DefaultOutline"
-		"delta_item_font_big"	"DefaultOutline"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 255 0 255"
+		"delta_lifetime"		"2.5"
+		"delta_item_font"		"BoldYellowDamage"
+		"delta_item_font_big"	"BoldYellowDamage"
 	}
 	"CDamageAccountValue"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CDamageAccountValue"
-		"fgcolor"				"TanLight"
+		"fgcolor"				"255 255 0 255"
 		"font"					"HudFontBiggerBold"
-		"xpos"					"c-302"
+		"xpos"					"c-272"
 		"ypos"					"r110"
-		"xpos_minmode"			"c-316"
+		"xpos_minmode"			"c-291"
 		"ypos_minmode"			"r75"
 		"zpos"					"2"
 		"wide"					"100"
@@ -34,11 +34,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CDamageAccountValueShadow"
-		"fgcolor"				"Black"
+		"fgcolor"				"20 20 20 255"
 		"font"					"HudFontBiggerBold"
-		"xpos"					"c-301"
+		"xpos"					"c-271"
 		"ypos"					"r108"
-		"xpos_minmode"			"c-315"
+		"xpos_minmode"			"c-290"
 		"ypos_minmode"			"r73"
 		"zpos"					"1"
 		"wide"					"100"
