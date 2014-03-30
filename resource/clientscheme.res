@@ -502,7 +502,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"broeselhud Crosshairs"
+				"name"		"xhairs"
 				"tall"		"24"
 				"antialias"	"1"
 				"additive"	"0"
@@ -514,7 +514,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"broeselhud Crosshairs"
+				"name"		"xhairs"
 				"tall"		"25"
 				"antialias"	"1"
 				"additive"	"0"
@@ -526,7 +526,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"broeselhud Crosshairs"
+				"name"		"xhairs"
 				"tall"		"28"
 				"antialias"	"1"
 				"additive"	"0"
@@ -538,7 +538,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"broeselhud Crosshairs"
+				"name"		"xhairs"
 				"tall"		"32"
 				"antialias"	"1"
 				"additive"	"0"
@@ -550,7 +550,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"broeselhud Crosshairs"
+				"name"		"xhairs"
 				"tall"		"15"
 				"antialias" 	"1"
 				"additive"	"0"
@@ -562,7 +562,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"broeselhud Crosshairs"
+				"name"		"xhairs"
 				"tall"		"16"
 				"antialias"	"1"
 				"additive"	"0"
@@ -574,7 +574,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"broeselhud Crosshairs"
+				"name"		"xhairs"
 				"tall"		"24"
 				"antialias"	"1"
 				"additive"	"0"
@@ -586,7 +586,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Garm3nFont"
+				"name"		"xhairs"
 				"tall"		"18"
 				"weight"	"0"
 				"antialias"	"1"
@@ -597,7 +597,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"crtfc"
+				"name"		"xhairs"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -4505,8 +4505,8 @@ Scheme
 		}
 		"7" 
 		{
-			"font" "resource/fonts/broeselhud Crosshairs.ttf"
-			"name" "broeselhud Crosshairs"
+			"font" "resource/fonts/xhairs.ttf"
+			"name" "xhairs"
 		}
 		"8" 
 		{
@@ -4522,6 +4522,11 @@ Scheme
 		{
 			"font" "resource/fonts/Surface.otf"
 			"name" "Surface"
+		}
+		"11" 
+		{
+			"font" "resource/fonts/xhairs.otf"
+			"name" "xhairs"
 		}
 	}
 }
