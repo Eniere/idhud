@@ -73,5 +73,9 @@
 		"textAlignment"		"north-west"
 		"labeltext"			"%Health%"
 		"font"				"Default"
+		if_mvm
+		{
+			"visible"			"0"
+		}
 	}
 }
