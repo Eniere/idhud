@@ -32,7 +32,7 @@
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
-		
+
 		"page_button_y"	"288"
 		"page_button_x_delta" "3"
 		"page_button_y_delta" "3"
@@ -299,17 +299,17 @@
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
-		"wide"			"27"		//54
-		"tall"			"21"		//42
+		"wide"			"27"
+		"tall"			"21"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
-		"model_ypos"	"3"			//5
-		"model_tall"	"18"		//35
-		"text_ypos"		"30"		//60
+		"model_ypos"	"3"
+		"model_tall"	"18"
+		"text_ypos"		"30"
 		"text_center"	"1"
 		"name_only"		"1"
 		"model_only"	"1"
@@ -320,109 +320,74 @@
 			"allow_rot"				"0"
 		}
 	}
-
-//Page buttons prev/next section
-	"PrevPageButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"PrevPageButton"
-		"xpos"			"c195"
-		"ypos"			"323"		//290
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"&A"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"prevpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"PrevPageButtonMark"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PrevPageButtonMark"
-		"xpos"			"c214"
-		"ypos"			"323"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"<"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-	}
-
-	"CurPageLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%backpackpage%"
-		"textAlignment"	"center"
-		"xpos"			"c220"
-		"ypos"			"323"
-		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
-	}
-
-	"NextPageButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"NextPageButton"
-		"xpos"			"c265"
-		"ypos"			"323"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"&D"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"nextpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"NextPageButtonMark"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NextPageButtonMark"
-		"xpos"			"c248"
-		"ypos"			"323"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		">"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-	}
-//End of page buttons prev/next section
-
+	
+	//"PrevPageButton"
+	//{
+	//	"ControlName"	"CExButton"
+	//	"fieldName"		"PrevPageButton"
+	//	"xpos"			"c195"
+	//	"ypos"			"290"
+	//	"zpos"			"1"
+	//	"wide"			"20"
+	//	"tall"			"20"
+	//	"autoResize"	"0"
+	//	"pinCorner"		"0"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"tabPosition"	"0"
+	//	"labelText"		"<"
+	//	"font"			"HudFontSmallBold"
+	//	"textAlignment"	"center"
+	//	"dulltext"		"0"
+	//	"brighttext"	"0"
+	//	"Command"		"prevpage"
+	//	"sound_depressed"	"UI/buttonclick.wav"
+	//	"sound_released"	"UI/buttonclickrelease.wav"
+	//}		
+	//
+	//"CurPageLabel"
+	//{
+	//	"ControlName"	"CExLabel"
+	//	"fieldName"		"CurPageLabel"
+	//	"font"			"HudFontSmallBold"
+	//	"labelText"		"%backpackpage%"
+	//	"textAlignment"	"center"
+	//	"xpos"			"c220"
+	//	"ypos"			"290"
+	//	"zpos"			"1"
+	//	"wide"			"40"
+	//	"tall"			"20"
+	//	"autoResize"	"1"
+	//	"pinCorner"		"0"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"fgcolor_override" "200 80 60 255"
+	//}
+	//
+	//"NextPageButton"
+	//{
+	//	"ControlName"	"CExButton"
+	//	"fieldName"		"NextPageButton"
+	//	"xpos"			"c265"
+	//	"ypos"			"290"
+	//	"zpos"			"1"
+	//	"wide"			"20"
+	//	"tall"			"20"
+	//	"autoResize"	"0"
+	//	"pinCorner"		"0"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"tabPosition"	"0"
+	//	"labelText"		">"
+	//	"font"			"HudFontSmallBold"
+	//	"textAlignment"	"center"
+	//	"dulltext"		"0"
+	//	"brighttext"	"0"
+	//	"Command"		"nextpage"
+	//	"sound_depressed"	"UI/buttonclick.wav"
+	//	"sound_released"	"UI/buttonclickrelease.wav"
+	//}		
+	
 	"DragToNextPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -499,11 +464,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DeleteButton"
-		"xpos"			"c-288"		//c-85
+		"xpos"			"c-85"
 		"ypos"			"323"
 		"zpos"			"20"
 		"wide"			"100"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -524,11 +489,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"UseButton"
-		"xpos"			"c-178"		//c35
+		"xpos"			"c35"
 		"ypos"			"323"
 		"zpos"			"20"
-		"wide"			"100"		//130
-		"tall"			"20"
+		"wide"			"130"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -545,40 +510,40 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
-	"StyleButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"StyleButton"
-		"xpos"			"c-68"		//c50
-		"ypos"			"323"		//290
-		"zpos"			"20"
-		"wide"			"100"
-		"tall"			"20"		//20
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"labelText"		"#Style"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"showstyles"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
+	//"StyleButton"
+	//{
+	//	"ControlName"	"CExButton"
+	//	"fieldName"		"StyleButton"
+	//	"xpos"			"c50"
+	//	"ypos"			"290"
+	//	"zpos"			"20"
+	//	"wide"			"100"
+	//	"tall"			"20"
+	//	"autoResize"	"0"
+	//	"pinCorner"		"0"
+	//	"visible"		"1"
+	//	"enabled"		"0"
+	//	"tabPosition"	"0"
+	//	"labelText"		"#Style"
+	//	"font"			"HudFontSmallBold"
+	//	"textAlignment"	"center"
+	//	"textinsetx"	"50"
+	//	"dulltext"		"0"
+	//	"brighttext"	"0"
+	//	"Command"		"showstyles"
+	//	"sound_depressed"	"UI/buttonclick.wav"
+	//	"sound_released"	"UI/buttonclickrelease.wav"
+	//}
 
 	"DetailsButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DetailsButton"
-		"xpos"			"c42"		//c185
+		"xpos"			"c185"
 		"ypos"			"323"
 		"zpos"			"20"
 		"wide"			"100"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

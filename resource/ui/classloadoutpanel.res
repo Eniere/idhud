@@ -428,7 +428,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"RED"
+		"labelText"			"#TF_ScoreBoard_Red"
 		"textAlignment"		"center"
 		"scaleImage"		"1"
 		"Command"			"sv_cheats 1;r_skin 0"
@@ -442,11 +442,13 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
+		"paintborder"				"0"
 		"paintbackground"			"1"
 		"paintbackgroundtype"		"2"
-		"defaultBgColor_Override"	"TanDark"
 		
-		"paintborder"		"0"
+		"defaultBgColor_override"	"TanDark"
+		"armedBgColor_override"		"186 52 53 255"
+		"depressedBgColor_override"	"orange"		//fix it; don't work
 	}
 	"ToggleToBLU"
 	{
@@ -462,7 +464,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"BLU"
+		"labelText"			"#TF_ScoreBoard_Blue"
 		"textAlignment"		"center"
 		"scaleImage"		"1"
 		"Command"			"sv_cheats 1;r_skin 1"
@@ -476,11 +478,13 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
+		"paintborder"				"0"
 		"paintbackground"			"1"
 		"paintbackgroundtype"		"2"
-		"defaultBgColor_Override"	"TanDark"
 		
-		"paintborder"		"0"
+		"defaultBgColor_override"	"TanDark"
+		"armedBgColor_override"		"68 90 119 255"
+		"depressedBgColor_override"	"orange"		//fix it; don't work
 	}
 
 	"ItemOptionsPanel"
