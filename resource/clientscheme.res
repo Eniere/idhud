@@ -534,7 +534,7 @@ Scheme
 			}
 		}
 
-		"Crosshairs32"		//1.9; 1.11; 1.12; 
+		"Crosshairs32"		//1.9; 
 		{
 			"1"
 			{
@@ -546,13 +546,25 @@ Scheme
 			}
 		}
 
+		"CrosshairsOutline32"		//1.11; 1.12; 
+		{
+			"1"
+			{
+				"name"		"xhairs"
+				"tall"		"32"
+				"antialias"	"0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+
 		"CrosshairsOutline15"	//1.4; 
 		{
 			"1"
 			{
 				"name"		"xhairs"
 				"tall"		"15"
-				"antialias" 	"1"
+				"antialias" 	"0"
 				"additive"	"0"
 				"outline"	"1"
 			}
@@ -564,7 +576,7 @@ Scheme
 			{
 				"name"		"xhairs"
 				"tall"		"16"
-				"antialias"	"1"
+				"antialias"	"0"
 				"additive"	"0"
 				"outline"	"1"
 			}
@@ -576,7 +588,7 @@ Scheme
 			{
 				"name"		"xhairs"
 				"tall"		"24"
-				"antialias"	"1"
+				"antialias"	"0"
 				"additive"	"0"
 				"outline"	"1"
 			}

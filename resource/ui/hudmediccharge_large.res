@@ -1,4 +1,4 @@
-"Resource/UI/HudMedicCharge.res"	// Alternative layout (16:10)
+"Resource/UI/HudMedicCharge.res"	// Alternative layout (16:9)
 {
 	"Background"
 	{
@@ -21,13 +21,13 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"334"
-		"xpos_minmode"			"314"
-		"ypos"					"185"
-		"ypos_minmode"			"170"
+		"xpos"					"r116"		//"362"
+		"xpos_minmode"			"r136"		//"342"
+		"ypos"					"r74"		//"185"
+		"ypos_minmode"			"r88"		//"170"
 		"zpos"					"2"
-		"wide"					"f0"
-		"tall"					"480"
+		"wide"					"100"
+		"tall"					"40"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -47,13 +47,13 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabelShadow"
-		"xpos"					"335"
-		"xpos_minmode"			"315"
-		"ypos"					"187"
-		"ypos_minmode"			"172"
+		"xpos"					"r115"
+		"xpos_minmode"			"r135"
+		"ypos"					"r73"
+		"ypos_minmode"			"r87"
 		"zpos"					"2"
-		"wide"					"f0"
-		"tall"					"480"
+		"wide"					"100"
+		"tall"					"40"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"

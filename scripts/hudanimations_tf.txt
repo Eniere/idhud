@@ -451,7 +451,7 @@ event HudMedicChargedStop
 	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
 	Animate	ChargeLabelShadow 	FgColor		"Black"		Linear 0.3 0.0001
 	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeLabelSmall 	FgColor		"HudWhite"		Linear 0.0 0.0001
+	Animate	ChargeLabelSmall 	FgColor		"TanLight"		Linear 0.0 0.0001
 }
 
 //====================================
@@ -744,6 +744,9 @@ event DamagedPlayer
 	
 	Animate CODxhairRightBottom FgColor "255 255 255 255" 		Linear 0.0 0.00001
 	Animate CODxhairRightBottom FgColor "0 0 0 0" 				Linear 0.15 0.1
+
+	Animate Dot FgColor "255 0 255 255" 						Linear 0.0 0.00001
+	Animate Dot FgColor "255 255 255 255" 						Linear 0.15 0.1
 }
 
 //===========================================

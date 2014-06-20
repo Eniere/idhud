@@ -422,14 +422,14 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"ForTesting_Magenta"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"100 0 100 255"		Linear 0.3 0.4
-	
-	Animate	ChargeLabelShadow 	FgColor		"Black"		Linear 0.0 0.1
-	Animate	ChargeLabelShadow 	FgColor		"20 20 20 255"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
 	
 	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
 	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	
+	Animate	ChargeLabelSmall 	FgColor		"ForTesting_Magenta"		Linear 0.0 0.1
+	Animate	ChargeLabelSmall 	FgColor		"255 150 255 255"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -446,9 +446,9 @@ event HudMedicChargedStop
 	StopEvent HudMedicChargedLoop 0.0
 	
 	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeLabelShadow 	FgColor		"Black"		Linear 0.3 0.0001
 	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
-
+	
+	Animate	ChargeLabelSmall 	FgColor		"TanLight"		Linear 0.0 0.0001
 }
 
 //====================================
@@ -741,6 +741,9 @@ event DamagedPlayer
 	
 	Animate CODxhairRightBottom FgColor "255 255 255 255" 		Linear 0.0 0.00001
 	Animate CODxhairRightBottom FgColor "0 0 0 0" 				Linear 0.15 0.1
+
+	Animate Dot FgColor "255 0 255 255" 						Linear 0.0 0.00001
+	Animate Dot FgColor "255 255 255 255" 						Linear 0.15 0.1
 }
 
 //===========================================
