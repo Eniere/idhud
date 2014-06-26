@@ -40,7 +40,7 @@
 		"controlName"		"CExLabel"
 		"fieldName"			"HollowCrossDot"
 		"visible"			"0"
-		"enabled"			"1"
+		"enabled"			"0"
 		"zpos"				"2"
 		"xpos"				"c-25"
 		"ypos"				"c-27"
@@ -175,7 +175,7 @@
 	{
 		"controlName"		"CExLabel"
 		"fieldName"			"Dot"
-		"visible"			"0"
+		"visible"			"1"
 		"enabled"			"1"
 		"zpos"				"2"
 		"xpos"				"c-26"
