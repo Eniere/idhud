@@ -1,5 +1,5 @@
-Eniere's Improved default HUD v2.0.9
-June 20, 2014
+Eniere's Improved default HUD v2.0.11
+August 23, 2014
 
 This is not a HUD in its usual meaning — but the some fixes for standart Team fortress 2 HUD, adding HP numbers on target IDs, small ubercharge value label near the crosshair, popular custom crosshairs, etc. — see screenshots for more info. I do it for myself, but maybe someone will find it useful too.
 

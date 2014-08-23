@@ -4517,25 +4517,10 @@ Scheme
 		}
 		"7" 
 		{
-			"font" "resource/fonts/xhairs.ttf"
-			"name" "xhairs"
-		}
-		"8" 
-		{
-			"font" "resource/fonts/Garm3nFont.ttf"
-			"name" "Garm3nFont"
-		}		
-		"9" 
-		{
-			"font" "resource/fonts/crtfc.ttf"
-			"name" "crtfc"
-		}
-		"10" 
-		{
 			"font" "resource/fonts/Surface.otf"
 			"name" "Surface"
 		}
-		"11" 
+		"8" 
 		{
 			"font" "resource/fonts/xhairs.otf"
 			"name" "xhairs"
