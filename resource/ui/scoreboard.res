@@ -601,7 +601,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
-	}						
+		if_mvm
+		{
+			"ypos_minmode"	"375"
+		}
+	}
 	"HorizontalLine"
 	{
 		"ControlName"		"ImagePanel"
@@ -623,7 +627,6 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
-
 		if_mvm
 		{
 			"visible"		"1"
