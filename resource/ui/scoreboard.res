@@ -603,7 +603,7 @@
 		"fgcolor"		"236 227 203 255"
 		if_mvm
 		{
-			"ypos_minmode"	"375"
+			"visible"		"0"
 		}
 	}
 	"HorizontalLine"
