@@ -119,11 +119,12 @@ Scheme
 		"ItemBundleItem"						"149 175 12 255"
 		"ItemLimitedUse"						"0 160 0 255"
 		"ItemFlags"								"117 107 94 255"
+		"ItemLimitedQuantity"					"225 209 0 255"
 		
 		"QualityColorNormal"					"178 178 178 255"
 		"QualityColorrarity1"					"77 116 85 255"
 		"QualityColorrarity2"					"141 131 75 255"
-		"QualityColorrarity3"					"112 85 15 255"
+		"QualityColorrarity3"					"204 204 250 255"
 		"QualityColorrarity4"					"134 80 172 255"
 		"QualityColorVintage"					"71 98 145 255"
 		"QualityColorUnique"					"255 215 0 255"
@@ -431,13 +432,16 @@ Scheme
 		// if a font fails to load then the subsequent fonts will replace
 
 //							* Custom fonts section *
-		"DefaultOutline"	//Used for damage numbers, uber percentage, etc.
+		"DefaultOutline"	//Used for damage numbers, uber percentage, etc. Yres mean screen height.
 		{
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"10"
+				"tall"		"12"
 				"weight"	"900"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+				"antialias"	"0"
 				"outline"	"1"
 			}
 			"2"
@@ -446,8 +450,9 @@ Scheme
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 767"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+				"antialias"	"0"
 				"outline"	"1"
 			}
 			"3"
@@ -455,8 +460,8 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"768 1023"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
 				"antialias"	"0"
 				"outline"	"1"
 			}
@@ -465,8 +470,8 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1024 1199"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
 				"antialias"	"0"
 				"outline"	"1"
 			}
@@ -475,8 +480,8 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
 				"antialias"	"0"
 				"outline"	"1"
 			}
@@ -484,16 +489,18 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"12"
-				"range"		"0x0000 0x00FF"
-				"weight"	"900"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+				"antialias"	"0"
 				"outline"	"1"
 			}
 			"7"
 			{
 				"name"		"Arial"
 				"tall"		"12"
-				"range"		"0x0000 0x00FF"
-				"weight"	"800"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+				"antialias"	"0"
 				"outline"	"1"
 			}
 		}

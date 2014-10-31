@@ -23,8 +23,8 @@
 		"fieldName"				"ChargeLabelSmall"
 		"xpos"					"0"
 		"xpos_minmode"			"-38"
-		"ypos"					"53"
-		"ypos_minmode"			"14"
+		"ypos"					"24"		//53
+		"ypos_minmode"			"-12"		//14
 		"zpos"					"2"
 		"wide"					"f0"
 		"tall"					"480"

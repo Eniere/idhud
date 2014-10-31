@@ -5,7 +5,9 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusHealthImage"
 		"xpos"				"7"
-		"ypos"				"7"
+		"xpos_minmode"				"9"
+		"ypos"				"5"			//7
+		"ypos_minmode"				"4"
 		"zpos"				"4"
 		"wide"				"18"
 		"wide_minmode"		"14"
@@ -20,12 +22,12 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusHealthImageBG"
-		"xpos"				"5"
-		"xpos_minmode"		"6"
-		"ypos"				"5"
-		"ypos_minmode"		"6"
+		"xpos"				"5"			//5
+		"xpos_minmode"		"8"		//6
+		"ypos"				"3"			//5
+		"ypos_minmode"		"3"			//6
 		"zpos"				"3"
-		"wide"				"22"
+		"wide"				"22"		//22
 		"wide_minmode"		"16"
 		"tall"				"22"
 		"tall_minmode"		"16"
@@ -40,9 +42,9 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BuildingStatusHealthImageBG"
 		"xpos"				"0"
-		"xpos_minmode"		"2"
+		"xpos_minmode"		"4"		//2
 		"ypos"				"2"
-		"ypos_minmode"		"3"
+		"ypos_minmode"		"3"			//3
 		"zpos"				"2"
 		"wide"				"28"
 		"wide_minmode"		"22"
@@ -59,37 +61,37 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusHealthBonusImage"
 		"xpos"				"5"
-		"xpos_minmode"		"8"
-		"ypos"				"5"
-		"ypos_minmode"		"8"
+		"xpos_minmode"		"13"		//8	11
+		"ypos"				"3"			//5
+		"ypos_minmode"		"8"		//8
 		"zpos"				"3"
 		"wide"				"22"
-		"wide_minmode"		"12"
+		"wide_minmode"		"6"		//12 6
 		"tall"				"22"
-		"tall_minmode"		"12"
+		"tall_minmode"		"6"		//12 6
 		"visible"			"0"
 		"enabled"			"1"
 		"image"				"../hud/health_over_bg"
 		"scaleImage"		"1"
 	}
 
-	"PlayerStatusHealthValue"
+	"PlayerStatusHealthValueTargetID"
 	{
 		"ControlName"		"Label"
-		"fieldName"			"PlayerStatusHealthValue"
-		"xpos"				"31"
-		"xpos_minmode"		"30"
-		"ypos"				"18"
-		"ypos_minmode"		"14"
+		"fieldName"			"PlayerStatusHealthValueTargetID"
+		"xpos"				"1"		//31 before 10/30/2014
+		"xpos_minmode"		"0"		//30
+		"ypos"				"24"		//18
+		"ypos_minmode"		"17"		//14
 		"zpos"				"6"
 		"wide"				"30"
 		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
 		"labeltext"			"%Health%"
-		"textAlignment"		"west"
-		"font"				"TFFontMedium"
-		"font_minmode"		"Default"
+		"textAlignment"		"center"			//"west" before 10/30/2014
+		"font"				"ChatFont"			//TFFontMedium
+		"font_minmode"		"ChatFont"			//default
 	}
 
 	"PlayerStatusPlayerLevel"

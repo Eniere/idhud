@@ -1,425 +1,5 @@
 "Resource/HudLayout.res"
 {
-//							* Custom crosshairs section *
-	Cross					//1.1
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"Cross"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-26"
-		"wide"				"49"
-		"tall"				"49"
-		"font"				"CrosshairsOutline16"
-		"labelText"			"a"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	HollowCross				//1.2
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"HollowCross"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-27"
-		"wide"				"51"
-		"tall"				"52"
-		"font"				"CrosshairsOutline16"
-		"labelText"			"b"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	HollowCrossDot			//1.3
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"HollowCrossDot"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-27"
-		"wide"				"51"
-		"tall"				"52"
-		"font"				"CrosshairsOutline16"
-		"labelText"			"c"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	ThickCross				//1.4
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"ThickCross"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-27"
-		"wide"				"49"
-		"tall"				"52"
-		"font"				"CrosshairsOutline15"
-		"labelText"			"d"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	SmallCross				//1.5
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"SmallCross"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-24"
-		"ypos"				"c-26"
-		"wide"				"49"
-		"tall"				"51"
-		"font"				"CrosshairsOutline16"
-		"labelText"			"e"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	WideCross				//1.6
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"WideCross"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-26"
-		"wide"				"52"
-		"tall"				"48"
-		"font"				"CrosshairsOutline24"
-		"labelText"			"f"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	ThickWideCross			//1.7
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"ThickWideCross"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-26"
-		"wide"				"51"
-		"tall"				"48"
-		"font"				"CrosshairsOutline24"
-		"labelText"			"g"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	ThinCircle				//1.8
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"ThinCircle"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-24"
-		"ypos"				"c-28"
-		"wide"				"48"
-		"tall"				"50"
-		"font"				"Crosshairs28"
-		"labelText"			"h"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	ThickCircle				//1.9
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"ThickCircle"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-23"
-		"ypos"				"c-27"
-		"wide"				"46"
-		"tall"				"52"
-		"font"				"Crosshairs32"
-		"labelText"			"i"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	QuarteredCircle			//1.10
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"QuarteredCircle"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-24"
-		"ypos"				"c-26"
-		"wide"				"47"
-		"tall"				"51"
-		"font"				"Crosshairs25"
-		"labelText"			"j"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	Dot						//1.11
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"Dot"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-26"
-		"ypos"				"c-28"
-		"wide"				"50"
-		"tall"				"52"
-		"font"				"CrosshairsOutline32"
-		"labelText"			"k"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	Square					//1.12
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"Square"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-26"
-		"ypos"				"c-29"
-		"wide"				"50"
-		"tall"				"52"
-		"font"				"CrosshairsOutline32"
-		"labelText"			"l"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	RoundBracketsCross		//1.13
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"RoundBracketsCross"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-27"
-		"wide"				"49"
-		"tall"				"49"
-		"font"				"Crosshairs28"
-		"labelText"			"m"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	RoundBracketsDot		//1.14
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"RoundBracketsDot"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-28"
-		"wide"				"49"
-		"tall"				"49"
-		"font"				"Crosshairs28"
-		"labelText"			"n"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	RoundBrackets			//1.15
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"RoundBrackets"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-28"
-		"wide"				"50"
-		"tall"				"50"
-		"font"				"Crosshairs28"
-		"labelText"			"o"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	Lozenge					//1.16
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"Lozenge"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-25"
-		"wide"				"49"
-		"tall"				"49"
-		"font"				"Crosshairs32"
-		"labelText"			"p"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	Rhombus					//1.17
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"Rhombus"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-26"
-		"wide"				"50"
-		"tall"				"48"
-		"font"				"Crosshairs24"
-		"labelText"			"q"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	KonrWingsThin			//2.1
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"KonrWingsThin"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-25"
-		"wide"				"49"
-		"tall"				"49"
-		"font"				"KonrWings"
-		"labelText"			"r"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	KonrWingsMedium			//2.2
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"KonrWingsMedium"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-26"
-		"wide"				"50"
-		"tall"				"50"
-		"font"				"KonrWings"
-		"labelText"			"s"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	KonrWingsBold			//2.3
-	{
-		"controlName"		"CExLabel"
-		"fieldName"			"KonrWingsBold"
-		"visible"			"0"
-		"enabled"			"1"
-		"zpos"				"2"
-		"xpos"				"c-25"
-		"ypos"				"c-25"
-		"wide"				"49"
-		"tall"				"49"
-		"font"				"KonrWings"
-		"labelText"			"t"
-		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	CODxhair				//3.1
-	{
-		"ControlName"		"EditablePanel"
-		"fieldname"			"CODxhair"
-		"visible"			"0"
-		"enabled"			"1"
-		"wide"				"f0"
-		"tall"				"480"
-		"CODxhairLeftTop"
-		{
-			"xpos"				"c-21"
-			"ypos"				"c-20"
-			"wide"				"26"
-			"tall"				"24"
-			"fgcolor"			"0 0 0 0"
-			"controlName"		"ceXLabel"
-			"fieldName"			"CODxhairLeftTop"
-			"visible"			"1"
-			"visible_minmode"	"1"
-			"enabled"			"1"
-			"zpos"				"1"
-			"font"				"CODHitmarker"
-			"labelText"			"\"
-			"textAlignment"		"center" 
-		}
-		"CODxhairLeftBottom"
-		{
-			"xpos"				"c-21"
-			"ypos"				"c-4"
-			"wide"				"26"
-			"tall"				"24"
-			"fgcolor"			"0 0 0 0"
-			"controlName"		"ceXLabel"
-			"fieldName"			"CODxhairLeftBottom"
-			"visible"			"1"
-			"visible_minmode"	"1"
-			"enabled"			"1"
-			"zpos"				"1"
-			"font"				"CODHitmarker"
-			"labelText"			"/"
-			"textAlignment"		"center" 
-		}
-		"CODxhairRightTop"
-		{
-			"xpos"				"c-4"
-			"ypos"				"c-20"
-			"wide"				"26"
-			"tall"				"24"
-			"fgcolor"			"0 0 0 0"
-			"controlName"		"ceXLabel"
-			"fieldName"			"CODxhairRightTop"
-			"visible"			"1"
-			"visible_minmode"	"1"
-			"enabled"			"1"
-			"zpos"				"1"
-			"font"				"CODHitmarker"
-			"labelText"			"/"
-			"textAlignment"		"center" 
-		}
-		"CODxhairRightBottom"
-		{
-			"xpos"				"c-4"
-			"ypos"				"c-4"
-			"wide"				"26"
-			"tall"				"24"
-			"fgcolor"			"0 0 0 0"
-			"controlName"		"ceXLabel"
-			"fieldName"			"CODxhairRightBottom"
-			"visible"			"1"
-			"visible_minmode"	"1"
-			"enabled"			"1"
-			"zpos"				"1"
-			"font"				"CODHitmarker"
-			"labelText"			"\"
-			"textAlignment"		"center" 
-		}
-	}
-	//						* End of custom crosshairs section *
-
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -676,7 +256,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"285"		//250 old
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -713,7 +293,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"335"		//300 old
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -909,7 +489,7 @@
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "6"	//4 by default
+		"MaxDeathNotices" "6"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
@@ -1799,6 +1379,18 @@
 		"PaintBackgroundType"	"0" // rounded corners
 	}
 
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"40"
+		"tall"	 		"40"
+		"priority"		"40"
+	}
+
 	"HudMenuTauntSelection"
 	{
 		"fieldName" 	"HudMenuTauntSelection"
@@ -1812,4 +1404,436 @@
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
+
+	HudMiniGame
+	{
+		"fieldName" "HudMiniGame"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+	}
+
+{
+//							* Custom crosshairs section *
+	Cross					//1.1
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"Cross"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-26"
+		"wide"				"49"
+		"tall"				"49"
+		"font"				"CrosshairsOutline16"
+		"labelText"			"a"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	HollowCross				//1.2
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"HollowCross"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-27"
+		"wide"				"51"
+		"tall"				"52"
+		"font"				"CrosshairsOutline16"
+		"labelText"			"b"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	HollowCrossDot			//1.3
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"HollowCrossDot"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-27"
+		"wide"				"51"
+		"tall"				"52"
+		"font"				"CrosshairsOutline16"
+		"labelText"			"c"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	ThickCross				//1.4
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"ThickCross"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-27"
+		"wide"				"49"
+		"tall"				"52"
+		"font"				"CrosshairsOutline15"
+		"labelText"			"d"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	SmallCross				//1.5
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"SmallCross"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-24"
+		"ypos"				"c-26"
+		"wide"				"49"
+		"tall"				"51"
+		"font"				"CrosshairsOutline16"
+		"labelText"			"e"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	WideCross				//1.6
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"WideCross"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-26"
+		"wide"				"52"
+		"tall"				"48"
+		"font"				"CrosshairsOutline24"
+		"labelText"			"f"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	ThickWideCross			//1.7
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"ThickWideCross"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-26"
+		"wide"				"51"
+		"tall"				"48"
+		"font"				"CrosshairsOutline24"
+		"labelText"			"g"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	ThinCircle				//1.8
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"ThinCircle"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-24"
+		"ypos"				"c-28"
+		"wide"				"48"
+		"tall"				"50"
+		"font"				"Crosshairs28"
+		"labelText"			"h"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	ThickCircle				//1.9
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"ThickCircle"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-23"
+		"ypos"				"c-27"
+		"wide"				"46"
+		"tall"				"52"
+		"font"				"Crosshairs32"
+		"labelText"			"i"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	QuarteredCircle			//1.10
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"QuarteredCircle"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-24"
+		"ypos"				"c-26"
+		"wide"				"47"
+		"tall"				"51"
+		"font"				"Crosshairs25"
+		"labelText"			"j"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	Dot						//1.11
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"Dot"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-26"
+		"ypos"				"c-28"
+		"wide"				"50"
+		"tall"				"52"
+		"font"				"CrosshairsOutline32"
+		"labelText"			"k"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	Square					//1.12
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"Square"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-26"
+		"ypos"				"c-29"
+		"wide"				"50"
+		"tall"				"52"
+		"font"				"CrosshairsOutline32"
+		"labelText"			"l"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	RoundBracketsCross		//1.13
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"RoundBracketsCross"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-27"
+		"wide"				"49"
+		"tall"				"49"
+		"font"				"Crosshairs28"
+		"labelText"			"m"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	RoundBracketsDot		//1.14
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"RoundBracketsDot"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-28"
+		"wide"				"49"
+		"tall"				"49"
+		"font"				"Crosshairs28"
+		"labelText"			"n"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	RoundBrackets			//1.15
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"RoundBrackets"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-28"
+		"wide"				"50"
+		"tall"				"50"
+		"font"				"Crosshairs28"
+		"labelText"			"o"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	Lozenge					//1.16
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"Lozenge"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-25"
+		"wide"				"49"
+		"tall"				"49"
+		"font"				"Crosshairs32"
+		"labelText"			"p"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	Rhombus					//1.17
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"Rhombus"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-26"
+		"wide"				"50"
+		"tall"				"48"
+		"font"				"Crosshairs24"
+		"labelText"			"q"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	KonrWingsThin			//2.1
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"KonrWingsThin"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-25"
+		"wide"				"49"
+		"tall"				"49"
+		"font"				"KonrWings"
+		"labelText"			"r"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	KonrWingsMedium			//2.2
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"KonrWingsMedium"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-26"
+		"wide"				"50"
+		"tall"				"50"
+		"font"				"KonrWings"
+		"labelText"			"s"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	KonrWingsBold			//2.3
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"KonrWingsBold"
+		"visible"			"0"
+		"enabled"			"1"
+		"zpos"				"2"
+		"xpos"				"c-25"
+		"ypos"				"c-25"
+		"wide"				"49"
+		"tall"				"49"
+		"font"				"KonrWings"
+		"labelText"			"t"
+		"textAlignment"		"center"
+		"fgcolor"			"255 255 255 255"
+	}
+
+	CODxhair				//3.1
+	{
+		"ControlName"		"EditablePanel"
+		"fieldname"			"CODxhair"
+		"visible"			"0"
+		"enabled"			"1"
+		"wide"				"f0"
+		"tall"				"480"
+		"CODxhairLeftTop"
+		{
+			"xpos"				"c-21"
+			"ypos"				"c-20"
+			"wide"				"26"
+			"tall"				"24"
+			"fgcolor"			"0 0 0 0"
+			"controlName"		"ceXLabel"
+			"fieldName"			"CODxhairLeftTop"
+			"visible"			"1"
+			"visible_minmode"	"1"
+			"enabled"			"1"
+			"zpos"				"1"
+			"font"				"CODHitmarker"
+			"labelText"			"\"
+			"textAlignment"		"center" 
+		}
+		"CODxhairLeftBottom"
+		{
+			"xpos"				"c-21"
+			"ypos"				"c-4"
+			"wide"				"26"
+			"tall"				"24"
+			"fgcolor"			"0 0 0 0"
+			"controlName"		"ceXLabel"
+			"fieldName"			"CODxhairLeftBottom"
+			"visible"			"1"
+			"visible_minmode"	"1"
+			"enabled"			"1"
+			"zpos"				"1"
+			"font"				"CODHitmarker"
+			"labelText"			"/"
+			"textAlignment"		"center" 
+		}
+		"CODxhairRightTop"
+		{
+			"xpos"				"c-4"
+			"ypos"				"c-20"
+			"wide"				"26"
+			"tall"				"24"
+			"fgcolor"			"0 0 0 0"
+			"controlName"		"ceXLabel"
+			"fieldName"			"CODxhairRightTop"
+			"visible"			"1"
+			"visible_minmode"	"1"
+			"enabled"			"1"
+			"zpos"				"1"
+			"font"				"CODHitmarker"
+			"labelText"			"/"
+			"textAlignment"		"center" 
+		}
+		"CODxhairRightBottom"
+		{
+			"xpos"				"c-4"
+			"ypos"				"c-4"
+			"wide"				"26"
+			"tall"				"24"
+			"fgcolor"			"0 0 0 0"
+			"controlName"		"ceXLabel"
+			"fieldName"			"CODxhairRightBottom"
+			"visible"			"1"
+			"visible_minmode"	"1"
+			"enabled"			"1"
+			"zpos"				"1"
+			"font"				"CODHitmarker"
+			"labelText"			"\"
+			"textAlignment"		"center" 
+		}
+	}
+	//						* End of custom crosshairs section *
 }

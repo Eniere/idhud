@@ -118,11 +118,12 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"SpectatorGUIHealth"
-		"xpos"					"3"
+		"xpos"					"0"			//3
 		"xpos_minmode"			"0"
-		"ypos"					"2"
+		"ypos"					"0"			//2
 		"ypos_minmode"			"0"
-		"wide"					"60"
+		"wide"					"31"
+		"wide_minmode"			"24"		//60 before 10/30/2014
 		"tall"					"32"
 		"visible"				"1"
 		"enabled"				"1"
@@ -136,8 +137,8 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"AmmoIcon"
-		"xpos"					"53"
-		"xpos_minmode"			"49"
+		"xpos"					"41"		//53 before 10/30/2014
+		"xpos_minmode"			"36"		//49
 		"ypos"					"20"
 		"ypos_minmode"			"16"
 		"zpos"					"12"
@@ -155,8 +156,8 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"KillStreakIcon"
-		"xpos"					"53"
-		"xpos_minmode"			"49"
+		"xpos"					"41"		//53 before 10/30/2014
+		"xpos_minmode"			"36"		//49
 		"ypos"					"20"
 		"ypos_minmode"			"16"
 		"zpos"					"12"

@@ -59,10 +59,10 @@
 		"scaleImage"		"1"
 	}
 
-	"PlayerStatusHealthValue"
+	"PlayerStatusHealthValueFreeze"
 	{
 		"ControlName"		"Label"
-		"fieldName"			"PlayerStatusHealthValue"
+		"fieldName"			"PlayerStatusHealthValueFreeze"
 		"xpos"				"4"
 		"ypos"				"20"
 		"zpos"				"5"
