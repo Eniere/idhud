@@ -73,7 +73,7 @@
 		"ControlName"			"Label"
 		"fieldName"				"TargetNameLabel"
 		"font"					"HudFontMediumSmallSecondary"
-		"font_minmode"			"TFFontLarge"
+		"font_minmode"			"ChatFont"		//"TFFontLarge"
 		"xpos"					"34"
 		"xpos_minmode"			"30"
 		"ypos"					"5"

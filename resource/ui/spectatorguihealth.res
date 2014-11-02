@@ -80,7 +80,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"PlayerStatusHealthValueTargetID"
 		"xpos"				"1"		//31 before 10/30/2014
-		"xpos_minmode"		"0"		//30
+		"xpos_minmode"		"1"		//30
 		"ypos"				"24"		//18
 		"ypos_minmode"		"17"		//14
 		"zpos"				"6"
@@ -91,7 +91,7 @@
 		"labeltext"			"%Health%"
 		"textAlignment"		"center"			//"west" before 10/30/2014
 		"font"				"ChatFont"			//TFFontMedium
-		"font_minmode"		"ChatFont"			//default
+		"font_minmode"		"ChatFont"			//TFFontLarge
 	}
 
 	"PlayerStatusPlayerLevel"
