@@ -1416,7 +1416,6 @@
 		"tall"	"480"
 	}
 
-{
 //							* Custom crosshairs section *
 	Cross					//1.1
 	{
