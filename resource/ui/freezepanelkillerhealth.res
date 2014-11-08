@@ -72,7 +72,7 @@
 		"enabled"			"1"
 		"textAlignment"		"center"
 		"labeltext"			"%Health%"
-		"font"				"TFFontMedium"
+		"font"				"Default"		//"TFFontMedium"
 		"font_minmode"		"Default"
 	}
 }

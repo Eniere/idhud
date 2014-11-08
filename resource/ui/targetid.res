@@ -138,7 +138,7 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"AmmoIcon"
 		"xpos"					"41"		//53 before 10/30/2014
-		"xpos_minmode"			"36"		//49
+		"xpos_minmode"			"35"		//49
 		"ypos"					"20"
 		"ypos_minmode"			"16"
 		"zpos"					"12"
@@ -157,7 +157,7 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"KillStreakIcon"
 		"xpos"					"41"		//53 before 10/30/2014
-		"xpos_minmode"			"36"		//49
+		"xpos_minmode"			"35"		//49
 		"ypos"					"20"
 		"ypos_minmode"			"16"
 		"zpos"					"12"
