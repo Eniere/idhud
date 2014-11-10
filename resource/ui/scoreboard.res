@@ -582,6 +582,7 @@
 		"ypos_minmode"	"281"	[$WIN32]			//292
 		"zpos"			"4"
 		"wide"			"300"		//424
+		"wide_minmode"	"560"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -608,6 +609,7 @@
 		"ypos_minmode"	"276"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"300"			//424
+		"wide_minmode"	"560"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
