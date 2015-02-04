@@ -41,14 +41,14 @@
 		"font"					"HudFontSmallest"
 	}
 
-	"ChargeLabelSmall"			//stay visible when Vaccinator equiped (tnx to Valve)
+	"ChargeLabelSmall"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabelSmall"
 		"xpos"					"0"
 		"xpos_minmode"			"-38"
-		"ypos"					"24"		//53
-		"ypos_minmode"			"-12"		//14
+		"ypos"					"24"
+		"ypos_minmode"			"-11"
 		"zpos"					"2"
 		"wide"					"f0"
 		"tall"					"480"
@@ -62,9 +62,31 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"DefaultOutline"
-		"font_minmode"			"DefaultOutline"
-		"fgcolor"				"TanLight"
+		"font"					"HudFontSmallBold"
+	}
+	"ChargeLabelSmallBG"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ChargeLabelSmallBG"
+		"xpos"					"1"
+		"xpos_minmode"			"-37"
+		"ypos"					"25"
+		"ypos_minmode"			"-10"
+		"zpos"					"1"
+		"wide"					"f0"
+		"tall"					"480"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_UberchargeMinHUD"
+		"labelText_minmode"		"#TF_UberchargeMinHUD"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"HudFontSmallBold"
+		"fgcolor"				"Black"
 	}
 
 	"IndividualChargesLabel"
@@ -97,7 +119,7 @@
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
 		"xpos"					"r108"
-		"xpos_minmode"			"r128"
+		"xpos_minmode"			"r127"
 		"ypos"					"r31"
 		"ypos_minmode"			"r46"
 		"zpos"					"2"
@@ -204,7 +226,7 @@
 		"ypos"					"r52"
 		"wide"					"36"
 		"tall"					"36"
-		"visible"				"0"
+		"visible"				"1"
 		"visible_minmode"		"0"
 		"enabled"				"1"
 		"image"					"../hud/ico_health_cluster"

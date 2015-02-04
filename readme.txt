@@ -1,15 +1,14 @@
-Eniere's Improved default HUD v2.2.3
-December 12, 2014
+Eniere's Improved default HUD ver. 2.3
+February 3, 2015
 
-This is not a HUD in its usual meaning — but the some fixes for standart Team fortress 2 HUD, adding HP numbers on target IDs, small ubercharge value label near the crosshair, popular custom crosshairs, etc. — see screenshots for more info. I do it for myself, but maybe someone will find it useful too.
+This is not a HUD in its usual meaning, but the some fixes for standard Team Fortress 2 HUD, adding HP numbers on target IDs, reworked Medic UI, popular custom crosshairs, etc.
 
 Gallery: http://imgur.com/a/lKTpY
-Included crosshairs: https://dl.dropboxusercontent.com/u/68363171/xhairs_205.png
 How-to and changelog: http://eniere.github.io
 
 Discussions:
 (en) http://teamfortress.tv/thread/16751/improved-default-hud
 (en) http://etf2l.org/forum/customise/topic-28385/
-(ru) https://pixling.ru/blog/1037.html
+(ru) https://pixling.ru/index.php?topic=1037.0
 
-Please, use Notepad++ to preview/edit files.
+Please, use Notepad++ (http://notepad-plus-plus.org/) to preview/edit files.

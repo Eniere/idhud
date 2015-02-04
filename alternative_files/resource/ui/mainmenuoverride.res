@@ -227,10 +227,10 @@
 		"xpos"			"c-250"
 		"ypos"			"-80"
 		"zpos"			"-99"
-		"wide"			"0"		//600
-		"tall"			"0"		//600
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 	}
 	
@@ -1510,7 +1510,7 @@
 		"ypos"			"299"
 		"zpos"			"-1"
 		"wide"			"260"
-		"tall"			"84"		//60
+		"tall"			"84"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
@@ -1556,12 +1556,12 @@
 		"fieldName"		"ShowPromoCodesButton"
 		"xpos"			"c-285"
 		"ypos"			"397"
-		"wide"			"0"		//250
-		"tall"			"0"		//20
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#MMenu_ShowPromoCodes"
@@ -3563,7 +3563,7 @@
 		"zpos"			"-60"
 		"wide"			"320"
 		"tall"			"f0"
-		"visible"		"0"			//1
+		"visible"		"0"
 		"PaintBackgroundType"	"0"
 
 			
@@ -3990,6 +3990,7 @@
 			}
 		} // LayoutB
 	} // StorePromos
+	
 	"ShowDemoPlaybackButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -4012,381 +4013,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"command"		"engine demoui"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-	}
-	
-	"ServerControlBGPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ServerControlBGPanel"
-		"xpos"			"c-15"		//-290
-		"ypos"			"166"		//299
-		"zpos"			"-1"
-		"wide"			"260"
-		"tall"			"217"		//60
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
-	}
-	"ServerControlLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ServerControlLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"Server control panel"
-		"textAlignment"	"west"
-		"xpos"			"c-3"		//-278
-		"ypos"			"167"		//298
-		"wide"			"240"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"	"235 227 203 255"
-	}
-	"ConnectButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ConnectButton"
-		"xpos"			"c-10"		//c115
-		"ypos"			"195"
-		"wide"			"250"		//125
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallBold"
-		"labelText"		"Connect"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine homeserver"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-	}
-	"ConfigLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ConfigLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"rcon exec"
-		"textAlignment"	"west"
-		"xpos"			"c-3"		//-278
-		"ypos"			"221"		//+26
-		"wide"			"240"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"	"TanDark"		//"235 227 203 255"
-	}
-	"Config1Button"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"Config1Button"
-		"xpos"			"c-10"		//-285
-		"ypos"			"245"
-		"wide"			"125"
-		"tall"			"21"		//20
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"Default"		//"HudFontSmallestBold"
-		"labelText"		"etf2l_6v6_5cp.cfg"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine 5cpcfg"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-	}
-	"Config2Button"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"Config2Button"
-		"xpos"			"c115"		//-285
-		"ypos"			"245"
-		"wide"			"125"
-		"tall"			"21"		//20
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"Default"
-		"labelText"		"etf2l_6v6_koth.cfg"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine kothcfg"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-	}
-	"MapLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MapLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"rcon changelevel"
-		"textAlignment"	"west"
-		"xpos"			"c-3"		//-278
-		"ypos"			"266"		//298
-		"wide"			"240"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"	"TanDark"
-	}
-	"Map1Button"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"Map1Button"
-		"xpos"			"c-10"		//-285
-		"ypos"			"290"
-		"wide"			"125"
-		"tall"			"21"		//20
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"cp_badlands"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine badlands"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-	}
-	"Map2Button"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"Map2Button"
-		"xpos"			"c115"		//-285
-		"ypos"			"290"
-		"wide"			"125"
-		"tall"			"21"		//20
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"cp_gullywash"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine gullywash"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-	}
-	"Map3Button"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"Map3Button"
-		"xpos"			"c-10"		//-285
-		"ypos"			"312"
-		"wide"			"125"
-		"tall"			"21"		//20
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"cp_granary"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine granary"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-	}
-	"Map4Button"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"Map4Button"
-		"xpos"			"c115"		//-285
-		"ypos"			"312"
-		"wide"			"125"
-		"tall"			"21"		//20
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"cp_process"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine process"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-	}
-	"Map5Button"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"Map5Button"
-		"xpos"			"c-10"		//-285
-		"ypos"			"334"
-		"wide"			"125"
-		"tall"			"21"		//20
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"cp_snakewater"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine snakewater"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-	}
-	"Map6Button"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"Map6Button"
-		"xpos"			"c115"		//-285
-		"ypos"			"334"
-		"wide"			"125"
-		"tall"			"21"		//20
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"cp_logjam"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine logjam"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-	}
-	"Map7Button"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"Map7Button"
-		"xpos"			"c-10"		//-285
-		"ypos"			"356"
-		"wide"			"125"
-		"tall"			"21"		//20
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"koth_pro_viaduct"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine viaduct"
 		
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"

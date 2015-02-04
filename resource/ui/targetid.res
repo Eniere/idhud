@@ -23,9 +23,9 @@
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"
+		"draw_corner_height"	"5"	
 	}
-
+	
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"			"ScalableImagePanel"
@@ -44,9 +44,9 @@
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"
+		"draw_corner_height"	"5"
 	}
-
+	
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"			"ScalableImagePanel"
@@ -65,17 +65,17 @@
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"
+		"draw_corner_height"	"5"
 	}
-
+	
 	"TargetNameLabel"
 	{
 		"ControlName"			"Label"
 		"fieldName"				"TargetNameLabel"
 		"font"					"HudFontMediumSmallSecondary"
-		"font_minmode"			"ChatFont"		//"TFFontLarge"
+		"font_minmode"			"Default"
 		"xpos"					"34"
-		"xpos_minmode"			"30"
+		"xpos_minmode"			"29"
 		"ypos"					"5"
 		"ypos_minmode"			"5"
 		"zpos"					"1"
@@ -90,7 +90,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
-
+	
 	"TargetDataLabel"
 	{
 		"ControlName"			"Label"
@@ -98,7 +98,7 @@
 		"font"					"TFFontMedium"
 		"font_minmode"			"DefaultVerySmall"
 		"xpos"					"53"
-		"xpos_minmode"			"50"
+		"xpos_minmode"			"51"
 		"ypos"					"17"
 		"ypos_minmode"			"12"
 		"zpos"					"1"
@@ -113,17 +113,17 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
-
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"SpectatorGUIHealth"
-		"xpos"					"0"			//3
-		"xpos_minmode"			"0"
-		"ypos"					"0"			//2
+		"xpos"					"2"
+		"xpos_minmode"			"2"		//0
+		"ypos"					"2"
 		"ypos_minmode"			"0"
 		"wide"					"31"
-		"wide_minmode"			"24"		//60 before 10/30/2014
+		"wide_minmode"			"27"	//25
 		"tall"					"32"
 		"visible"				"1"
 		"enabled"				"1"
@@ -132,13 +132,13 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"				"HudOffWhite"
 	}
-
+	
 	"AmmoIcon"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"AmmoIcon"
-		"xpos"					"41"		//53 before 10/30/2014
-		"xpos_minmode"			"35"		//49
+		"xpos"					"41"
+		"xpos_minmode"			"36"
 		"ypos"					"20"
 		"ypos_minmode"			"16"
 		"zpos"					"12"
@@ -151,13 +151,13 @@
 		"image"					"../hud/leaderboard_class_soldier"
 		"scaleImage"			"1"
 	}
-
+	
 	"KillStreakIcon"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"KillStreakIcon"
-		"xpos"					"41"		//53 before 10/30/2014
-		"xpos_minmode"			"35"		//49
+		"xpos"					"41"
+		"xpos_minmode"			"36"
 		"ypos"					"20"
 		"ypos_minmode"			"16"
 		"zpos"					"12"
@@ -168,7 +168,7 @@
 		"image"					"../hud/leaderboard_streak"
 		"scaleImage"			"1"
 	}
-
+	
 	"MoveableSubPanel"
 	{
 		"ControlName"			"EditablePanel"
@@ -196,6 +196,7 @@
 			"iconColor"				"HudBlack"
 			"scaleImage"			"1"
 		}
+		
 		"MoveableIcon"
 		{
 			"ControlName"			"CIconPanel"
@@ -211,6 +212,7 @@
 			"drawcolor"				"ProgressOffWhite"
 			"scaleImage"			"1"
 		}
+		
 		"MoveableSymbolIcon"
 		{
 			"ControlName"			"ImagePanel"
@@ -226,6 +228,7 @@
 			"drawcolor"				"ProgressOffWhite"
 			"scaleImage"			"1"
 		}
+		
 		"MoveableKeyLabel"
 		{
 			"ControlName"			"Label"

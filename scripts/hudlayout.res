@@ -71,17 +71,22 @@
 		"MeterBG"		"Gray"
 	}
 	
-	HudMedicCharge
+	HudMedicCharge		//changed
 	{
-		"fieldName"			"HudMedicCharge"
-		"visible"			"1"
-		"enabled"			"1"
-		"xpos"				"0"			//"r138"
-		"xpos_minmode"		"38"		//"r100"
-		"ypos"				"0"			//"r69"
-		"ypos_minmode"		"35"		//"r34"
-		"wide"				"f0"		//"200"
-		"tall"				"480"		//"100"
+	
+		"fieldName"		"HudMedicCharge"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"0"		//"r138"
+		"xpos_minmode"	"38"	//"r100"
+		"ypos"			"0"		//"r69"
+		"ypos_minmode"	"35"	//"r34"
+		"wide"			"f0"	//"200"
+		"tall"			"480"	//"100"
+//		"xpos"			"r174"	[$X360]
+//		"ypos"			"r90"	[$X360]
+		"wide"			"200"
+		"tall"			"100"
 	}
 	
 	HudDemomanCharge
@@ -256,7 +261,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"		//250 old
+		"ypos"		"285"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -293,7 +298,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"		//300 old
+		"ypos"		"335"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -477,7 +482,7 @@
 		"tall"	 "480"
 	}
 
-	HudDeathNotice
+	HudDeathNotice		//changed
 	{
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
@@ -1229,7 +1234,7 @@
 		"NormalY"		"10"
 		"EngineerY"		"170"
 		"zpos"			"2"
-		"wide"			"200"
+		"wide"			"280"
 		"tall"			"280"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -1366,10 +1371,10 @@
 	}
 
 
-	"CTFKillStreakNotice"
+	"CTFStreakNotice"
 	{
-		"fieldName"		"CTFKillStreakNotice"
-		"xpos"			"0"			
+		"fieldName"		"CTFStreakNotice"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
@@ -1431,7 +1436,7 @@
 		"font"				"CrosshairsOutline16"
 		"labelText"			"a"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	HollowCross				//1.2
@@ -1448,7 +1453,7 @@
 		"font"				"CrosshairsOutline16"
 		"labelText"			"b"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	HollowCrossDot			//1.3
@@ -1465,7 +1470,7 @@
 		"font"				"CrosshairsOutline16"
 		"labelText"			"c"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	ThickCross				//1.4
@@ -1482,7 +1487,7 @@
 		"font"				"CrosshairsOutline15"
 		"labelText"			"d"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	SmallCross				//1.5
@@ -1499,7 +1504,7 @@
 		"font"				"CrosshairsOutline16"
 		"labelText"			"e"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	WideCross				//1.6
@@ -1516,7 +1521,7 @@
 		"font"				"CrosshairsOutline24"
 		"labelText"			"f"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	ThickWideCross			//1.7
@@ -1533,7 +1538,7 @@
 		"font"				"CrosshairsOutline24"
 		"labelText"			"g"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	ThinCircle				//1.8
@@ -1550,7 +1555,7 @@
 		"font"				"Crosshairs28"
 		"labelText"			"h"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	ThickCircle				//1.9
@@ -1567,7 +1572,7 @@
 		"font"				"Crosshairs32"
 		"labelText"			"i"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	QuarteredCircle			//1.10
@@ -1584,7 +1589,7 @@
 		"font"				"Crosshairs25"
 		"labelText"			"j"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	Dot						//1.11
@@ -1601,7 +1606,7 @@
 		"font"				"CrosshairsOutline32"
 		"labelText"			"k"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	Square					//1.12
@@ -1618,7 +1623,7 @@
 		"font"				"CrosshairsOutline32"
 		"labelText"			"l"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	RoundBracketsCross		//1.13
@@ -1635,7 +1640,7 @@
 		"font"				"Crosshairs28"
 		"labelText"			"m"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	RoundBracketsDot		//1.14
@@ -1652,7 +1657,7 @@
 		"font"				"Crosshairs28"
 		"labelText"			"n"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	RoundBrackets			//1.15
@@ -1669,7 +1674,7 @@
 		"font"				"Crosshairs28"
 		"labelText"			"o"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	Lozenge					//1.16
@@ -1686,7 +1691,7 @@
 		"font"				"Crosshairs32"
 		"labelText"			"p"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	Rhombus					//1.17
@@ -1703,7 +1708,7 @@
 		"font"				"Crosshairs24"
 		"labelText"			"q"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	KonrWingsThin			//2.1
@@ -1720,7 +1725,7 @@
 		"font"				"KonrWings"
 		"labelText"			"r"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	KonrWingsMedium			//2.2
@@ -1737,7 +1742,7 @@
 		"font"				"KonrWings"
 		"labelText"			"s"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	KonrWingsBold			//2.3
@@ -1754,7 +1759,7 @@
 		"font"				"KonrWings"
 		"labelText"			"t"
 		"textAlignment"		"center"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"IDHUDWhite"
 	}
 
 	CODxhair				//3.1
@@ -1771,7 +1776,7 @@
 			"ypos"				"c-20"
 			"wide"				"26"
 			"tall"				"24"
-			"fgcolor"			"0 0 0 0"
+			"fgcolor"			"IDHUDTransparent"
 			"controlName"		"ceXLabel"
 			"fieldName"			"CODxhairLeftTop"
 			"visible"			"1"
@@ -1788,7 +1793,7 @@
 			"ypos"				"c-4"
 			"wide"				"26"
 			"tall"				"24"
-			"fgcolor"			"0 0 0 0"
+			"fgcolor"			"IDHUDTransparent"
 			"controlName"		"ceXLabel"
 			"fieldName"			"CODxhairLeftBottom"
 			"visible"			"1"
@@ -1805,7 +1810,7 @@
 			"ypos"				"c-20"
 			"wide"				"26"
 			"tall"				"24"
-			"fgcolor"			"0 0 0 0"
+			"fgcolor"			"IDHUDTransparent"
 			"controlName"		"ceXLabel"
 			"fieldName"			"CODxhairRightTop"
 			"visible"			"1"
@@ -1822,7 +1827,7 @@
 			"ypos"				"c-4"
 			"wide"				"26"
 			"tall"				"24"
-			"fgcolor"			"0 0 0 0"
+			"fgcolor"			"IDHUDTransparent"
 			"controlName"		"ceXLabel"
 			"fieldName"			"CODxhairRightBottom"
 			"visible"			"1"
@@ -1836,3 +1841,4 @@
 	}
 	//						* End of custom crosshairs section *
 }
+

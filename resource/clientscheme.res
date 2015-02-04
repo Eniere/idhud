@@ -171,6 +171,15 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+		
+		"IDHUDWhite"			"255 255 255 255"
+		"IDHUDYellow"			"255 255 80 255"
+		"IDHUDRed"				"255 80 80 255"
+		"IDHUDGreen"			"80 255 80 255"
+		"IDHUDLightGreen"		"150 255 150 255"
+		"IDHUDPink"				"255 80 255 255"
+		"IDHUDGray"				"20 20 20 255"
+		"IDHUDTransparent"		"0 0 0 0"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -430,227 +439,6 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-
-//							* Custom fonts section *
-		"DefaultOutline"	//Used for damage numbers, uber percentage, etc. Yres mean screen height.
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"900"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
-				"antialias"	"0"
-				"outline"	"1"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
-				"tall"		"20"	[$X360]
-				"weight"	"900"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
-				"antialias"	"0"
-				"outline"	"1"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"900"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"0"
-				"outline"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"900"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"0"
-				"outline"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"900"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
-				"antialias"	"0"
-				"outline"	"1"
-			}
-			"6"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
-				"antialias"	"0"
-				"outline"	"1"
-			}
-			"7"
-			{
-				"name"		"Arial"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
-				"antialias"	"0"
-				"outline"	"1"
-			}
-		}
-
-		"Crosshairs24"		//1.17; 
-		{
-			"1"
-			{
-				"name"		"xhairs"
-				"tall"		"24"
-				"antialias"	"1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-
-		"Crosshairs25"		//1.10; 
-		{
-			"1"
-			{
-				"name"		"xhairs"
-				"tall"		"25"
-				"antialias"	"1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-
-		"Crosshairs28"		//1.8; 1.13; 1.14; 1.15; 
-		{
-			"1"
-			{
-				"name"		"xhairs"
-				"tall"		"28"
-				"antialias"	"1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-
-		"Crosshairs32"		//1.9; 
-		{
-			"1"
-			{
-				"name"		"xhairs"
-				"tall"		"32"
-				"antialias"	"1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-
-		"CrosshairsOutline32"		//1.11; 1.12; 
-		{
-			"1"
-			{
-				"name"		"xhairs"
-				"tall"		"32"
-				"antialias"	"0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-
-		"CrosshairsOutline15"	//1.4; 
-		{
-			"1"
-			{
-				"name"		"xhairs"
-				"tall"		"15"
-				"antialias" 	"0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-
-		"CrosshairsOutline16"	//1.1; 1.2; 1.3; 1.5; 
-		{
-			"1"
-			{
-				"name"		"xhairs"
-				"tall"		"16"
-				"antialias"	"0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-
-		"CrosshairsOutline24"	//1.6; 1.7; 
-		{
-			"1"
-			{
-				"name"		"xhairs"
-				"tall"		"24"
-				"antialias"	"0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-
-		"KonrWings"			//2.1;
-		{
-			"1"
-			{
-				"name"		"xhairs"
-				"tall"		"18"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CODHitmarker"		//3.1; 3.2; 3.3; 3.4; 
-		{
-			"1"
-			{
-				"name"		"xhairs"
-				"tall"		"6"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias"	"1"
-				"outline"	"0"
-			}
-		}
-
-		"BoldYellowDamage"		//huddamageaccount_yellow.res
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"24"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-
-		"M0reDamage"			//huddamageaccount_m0re.res
-		{
-			"1"
-			{
-				"name"			"Surface"
-				"tall"			"18"
-				"additive"		"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-//							* End of custom fonts section *
-
 		"Default"
 		{
 			"1"
@@ -712,7 +500,150 @@ Scheme
 				"weight"		"800"
 			}
 		}
-
+		"DefaultOutline"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+				"antialias"	"0"
+				"outline"	"1"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+				"antialias"	"0"
+				"outline"	"1"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"0"
+				"outline"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"0"
+				"outline"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"0"
+				"outline"	"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+				"antialias"	"0"
+				"outline"	"1"
+			}
+			"7"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+				"antialias"	"0"
+				"outline"	"1"
+			}
+		}
+		"DefaultShadow"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+				"antialias"	"0"
+				"dropshadow"	"1"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+				"antialias"	"0"
+				"dropshadow"	"1"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"0"
+				"dropshadow"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"0"
+				"dropshadow"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"0"
+				"dropshadow"	"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+				"antialias"	"0"
+				"dropshadow"	"1"
+			}
+			"7"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+				"antialias"	"0"
+				"dropshadow"	"1"
+			}
+		}
 		"DefaultUnderline"
 		{
 			"1"
@@ -1078,6 +1009,19 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontMedium"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"24"
+				"tall_lodef"		"28"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
 		"HudFontMediumSecondary"
 		{
 			"1"
@@ -1147,6 +1091,19 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
+			}
+		}	
+		"HudFontSmallShadow"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"tall_lodef"	"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
 			}
 		}	
 		"HudFontSmallishBold"
@@ -1374,6 +1331,7 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 		"ClockSubText"
@@ -2576,7 +2534,183 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+		"Crosshairs24"		//1.17; 
+		{
+			"1"
+			{
+				"name"		"xhairs"
+				"tall"		"24"
+				"antialias"	"1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"Crosshairs25"		//1.10; 
+		{
+			"1"
+			{
+				"name"		"xhairs"
+				"tall"		"25"
+				"antialias"	"1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"Crosshairs28"		//1.8; 1.13; 1.14; 1.15; 
+		{
+			"1"
+			{
+				"name"		"xhairs"
+				"tall"		"28"
+				"antialias"	"1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"Crosshairs32"		//1.9; 
+		{
+			"1"
+			{
+				"name"		"xhairs"
+				"tall"		"32"
+				"antialias"	"1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"CrosshairsOutline32"		//1.11; 1.12; 
+		{
+			"1"
+			{
+				"name"		"xhairs"
+				"tall"		"32"
+				"antialias"	"0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"CrosshairsOutline15"	//1.4; 
+		{
+			"1"
+			{
+				"name"		"xhairs"
+				"tall"		"15"
+				"antialias" 	"0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"CrosshairsOutline16"	//1.1; 1.2; 1.3; 1.5; 
+		{
+			"1"
+			{
+				"name"		"xhairs"
+				"tall"		"16"
+				"antialias"	"0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"CrosshairsOutline24"	//1.6; 1.7; 
+		{
+			"1"
+			{
+				"name"		"xhairs"
+				"tall"		"24"
+				"antialias"	"0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"KonrWings"			//2.1;
+		{
+			"1"
+			{
+				"name"		"xhairs"
+				"tall"		"18"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"CODHitmarker"		//3.1; 3.2; 3.3; 3.4; 
+		{
+			"1"
+			{
+				"name"		"xhairs"
+				"tall"		"6"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
+				"outline"	"0"
+			}
+		}
+		"BoldYellowDamage"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"24"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
+		"M0reDamage"
+		{
+			"1"
+			{
+				"name"			"Surface"
+				"tall"			"18"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		"TargetIDHealthValue"
+		{
+			"1"
+			{
+				"name"			"Surface"
+				"tall"			"24"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"0"
+			}
+		}
+		"TargetIDHealthValueOutline"
+		{
+			"1"
+			{
+				"name"			"Surface"
+				"tall"			"24"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		"TargetIDPlayerName"
+		{
+			"1"
+			{
+				"name"			"Surface"
+				"tall"			"14"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"0"
+			}
+		}
+		"TargetIDPlayerNameOutline"
+		{
+			"1"
+			{
+				"name"			"Surface"
+				"tall"			"14"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//

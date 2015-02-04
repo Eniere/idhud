@@ -280,7 +280,7 @@
 		"enabled"			"1"
 		"labelText"			"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"				"HudFontSmall"
+		"font"				"HudFontSmallShadow"
 		
 		if_mvm
 		{

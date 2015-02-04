@@ -160,79 +160,6 @@
 		"enabled"		"1"
 	}
 	
-	"ToggleToRED"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"ToggleToRED"
-		"xpos"				"c122"		//28
-		"ypos"				"c-47"		//88
-		"zpos"				"12"
-		"wide"				"25"
-		"tall"				"12"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"#TF_ScoreBoard_Red"
-		"textAlignment"		"center"
-		"scaleImage"		"1"
-		"Command"			"sv_cheats 1;r_skin 0"
-		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override"	"TanLight"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintborder"				"0"
-		"paintbackground"			"1"
-		"paintbackgroundtype"		"2"
-		
-		"defaultBgColor_override"	"TanDark"
-		"armedBgColor_override"		"186 52 53 255"
-		"depressedBgColor_override"	"orange"		//fix it; don't work
-	}
-	"ToggleToBLU"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"ToggleToBLU"
-		"xpos"				"c122"
-		"ypos"				"c-32"
-		"zpos"				"12"
-		"wide"				"25"
-		"tall"				"12"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"#TF_ScoreBoard_Blue"
-		"textAlignment"		"center"
-		"scaleImage"		"1"
-		"Command"			"sv_cheats 1;r_skin 1"
-		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override"	"TanLight"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintborder"				"0"
-		"paintbackground"			"1"
-		"paintbackgroundtype"		"2"
-		
-		"defaultBgColor_override"	"TanDark"
-		"armedBgColor_override"		"68 90 119 255"
-		"depressedBgColor_override"	"orange"		//fix it; don't work
-	}
-	
 	"TopLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -724,5 +651,76 @@
 				"scaleImage"	"1"
 			}				
 		}		
+	}
+	
+	"ToggleToRED"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"ToggleToRED"
+		"xpos"				"c122"
+		"ypos"				"c-47"
+		"zpos"				"12"
+		"wide"				"25"
+		"tall"				"12"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"#TF_ScoreBoard_Red"
+		"textAlignment"		"center"
+		"scaleImage"		"1"
+		"Command"			"sv_cheats 1; r_skin 0"
+		"paintborder"				"0"
+		"paintbackground"			"1"
+		"paintbackgroundtype"		"2"
+		"fgcolor"					"TanLight"
+		"defaultFgColor_override" 	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override"	"TanLight"
+		"selectedFgColor_override" 	"TanLight"
+		"bgcolor"					"189 59 60 255"
+		"defaultBgColor_override" 	"189 59 60 255"
+		"armedBgColor_override" 	"169 59 60 255"
+		"depressedBgColor_override" "189 59 60 255"
+		"selectedBgColor_override" 	"189 59 60 255"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+	}
+	"ToggleToBLU"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"ToggleToBLU"
+		"xpos"				"c122"
+		"ypos"				"c-32"
+		"zpos"				"12"
+		"wide"				"25"
+		"tall"				"12"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"#TF_ScoreBoard_Blue"
+		"textAlignment"		"center"
+		"scaleImage"		"1"
+		"Command"			"sv_cheats 1; r_skin 1"
+		"paintborder"				"0"
+		"paintbackground"			"1"
+		"paintbackgroundtype"		"2"
+		"fgcolor"					"TanLight"
+		"defaultFgColor_override" 	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" 	"TanLight"
+		"bgcolor_override"			"91 122 140 255"
+		"defaultBgColor_override" 	"91 122 140 255"
+		"armedBgColor_override" 	"71 102 120 255"
+		"depressedBgColor_override" "91 122 140 255"
+		"selectedBgColor_override" 	"91 122 140 255"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
 	}
 }

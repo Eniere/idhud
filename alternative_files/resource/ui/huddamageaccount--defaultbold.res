@@ -6,9 +6,9 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
+		"PositiveColor"			"IDHUDGreen"
+		"NegativeColor"			"IDHUDRed"
+		"delta_lifetime"		"2.0"
 		"delta_item_font"		"HudFontMediumBold"
 		"delta_item_font_big"	"HudFontMediumBold"
 	}
