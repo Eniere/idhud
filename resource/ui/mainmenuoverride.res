@@ -120,6 +120,122 @@
 		}
 	}	
 
+	"Background"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Background"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-200"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
+		
+		if_christmas
+		{
+			"image"		"../console/background_xmas2011"
+		}
+		if_eotl_launch
+		{
+			"image"		"../console/title_eotl01"
+		}
+	}
+
+	"BackgroundHeader"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"loadout_bottom_gradient"
+		"scaleImage"	"1"
+	}
+	
+	"HeaderLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HeaderLine"
+		"xpos"			"0"
+		"ypos"			"60"
+		"zpos"			"-99"
+		"wide"			"f0"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"loadout_solid_line"
+		"scaleImage"	"1"
+	}	
+
+	"TopLeftDataPanel"
+	{
+		"ControlName" "EditablePanel"
+		"fieldName" "TopLeftDataPanel"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "10"
+		"wide" "f0"
+		"tall" "116"
+		"visible" "1"
+		"PaintBackgroundType" "2"
+		"bgcolor_override" "0 255 0 0"	//"46 43 42 150"
+
+		"WelcomeLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"WelcomeLabel"
+			"font"			"HudFontSmallBold"
+			"labelText"		"#WelcomeBack"
+			"textAlignment"	"west"
+			"xpos"			"c-278"
+			"ypos"			"100"		//93
+			"wide"			"300"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+	}
+	
+	
+	"AvatarBGPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"AvatarBGPanel"
+		"xpos"			"75"	//25
+		"ypos"			"25"	//15
+		"zpos"			"-1"
+		"wide"			"50"
+		"tall"			"50"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"117 107 94 255"
+	}
+	
+	"AvatarImage"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"		"AvatarImage"
+		"xpos"			"80"	//30
+		"ypos"			"30"	//20
+		"zpos"			"0"
+		"wide"			"40"
+		"tall"			"40"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"		"1"	
+		"color_outline"		"52 48 45 255"
+	}
+	
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -210,7 +326,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
 		"xpos"			"c-290"
-		"ypos"			"24"
+		"ypos"			"24"		//24
 		"zpos"			"-99"
 		"wide"			"256"
 		"tall"			"64"
@@ -263,8 +379,8 @@
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override"	"235 227 203 255"
 	}
 	
@@ -1524,7 +1640,7 @@
 		"labelText"		"#MMenu_Create"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
-		"ypos"			"298"
+		"ypos"			"299"
 		"wide"			"140"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -4053,6 +4169,58 @@
 		"enabled"		"1"
 		"fgcolor_override"	"235 227 203 255"
 	}
+	"VersionLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"VersionLabel"
+		"font"			"Default"
+		"labelText"		"ETF2L Season 20"
+		"textAlignment"	"east"
+		"xpos"			"c126"		//-278
+		"ypos"			"c110"		//298
+		"wide"			"100"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fgcolor_override"	"TanDark"
+	}
+	"RCON"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"RCON"
+		"xpos"				"c158"
+		"ypos"				"c-11"
+		"zpos"				"1"
+		"wide"				"76"
+		"tall"				"12"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"RCON password"
+		"textAlignment"		"center"
+		"scaleImage"		"1"
+		"Command"			"engine rpass"
+		"paintborder"				"0"
+		"paintbackground"			"1"
+		"paintbackgroundtype"		"2"
+		"fgcolor"					"TanDarker"
+		"defaultFgColor_override" 	"TanDarker"
+		"armedFgColor_override" 	"TanDarker"
+		"depressedFgColor_override"	"TanDarker"
+		"selectedFgColor_override" 	"TanDarker"
+		"bgcolor"					"TanDark"
+		"defaultBgColor_override" 	"TanDark"
+		//"armedBgColor_override" 	"169 59 60 255"
+		"depressedBgColor_override" "TanDark"
+		"selectedBgColor_override" 	"TanDark"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+	}
 	"ConnectButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -4318,14 +4486,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"font"			"HudFontSmallestBold"
-		"labelText"		"cp_logjam"
+		"labelText"		"cp_sunshine (rc7)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine logjam"
+		"command"		"engine sunshine"
 		
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
@@ -4349,7 +4517,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"font"			"HudFontSmallestBold"
-		"labelText"		"koth_viaduct_pro"
+		"labelText"		"koth_viaduct (pro7)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -4380,14 +4548,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"font"			"HudFontSmallestBold"
-		"labelText"		"cp_sunshine"
+		"labelText"		"cp_granary (pro_b9)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine sunshine"
+		"command"		"engine granary"
 		
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
