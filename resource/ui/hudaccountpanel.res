@@ -5,9 +5,9 @@
 		"delta_item_x"			"28"
 		"delta_item_start_y"	"90"
 		"delta_item_end_y"		"70"
-		"PositiveColor"			"IDHUDGreen"
-		"NegativeColor"			"IDHUDRed"
-		"delta_lifetime"		"2.0"
+		"PositiveColor"			"CustomGreen"
+		"NegativeColor"			"CustomRed"
+		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMediumBold"
 	}
 	
@@ -69,7 +69,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontMediumSmall"		//"HudFontMediumSmall"
+		"font"			"HudFontMediumSmall"
 		"font_lodef"	"HudFontMedium"
 	}
 }

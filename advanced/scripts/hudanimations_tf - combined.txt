@@ -204,10 +204,12 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"				Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"					Linear 0.2 0.4
-	Animate	PlayerStatusHealthValueTargetID 	FgColor		"TanLight"		Linear 0.0 0.0
-	Animate	TargetNameLabel 					FgColor		"IDHUDGreen"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"100"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	
+	Animate	PlayerStatusHealthValueTargetID 			FgColor		"CustomLightGreen"		Linear 0.0 0.0
+	Animate	PlayerStatusKillerHealthValue 				FgColor		"CustomLightGreen"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueTargetIDBigger 		FgColor		"CustomGreen"		Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -222,8 +224,10 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate PlayerStatusHealthValueTargetID		FgColor		"TanLight"			Linear 0.0 0.0
-	Animate TargetNameLabel						FgColor		"TanLight"			Linear 0.0 0.0
+	
+	Animate	PlayerStatusHealthValueTargetID 			FgColor		"TanLight"		Linear 0.0 0.0
+	Animate	PlayerStatusKillerHealthValue 				FgColor		"TanLight"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueTargetIDBigger		FgColor		"TanLight"		Linear 0.0 0.0
 }
 
 //===========================================
@@ -231,11 +235,12 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"				Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"					Linear 0.125 0.075
-	Animate	PlayerStatusHealthValueTargetID 	FgColor		"IDHUDYellow"		Linear 0.0 0.0
-//	Animate	PlayerStatusHealthValue 			FgColor		"IDHUDYellow"		Linear 0.0 0.0
-	Animate TargetNameLabel						FgColor		"IDHUDYellow"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	
+	Animate	PlayerStatusHealthValueTargetID 			FgColor		"CustomYellow"		Linear 0.0 0.0
+	Animate	PlayerStatusKillerHealthValue 				FgColor		"CustomYellow"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueTargetIDBigger 		FgColor		"CustomYellow"		Linear 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -250,9 +255,10 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-	Animate	PlayerStatusHealthValueTargetID 	FgColor		"TanLight"			Linear 0.0 0.0
-//	Animate	PlayerStatusHealthValue 			FgColor		"TanDark"			Linear 0.0 0.0
-	Animate TargetNameLabel						FgColor		"TanLight"		Linear 0.0 0.0
+	
+	Animate	PlayerStatusHealthValueTargetID 			FgColor		"TanLight"		Linear 0.0 0.0
+	Animate	PlayerStatusKillerHealthValue 				FgColor		"TanLight"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueTargetIDBigger		FgColor		"TanLight"		Linear 0.0 0.0
 }
 
 //===========================================
@@ -415,14 +421,14 @@ event HudReplayTipOut
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup	Position	"c-90 -70"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-90 70"	Spline 0.001 0.2
+	Animate HudTournamentSetup	Position	"c-90 -63"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 63"	Spline 0.001 0.2
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup	Position	"c-90 70"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-90 -70"	Spline 0.001 0.2
+	Animate HudTournamentSetup	Position	"c-90 63"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 -63"	Spline 0.001 0.2
 }
 
 
@@ -432,23 +438,13 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-//	Animate	ChargeLabel 		FgColor		"TanLight"			Linear 0.0 0.1
-//	Animate	ChargeLabel 		FgColor		"TanDarker"			Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"CustomLightGreen"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"CustomGreen"		Linear 0.3 0.4
 	
-//	Animate	ChargeMeter 		FgColor		"TanLight"			Linear 0.0 0.1
-//	Animate	ChargeMeter 		FgColor		"TanDarker"			Linear 0.3 0.4
-
-	Animate	ChargeLabel 		FgColor		"IDHUDGreen"		Linear 0.0 0.1
-	Animate	ChargeLabel 		FgColor		"IDHUDLightGreen"	Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"CustomLightGreen"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"CustomGreen"		Linear 0.3 0.4
 	
-	Animate	ChargeLabelShadow 	FgColor		"Black"				Linear 0.0 0.1
-	Animate	ChargeLabelShadow 	FgColor		"IDHUDGray"			Linear 0.3 0.4
-	
-	Animate	ChargeMeter 		FgColor		"IDHUDGreen"		Linear 0.0 0.1
-	Animate	ChargeMeter 		FgColor		"IDHUDLightGreen"	Linear 0.3 0.4
-	
-	Animate	ChargeLabelSmall 	FgColor		"IDHUDGreen"		Linear 0.0 0.1
-	Animate	ChargeLabelSmall 	FgColor		"IDHUDGreen"		Linear 0.3 0.4
+	Animate	ChargeLabelSmall 	FgColor		"CustomGreen"	Linear 0.0 0.0
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -464,13 +460,10 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-//	Animate	ChargeLabel 		FgColor		"TanLight"			Linear 0.0 0.0001
-//	Animate	ChargeMeter 		FgColor		"TanLight"			Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
 	
-	Animate	ChargeLabel 		FgColor		"TanLight"			Linear 0.0 0.0001
-	Animate	ChargeLabelShadow 	FgColor		"Black"				Linear 0.0 0.0001
-	Animate	ChargeMeter 		FgColor		"TanLight"			Linear 0.0 0.0001
-	Animate	ChargeLabelSmall 	FgColor		"TanLight"			Linear 0.0 0.0001
+	Animate	ChargeLabelSmall 	FgColor		"TanLight"	Linear 0.0 0.0001
 }
 
 //====================================
@@ -752,20 +745,20 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	Animate CODxhairLeftTop  		FgColor 		"IDHUDWhite" 			Linear 0.0 0.0001
-	Animate CODxhairLeftTop 		FgColor 		"IDHUDTransparent" 		Linear 0.15 0.11
+	Animate CODxhairLeftTop  		FgColor 	"CustomWhite" 			Linear 0.0 0.0001
+	Animate CODxhairLeftTop 		FgColor 	"CustomTransparent" 	Linear 0.15 0.11
 	
-	Animate CODxhairLeftBottom 		FgColor 		"IDHUDWhite" 			Linear 0.0 0.0001
-	Animate CODxhairLeftBottom 		FgColor 		"IDHUDTransparent" 		Linear 0.15 0.1
+	Animate CODxhairLeftBottom 		FgColor 	"CustomWhite" 			Linear 0.0 0.0001
+	Animate CODxhairLeftBottom 		FgColor 	"CustomTransparent" 	Linear 0.15 0.1
 	
-	Animate CODxhairRightTop 		FgColor 		"IDHUDWhite" 			Linear 0.0 0.0001
-	Animate CODxhairRightTop 		FgColor 		"IDHUDTransparent" 		Linear 0.15 0.1
+	Animate CODxhairRightTop 		FgColor 	"CustomWhite" 			Linear 0.0 0.0001
+	Animate CODxhairRightTop 		FgColor 	"CustomTransparent" 	Linear 0.15 0.1
 	
-	Animate CODxhairRightBottom 	FgColor 		"IDHUDWhite" 			Linear 0.0 0.0001
-	Animate CODxhairRightBottom 	FgColor 		"IDHUDTransparent" 		Linear 0.15 0.1
+	Animate CODxhairRightBottom 	FgColor 	"CustomWhite" 			Linear 0.0 0.0001
+	Animate CODxhairRightBottom 	FgColor 	"CustomTransparent" 	Linear 0.15 0.1
 
-	Animate Dot 					FgColor 		"IDHUDRed" 				Linear 0.0 0.0001
-	Animate Dot 					FgColor 		"IDHUDWhite" 			Linear 0.15 0.1
+	Animate Dot 					FgColor 	"CustomRed" 			Linear 0.0 0.0001
+	Animate Dot 					FgColor 	"CustomWhite" 			Linear 0.15 0.1
 }
 
 //===========================================
@@ -877,6 +870,50 @@ event RDNegativeScorePulse
 
 	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
 	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+
+event QuestNotification_Present
+{
+	Animate MainContainer Position	"r0 94"		Deaccel 0		0
+	Animate MainContainer Position	"r115 94"		Deaccel	0.01	0.4
+}
+
+event QuestNotification_Hide
+{
+	Animate MainContainer Position	"r115 94"		Deaccel	0		0
+	Animate MainContainer Position	"r0 94"		Deaccel 0.01	0.4
+}
+
+event ItemCard_ShowPinHint
+{
+	Animate PinLabel Position	"0 -20"	Deaccel	0	0
+
+	Animate PinLabel FgColor	"TanLight"	Linear 0.2 0
+	Animate PinLabel Position	"0 0"	Deaccel 0.2	0.2
+}
+
+event ItemCard_HidePinHint
+{
+	Animate PinLabel Position	"0 5"	Deaccel	0	0.3
+
+	Animate PinLabel Position	"0 -20"	Accel 0.3	0.1
+}
+
+event ItemCard_ShowCloseButton
+{
+	Animate CloseButton Position	"-8 -68"	Deaccel	0	0.3
+
+	Animate CloseButton Position	"-8 -68"	Accel 0.3	0.1
+}
+
+event ItemCard_HideCloseButton
+{
+	Animate CloseButton Position	"-30 -90"	Deaccel	0	0.0
+}
+
+event QuestItem_StaticPhoto_Reveal
+{
+	Animate StaticPhoto Alpha	"0"	Accel		0	2
 }
 
 //

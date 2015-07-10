@@ -14,7 +14,7 @@
 		"team1_player_base_y"				"129"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"24"
-		"team2_player_base_offset_x"		"303"
+		"team2_player_base_offset_x"		"275"
 		"team2_player_base_y"				"129"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"24"

@@ -2,8 +2,8 @@
 {
 	"PlayerStatusHealthImage"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"PlayerStatusHealthImage"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"				"7"
 		"ypos"				"7"
 		"zpos"				"4"
@@ -15,8 +15,8 @@
 	}		
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"PlayerStatusHealthImageBG"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"				"6"
 		"ypos"				"6"
 		"zpos"				"3"
@@ -29,8 +29,8 @@
 	}	
 	"BuildingStatusHealthImageBG"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BuildingStatusHealthImageBG"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BuildingStatusHealthImageBG"
 		"xpos"				"2"
 		"ypos"				"3"
 		"zpos"				"2"
@@ -55,10 +55,10 @@
 		"image"				"../hud/health_over_bg"
 		"scaleImage"		"1"	
 	}
-	"PlayerStatusHealthValueSpecGUI"
+	"PlayerStatusHealthValueSpec"
 	{
 		"ControlName"		"Label"
-		"fieldName"			"PlayerStatusHealthValueSpecGUI"
+		"fieldName"			"PlayerStatusHealthValueSpec"
 		"xpos"				"23"
 		"ypos"				"13"
 		"zpos"				"5"
@@ -69,10 +69,5 @@
 		"textAlignment"		"north-west"
 		"labeltext"			"%Health%"
 		"font"				"Default"
-		
-		if_mvm
-		{
-			"visible"			"0"
-		}
-	}	
+	}
 }

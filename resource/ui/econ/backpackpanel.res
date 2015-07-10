@@ -134,11 +134,13 @@
 				"font"			"FontStorePrice"
 				"textAlignment"	"east"
 				"xpos"			"rs1"
+				"ypos"			"0"
 				"zpos"			"15"
 				"wide"			"25"
 				"tall"			"12"
 				"textinsetx"	"8"
-				"autoResize"	"1"
+				"autoResize"	"0"
+				"skip_autoresize"	"1"
 				"pinCorner"		"0"	
 				"visible"		"0"
 				"enabled"		"1"
@@ -328,6 +330,7 @@
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
+
 	
 	"mouseoveritempanel"
 	{
@@ -344,7 +347,6 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
-		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
@@ -1583,8 +1585,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageShortcut"
-		"xpos"			"c-288"
-		"ypos"			"323"		//290
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"0"
 		"tall"			"0"
@@ -1606,8 +1608,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageShortcut"
-		"xpos"			"c-220"
-		"ypos"			"323"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"0"
 		"tall"			"0"
@@ -1631,9 +1633,9 @@
 		"fieldName"		"CurPageLabel"
 		"font"			"HudFontSmallBold"
 		"labelText"		"%backpackpage%"
-		"textAlignment"	"center"
-		"xpos"			"c-193"
-		"ypos"			"15"
+		"textAlignment"	"West"
+		"xpos"			"c-280"				//"c-193"
+		"ypos"			"33"				//"15"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"25"
@@ -1642,5 +1644,5 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
-	}
+	}	
 }
