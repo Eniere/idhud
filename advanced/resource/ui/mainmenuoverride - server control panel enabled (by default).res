@@ -3868,7 +3868,283 @@
 			}				
 		}		
 	}
+	
+	"EventPromo"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"EventPromo"
+		"xpos"			"c0"
+		"ypos"			"0"
+		"zpos"			"-60"
+		"wide"			"320"
+		"tall"			"f0"
+		"visible"		"0"
+		"PaintBackgroundType"	"0"
 
+			
+		"EventImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"EventImage"
+			"xpos"					"cs-0.5"
+			"ypos"					"50"
+			"zpos"					"-1"
+			"wide"					"p0.9"
+			"tall"					"o1"
+			"visible"				"0"
+			"enabled"				"1"
+			"image"					"menu_background_eotl_duck"
+			"scaleImage"			"1"
+			"proportionaltoparent"	"1"
+		}	
+
+
+		"Background"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"Background"
+			"xpos"			"cs-0.5"
+			"ypos"			"300"
+			"zpos"			"0"
+			"wide"			"p0.8"
+			"tall"			"120"
+			"visible"		"0"
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+
+			"paintborder"	"1"
+			"border"		"MainMenuBGBorder"
+
+			"OperationTitleLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"OperationTitleLabel"
+				"font"			"HudFontSmallBold"
+				"labelText"		"#MMenu_Update"
+				"textAlignment"	"west"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"30"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"textinsetx"	"20"
+				"fgcolor_override"	"235 227 203 255"
+			}
+
+			"ViewDetailsButton"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"ViewDetailsButton"
+				"xpos"			"p0.02"
+				"ypos"			"27"
+				"zpos"			"11"
+				"wide"			"p0.48"
+				"tall"			"26"
+				"visible"		"0"
+				"PaintBackgroundType"	"0"
+				"proportionaltoparent"	"1"
+
+				"SubButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"SubButton"
+					"xpos"			"cs-0.5"
+					"ypos"			"0"
+					"wide"			"f0"
+					"tall"			"f0"
+					"autoResize"	"0"
+					"pinCorner"		"3"
+					"visible"		"0"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"use_proportional_insets" "1"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"default"		"1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+					"labeltext"		"#MMenu_ViewUpdateDetails"
+					"proportionaltoparent"	"1"
+					"command"		"view_update_page"
+					"actionsignallevel"	"4"
+			
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+			
+					"defaultFgColor_override" "46 43 42 255"
+					"armedFgColor_override" "235 226 202 255"
+					"depressedFgColor_override" "46 43 42 255"
+			
+					"image_drawcolor"	"117 107 94 255"
+					"image_armedcolor"	"235 226 202 255"
+				}
+			}
+			
+			"ViewComicButton"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"ViewComicButton"
+				"xpos"			"p0.5"
+				"ypos"			"27"
+				"zpos"			"11"
+				"wide"			"p0.48"
+				"tall"			"26"
+				"visible"		"0"
+				"PaintBackgroundType"	"0"
+				"proportionaltoparent"	"1"
+
+				"SubButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"SubButton"
+					"xpos"			"cs-0.5"
+					"ypos"			"0"
+					"wide"			"f0"
+					"tall"			"f0"
+					"autoResize"	"0"
+					"pinCorner"		"3"
+					"visible"		"0"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"use_proportional_insets" "1"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"default"		"1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+					"labeltext"		"#MMenu_ViewUpdateComic"
+					"proportionaltoparent"	"1"
+					"command"		"view_update_comic"
+					"actionsignallevel"	"4"
+			
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+			
+					"defaultFgColor_override" "46 43 42 255"
+					"armedFgColor_override" "235 226 202 255"
+					"depressedFgColor_override" "46 43 42 255"
+			
+					"image_drawcolor"	"117 107 94 255"
+					"image_armedcolor"	"235 226 202 255"
+				}
+			}
+
+			"CyclingAd"
+			{
+				"ControlName"			"CCyclingAdContainerPanel"
+				"fieldName"				"CyclingAd"
+				"xpos"					"5"
+				"ypos"					"p0.47"
+				"zpos"					"100"
+				"wide"					"f10"
+				"tall"					"p0.5"
+				"visible"				"0"
+				"enabled"				"1"
+				"scaleImage"			"1"
+				"proportionaltoparent"	"1"
+
+				"bgcolor_override"		"0 0 0 255"
+
+				"items"
+				{
+					"0"
+					{
+						"item"		"Unused Summer 2015 Operation Pass"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"1"
+					{
+						"item"		"Operation Summer 2015 Concealed Killer Case"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+					}
+					"2"
+					{
+						"item"		"Operation Summer 2015 Powerhouse Case"
+
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+					}
+					"3"
+					{
+						"item"		"Summer 2015 Operation Key"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"4"
+					{
+						"item"		"Taunt: The Boxtrot"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Taunt: The Proletariat Showoff"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Taunt: Kazotsky Kick"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+				}
+			}
+
+		} // Background
+
+		"NewImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"NewImage"
+			"xpos"					"-60"
+			"ypos"					"-52"
+			"zpos"					"100"
+			"wide"					"80"
+			"tall"					"o1"
+			"visible"				"0"
+			"enabled"				"1"
+			"image"					"new_large"
+			"scaleImage"			"1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"		"0"
+
+			"pin_to_sibling"		"Background"
+			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"	
+		}
+
+	} // EventPromo
+	
 	"icon_generator"
 	{
 		"ControlName"		"CEmbeddedItemModelPanel"
@@ -3966,22 +4242,27 @@
 		"enabled"		"1"
 		"fgcolor_override"	"235 227 203 255"
 	}
-	"VersionLabel"
+	"GetHelpButton"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"VersionLabel"
-		"labelText"		"ETF2L Season 20"
+		"ControlName"	"CExImageButton"	//"CExLabel"
+		"fieldName"		"GetHelpButton"
+		"labelText"		"Need help?"
+		"command"		"engine toggleconsole"
 		"visible"		"0"
-		"font"			"Default"
+		"font"			"DefaultVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"c126"
-		"ypos"			"c110"
-		"wide"			"100"
-		"tall"			"30"
+		"xpos"			"c197"
+		"ypos"			"c128"
+		"wide"			"44"
+		"tall"			"9"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-		"fgcolor_override"	"TanDark"
+		//"fgcolor_override"	"TanDark"
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override" 	"TanLight"
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
 	}
 	"RemoteConsolePasswordButton"
 	{
@@ -4143,7 +4424,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map1Button"
 		"labelText"		"cp_badlands"
-		"command"		"engine badlands"
+		"command"		"engine map1"
 		"xpos"			"c-10"
 		"ypos"			"290"
 		"wide"			"125"
@@ -4173,7 +4454,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map2Button"
 		"labelText"		"cp_gullywash"
-		"command"		"engine gullywash"
+		"command"		"engine map2"
 		"xpos"			"c115"
 		"ypos"			"290"
 		"wide"			"125"
@@ -4202,7 +4483,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map3Button"
 		"labelText"		"cp_process"
-		"command"		"engine process"
+		"command"		"engine map3"
 		"xpos"			"c-10"
 		"ypos"			"312"
 		"wide"			"125"
@@ -4231,7 +4512,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map4Button"
 		"labelText"		"cp_snakewater"
-		"command"		"engine snakewater"
+		"command"		"engine map4"
 		"xpos"			"c115"
 		"ypos"			"312"
 		"wide"			"125"
@@ -4260,7 +4541,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map5Button"
 		"labelText"		"cp_sunshine (rc7)"
-		"command"		"engine sunshine"
+		"command"		"engine map5"
 		"xpos"			"c-10"
 		"ypos"			"334"
 		"wide"			"125"
@@ -4289,7 +4570,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map6Button"
 		"labelText"		"koth_viaduct (pro7)"
-		"command"		"engine viaduct"
+		"command"		"engine map6"
 		"xpos"			"c115"
 		"ypos"			"334"
 		"wide"			"125"
@@ -4318,7 +4599,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map7Button"
 		"labelText"		"cp_granary (pro_b9)"
-		"command"		"engine granary"
+		"command"		"engine map7"
 		"xpos"			"c-10"
 		"ypos"			"356"
 		"wide"			"125"
@@ -4347,7 +4628,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map8Button"
 		"labelText"		""
-		"command"		""
+		"command"		"engine map8"
 		"xpos"			"c115"
 		"ypos"			"356"
 		"wide"			"125"
