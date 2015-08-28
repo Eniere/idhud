@@ -4598,7 +4598,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map7Button"
-		"labelText"		"cp_granary (pro_b9)"
+		"labelText"		"koth_product (rc8)"
 		"command"		"engine map7"
 		"xpos"			"c-10"
 		"ypos"			"356"

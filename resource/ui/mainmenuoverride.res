@@ -4569,7 +4569,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map6Button"
-		"labelText"		"koth_viaduct (pro7)"
+		"labelText"		"koth_product (rc8)"
 		"command"		"engine map6"
 		"xpos"			"c115"
 		"ypos"			"334"
