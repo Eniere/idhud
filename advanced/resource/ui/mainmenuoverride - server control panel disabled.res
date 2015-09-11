@@ -3904,10 +3904,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"Background"
 			"xpos"			"cs-0.5"
-			"ypos"			"300"
+			"ypos"			"315"
 			"zpos"			"0"
 			"wide"			"p0.8"
-			"tall"			"120"
+			"tall"			"90"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -3943,7 +3943,7 @@
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"1"
+				"visible"		"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
@@ -3995,7 +3995,7 @@
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"1"
+				"visible"		"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
@@ -4043,10 +4043,10 @@
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"p0.47"
+				"ypos"					"25"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"p0.5"
+				"tall"					"60"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -4058,7 +4058,7 @@
 				{
 					"0"
 					{
-						"item"		"Unused Summer 2015 Operation Pass"
+						"item"		"Summer 2015 Operation Key"
 						
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4067,7 +4067,7 @@
 					}
 					"1"
 					{
-						"item"		"Operation Summer 2015 Concealed Killer Case"
+						"item"		"Gun Mettle Cosmetic Case"
 						
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4075,33 +4075,32 @@
 					}
 					"2"
 					{
-						"item"		"Operation Summer 2015 Powerhouse Case"
+						"item"		"Gun Mettle Cosmetic Key"
 
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
+						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Summer 2015 Operation Key"
+						"item"		"Operation Summer 2015 Concealed Killer Case"
 						
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
-						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Taunt: The Boxtrot"
+						"item"		"Operation Summer 2015 Powerhouse Case"
 						
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
-						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: The Proletariat Showoff"
+						"item"		"The Boxtrot"
 						
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4110,7 +4109,7 @@
 					}
 					"6"
 					{
-						"item"		"Taunt: Kazotsky Kick"
+						"item"		"Taunt: The Proletariat Showoff"
 						
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4119,22 +4118,14 @@
 					}
 					"7"
 					{
-						"item"		"Gun Mettle Cosmetic Case"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-					}
-					"8"
-					{
-						"item"		"Gun Mettle Cosmetic Key"
+						"item"		"Taunt: Kazotsky Kick"
 						
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
 						"show_market"	"0"
 					}
-					"9"
+					"8"
 					{
 						"item"		"Map Token Snowplow"
 						
@@ -4143,7 +4134,7 @@
 						"proportionaltoparent"	"1"
 						"show_market"	"0"
 					}
-					"10"
+					"9"
 					{
 						"item"		"Map Token Borneo"
 						
@@ -4152,7 +4143,7 @@
 						"proportionaltoparent"	"1"
 						"show_market"	"0"
 					}
-					"11"
+					"10"
 					{
 						"item"		"Map Token Suijin"
 						
@@ -4161,7 +4152,7 @@
 						"proportionaltoparent"	"1"
 						"show_market"	"0"
 					}
-					"12"
+					"11"
 					{
 						"item"		"Strange Filter: Snowplow (Community)"
 						
@@ -4170,7 +4161,7 @@
 						"proportionaltoparent"	"1"
 						"show_market"	"0"
 					}
-					"13"
+					"12"
 					{
 						"item"		"Strange Filter: Borneo (Community)"
 						
@@ -4179,7 +4170,7 @@
 						"proportionaltoparent"	"1"
 						"show_market"	"0"
 					}
-					"14"
+					"13"
 					{
 						"item"		"Strange Filter: Suijin (Community)"
 						
@@ -4203,7 +4194,7 @@
 			"wide"					"80"
 			"tall"					"o1"
 			"visible"				"0"
-			"enabled"				"0"			//"1"
+			"enabled"				"1"
 			"image"					"new_large"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
