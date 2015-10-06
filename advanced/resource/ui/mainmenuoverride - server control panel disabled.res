@@ -203,10 +203,6 @@
 		{
 			"image"		"../console/title_eotl01"
 		}
-		if_operation
-		{
-			"image"		"../console/title_summer_operation_2015"
-		}
 	}
 	
 	"TopLeftDataPanel"
@@ -879,7 +875,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor"		"LabelDark"
 			"wrap"			"1"
 		}
 		
@@ -898,7 +894,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor"		"LabelDark"
 		}
 		
 		"MOTD_TitleImageBg"
@@ -954,7 +950,7 @@
 			"wide"			"280"
 			"tall"			"115"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor"		"LabelDark"
 			
 			"MOTD_TextPanel"
 			{
@@ -982,7 +978,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"46 43 42 255"
+					"fgcolor"		"LabelDark"
 					"wrap"			"1"
 				}
 			}
@@ -3868,17 +3864,17 @@
 			}				
 		}		
 	}
-
+	
 	"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"c-45"		//"c0"
-		"ypos"			"-37"		//"0"
+		"xpos"			"c0"
+		"ypos"			"0"
 		"zpos"			"-60"
 		"wide"			"320"
 		"tall"			"f0"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"0"
 
 			
@@ -3908,7 +3904,7 @@
 			"zpos"			"0"
 			"wide"			"p0.8"
 			"tall"			"90"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 
@@ -3928,7 +3924,7 @@
 				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"textinsetx"	"20"
 				"fgcolor_override"	"235 227 203 255"
@@ -3957,7 +3953,7 @@
 					"tall"			"f0"
 					"autoResize"	"0"
 					"pinCorner"		"3"
-					"visible"		"1"
+					"visible"		"0"
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"use_proportional_insets" "1"
@@ -4009,7 +4005,7 @@
 					"tall"			"f0"
 					"autoResize"	"0"
 					"pinCorner"		"3"
-					"visible"		"1"
+					"visible"		"0"
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"use_proportional_insets" "1"
@@ -4047,7 +4043,7 @@
 				"zpos"					"100"
 				"wide"					"f10"
 				"tall"					"60"
-				"visible"				"1"
+				"visible"				"0"
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionaltoparent"	"1"
@@ -4058,7 +4054,7 @@
 				{
 					"0"
 					{
-						"item"		"Summer 2015 Operation Key"
+						"item"		"Unused Summer 2015 Operation Pass"
 						
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4067,7 +4063,7 @@
 					}
 					"1"
 					{
-						"item"		"Gun Mettle Cosmetic Case"
+						"item"		"Operation Summer 2015 Concealed Killer Case"
 						
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4075,39 +4071,31 @@
 					}
 					"2"
 					{
-						"item"		"Gun Mettle Cosmetic Key"
+						"item"		"Operation Summer 2015 Powerhouse Case"
 
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
-						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Operation Summer 2015 Concealed Killer Case"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-					}
-					"4"
-					{
-						"item"		"Operation Summer 2015 Powerhouse Case"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-					}
-					"5"
-					{
-						"item"		"The Boxtrot"
+						"item"		"Summer 2015 Operation Key"
 						
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
 						"show_market"	"0"
 					}
-					"6"
+					"4"
+					{
+						"item"		"Taunt: The Boxtrot"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"5"
 					{
 						"item"		"Taunt: The Proletariat Showoff"
 						
@@ -4116,63 +4104,9 @@
 						"proportionaltoparent"	"1"
 						"show_market"	"0"
 					}
-					"7"
+					"6"
 					{
 						"item"		"Taunt: Kazotsky Kick"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"8"
-					{
-						"item"		"Map Token Snowplow"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"9"
-					{
-						"item"		"Map Token Borneo"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"10"
-					{
-						"item"		"Map Token Suijin"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"11"
-					{
-						"item"		"Strange Filter: Snowplow (Community)"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"12"
-					{
-						"item"		"Strange Filter: Borneo (Community)"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"13"
-					{
-						"item"		"Strange Filter: Suijin (Community)"
 						
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4206,7 +4140,7 @@
 		}
 
 	} // EventPromo
-
+	
 	"icon_generator"
 	{
 		"ControlName"		"CEmbeddedItemModelPanel"

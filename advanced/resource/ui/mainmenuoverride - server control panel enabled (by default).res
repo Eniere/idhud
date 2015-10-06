@@ -203,10 +203,6 @@
 		{
 			"image"		"../console/title_eotl01"
 		}
-		if_operation
-		{
-			"image"		"../console/title_summer_operation_2015"
-		}
 	}
 	
 	"TopLeftDataPanel"
@@ -879,7 +875,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor"		"LabelDark"
 			"wrap"			"1"
 		}
 		
@@ -898,7 +894,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor"		"LabelDark"
 		}
 		
 		"MOTD_TitleImageBg"
@@ -954,7 +950,7 @@
 			"wide"			"280"
 			"tall"			"115"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor"		"LabelDark"
 			
 			"MOTD_TextPanel"
 			{
@@ -982,7 +978,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"46 43 42 255"
+					"fgcolor"		"LabelDark"
 					"wrap"			"1"
 				}
 			}
@@ -4540,7 +4536,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map5Button"
-		"labelText"		"cp_sunshine (rc7)"
+		"labelText"		"cp_sunshine (rc8)"
 		"command"		"engine map5"
 		"xpos"			"c-10"
 		"ypos"			"334"
@@ -4598,7 +4594,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map7Button"
-		"labelText"		"cp_granary (pro_b9)"
+		"labelText"		"cp_granary (pro_b10)"
 		"command"		"engine map7"
 		"xpos"			"c-10"
 		"ypos"			"356"
