@@ -203,6 +203,10 @@
 		{
 			"image"		"../console/title_eotl01"
 		}
+		if_community_update
+		{
+			"image"		"../console/title_invasion"
+		}
 	}
 	
 	"TopLeftDataPanel"
@@ -4054,7 +4058,7 @@
 				{
 					"0"
 					{
-						"item"		"Unused Summer 2015 Operation Pass"
+						"item"		"Unused Invasion Pass"
 						
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4063,15 +4067,16 @@
 					}
 					"1"
 					{
-						"item"		"Operation Summer 2015 Concealed Killer Case"
+						"item"		"Invasion Key"
 						
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
+						"show_market"	"0"
 					}
 					"2"
 					{
-						"item"		"Operation Summer 2015 Powerhouse Case"
+						"item"		"Invasion Case 01"
 
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4079,39 +4084,11 @@
 					}
 					"3"
 					{
-						"item"		"Summer 2015 Operation Key"
+						"item"		"Invasion Case 02"
 						
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"4"
-					{
-						"item"		"Taunt: The Boxtrot"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Taunt: The Proletariat Showoff"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"6"
-					{
-						"item"		"Taunt: Kazotsky Kick"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
 					}
 				}
 			}
