@@ -262,10 +262,10 @@
 		"xpos"			"c-250"
 		"ypos"			"-80"
 		"zpos"			"-99"
-		"wide"			"600"
-		"tall"			"600"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"600"	//0	600
+		"tall"			"600"	//0	600
+		"visible"		"1"		//0	1
+		"enabled"		"1"		//0	1
 		"scaleImage"	"1"
 	}
 	
