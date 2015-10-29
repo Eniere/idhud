@@ -191,6 +191,10 @@
 		{
 			"image"		"../console/title_team_halloween2014"
 		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
@@ -202,6 +206,10 @@
 		if_eotl_launch
 		{
 			"image"		"../console/title_eotl01"
+		}
+		if_operation
+		{
+			"image"		"../console/title_team_halloween2015"
 		}
 		if_community_update
 		{
@@ -595,7 +603,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 				
@@ -1207,7 +1215,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor"		"LabelDark"
 			"wrap"			"1"
 		}
 		
@@ -3904,10 +3912,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"Background"
 			"xpos"			"cs-0.5"
-			"ypos"			"315"
+			"ypos"			"300"
 			"zpos"			"0"
 			"wide"			"p0.8"
-			"tall"			"90"
+			"tall"			"120"
 			"visible"		"0"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -3943,7 +3951,7 @@
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"0"
+				"visible"		"1"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
@@ -4043,10 +4051,10 @@
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"25"
+				"ypos"					"p0.47"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"60"
+				"tall"					"p0.5"
 				"visible"				"0"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -4058,37 +4066,22 @@
 				{
 					"0"
 					{
-						"item"		"Unused Invasion Pass"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Halloween 2015 Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Invasion Key"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
+						"item"		"Halloween 2015 case"
 					}
 					"2"
 					{
-						"item"		"Invasion Case 01"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Taunt: Zoomin' Broom"
+						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Invasion Case 02"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Taunt: Maggot's Condolence"
+						"show_market"	"0"
 					}
 				}
 			}
