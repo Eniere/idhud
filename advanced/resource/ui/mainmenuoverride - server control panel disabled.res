@@ -203,18 +203,18 @@
 		{
 			"image"		"../console/background_xmas2011"
 		}
-		if_eotl_launch
-		{
-			"image"		"../console/title_eotl01"
-		}
-		if_operation
-		{
-			"image"		"../console/title_team_halloween2015"
-		}
-		if_community_update
-		{
-			"image"		"../console/title_invasion"
-		}
+//		if_eotl_launch
+//		{
+//			"image"		"../console/title_eotl01"
+//		}
+//		if_operation
+//		{
+//			"image"		"../console/title_team_halloween2015"
+//		}
+//		if_community_update
+//		{
+//			"image"		"../console/title_invasion"
+//		}
 	}
 	
 	"TopLeftDataPanel"
@@ -3912,10 +3912,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"Background"
 			"xpos"			"cs-0.5"
-			"ypos"			"300"
+			"ypos"			"315"
 			"zpos"			"0"
 			"wide"			"p0.8"
-			"tall"			"120"
+			"tall"			"90"
 			"visible"		"0"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -3951,7 +3951,7 @@
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"1"
+				"visible"		"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
@@ -4051,11 +4051,11 @@
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"p0.47"
+				"ypos"					"25"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"p0.5"
-				"visible"				"1"
+				"tall"					"60"
+				"visible"				"0"
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionaltoparent"	"1"
