@@ -4066,21 +4066,27 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2015 Key"
+						"item"		"Arkham Cowl"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2015 case"
+						"item"		"Fear Monger"
+						"show_market"	"0"
 					}
 					"2"
 					{
-						"item"		"Taunt: Zoomin' Broom"
+						"item"		"The Firefly"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: Maggot's Condolence"
+						"item"		"Taunt: Zoomin' Broom"
+						"show_market"	"0"
+					}
+					"4"
+					{
+						"item"		"Taunt: Soldier's Requiem"
 						"show_market"	"0"
 					}
 				}
