@@ -1,5 +1,5 @@
-Eniere's Improved default HUD ver. 3.1
-December 18th, 2015
+Eniere's Improved default HUD ver. 3.2
+March 1, 2016
 
 This is not a HUD in its usual meaning, but some fixes for standard Team Fortress 2 HUD, adding HP numbers on target IDs, reworked Medic UI, popular custom crosshairs, etc.
 
