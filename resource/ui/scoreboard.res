@@ -13,18 +13,41 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"medal_width"		"25"
-		"avatar_width"		"65"
-		"name_width"		"118"
-		"name_width_short"	"85"
-		"nemesis_width"		"25"
-		"class_width"		"25"
-		"score_width"		"30"
-		"ping_width"		"25"
-		"stats_width"		"30"
-		"killstreak_width"	"15"
-		"killstreak_image_width"	"15"
+		"medal_width"		"20"
+		"avatar_width"		"54"		//"65"
 		"spacer"			"5"
+		"name_width"		"118"
+		"nemesis_width"		"18"		//"25"
+		"class_width"		"18"		//"25"
+		"score_width"		"22"		//"30"
+		"ping_width"		"20"		//"25"
+		//"stats_width"		"18"		//"30"
+		"killstreak_width"	"12"		//"15"
+		"killstreak_image_width" "12"	//"15"
+	}
+	"ServerTimeLeftValue"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerTimeLeftValue"
+		"font"			"ScoreboardMedium"
+		"labelText"		"%servertime%"
+		"textAlignment"		"center"
+		"xpos"			"284"
+		"ypos"			"375"
+		"zpos"			"2"
+		"wide"			"72"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"TanLight"
+		"centerwrap"	"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"BlueScoreBG"
 	{
@@ -310,7 +333,7 @@
 		"xpos"				"5"
 		"ypos"				"72"
 		"zpos"				"20"
-		"wide"				"310"
+		"wide"				"310"		//310 314
 		"tall"				"280"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -330,10 +353,10 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"RedPlayerList"
-		"xpos"				"325"
+		"xpos"				"325"		//325 321
 		"ypos"				"72"
 		"zpos"				"20"
-		"wide"				"310"
+		"wide"				"310"		//310 314
 		"tall"				"280"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -341,7 +364,7 @@
 		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"22"
-		"textcolor"			"red"
+		"fgcolor"			"red"
 		//"show_columns"	"1"
 		
  		if_mvm
