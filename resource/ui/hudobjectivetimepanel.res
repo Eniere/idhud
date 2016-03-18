@@ -20,6 +20,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
+
+		if_comp
+		{
+			"visible"	"0"
+		}
 	}
 	"TimePanelProgressBar"
 	{
@@ -45,6 +50,11 @@
 		"color_inactive"		"TimerProgress.InActive"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
+
+		if_comp
+		{
+			"visible"	"0"
+		}
 	}
 	"WaitingForPlayersLabel"
 	{
@@ -74,6 +84,17 @@
 		"font"			"ClockSubTextTiny"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
+
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"ypos_minmode"			"17"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -92,6 +113,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+
+		if_comp
+		{
+			"visible"	"0"
+		}
 	}
 	"OvertimeLabel"
 	{
@@ -119,6 +145,19 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextShadow"
+		"font_hidef"	"ClockSubTextShadow"
+		"font_lodef"	"ClockSubTextShadow"
+
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"ypos_minmode"			"17"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
 	}			
 	"OvertimeBG"
 	{
@@ -137,6 +176,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+
+		if_comp
+		{
+			"wide"	"0"
+		}
 	}
 	"SuddenDeathLabel"
 	{
@@ -164,6 +208,19 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeathShadow"
+		"font_hidef"	"ClockSubTextSuddenDeathShadow"
+		"font_lodef"	"ClockSubTextSuddenDeathShadow"
+
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"ypos_minmode"			"17"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -182,6 +239,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+
+		if_comp
+		{
+			"wide"	"0"
+		}
 	}	
 	"SetupLabel"
 	{
@@ -210,6 +272,19 @@
 		"wrap"			"0"
 		"font"			"ClockSubText"
 		"font_minmode"	"ClockSubTextSuddenDeathShadow"
+		"font_hidef"	"ClockSubText"
+		"font_lodef"	"ClockSubText"
+
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"ypos_minmode"			"17"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
 	}	
 	"SetupBG"
 	{
@@ -228,6 +303,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+
+		if_comp
+		{
+			"wide"	"0"
+		}
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -256,6 +336,19 @@
 		"wrap"			"0"
 		"font"			"ClockSubText"
 		"font_minmode"	"ClockSubTextSuddenDeathShadow"
+		"font_hidef"	"ClockSubText"
+		"font_lodef"	"ClockSubText"
+
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"ypos_minmode"			"17"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
@@ -274,5 +367,10 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+
+		if_comp
+		{
+			"wide"	"0"
+		}
 	}
 }

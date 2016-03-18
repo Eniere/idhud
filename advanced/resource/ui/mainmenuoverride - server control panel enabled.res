@@ -1624,6 +1624,11 @@
 		"enabled"		"1"
 		"image"			"../vgui/new"
 		"scaleImage"	"1"
+
+		if_competitive
+		{
+			"ypos"		"271"
+		}
 	}
 	
 	"CharacterSetupButton"
