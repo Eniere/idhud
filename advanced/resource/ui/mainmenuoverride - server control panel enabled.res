@@ -175,10 +175,50 @@
 		"image"			""
 		"scaleImage"	"1"
 		
-		if_operation
+		if_halloween_0
 		{
-			"image"		"../console/title_team_tough_break"
+			"image"		"../console/title_team_halloween2011"
 		}
+		if_halloween_1
+		{
+			"image"		"../console/title_team_halloween2012"
+		}
+		if_halloween_2
+		{
+			"image"		"../console/title_team_halloween2013"
+		}
+		if_halloween_3
+		{
+			"image"		"../console/title_team_halloween2014"
+		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
+		if_fullmoon
+		{
+			"image"		"../console/title_fullmoon"
+		}
+		if_christmas
+		{
+			"image"		"../console/background_xmas2011"
+		}
+//		if_eotl_launch
+//		{
+//			"image"		"../console/title_eotl01"
+//		}
+		if_spy_vs_engy_war
+		{
+			"image"		"../console/background_sve_01"
+		}
+//		if_operation
+//		{
+//			"image"		"../console/title_team_tough_break"
+//		}
+//		if_community_update
+//		{
+//			"image"		"../console/title_invasion"
+//		}
 	}
 	
 	"TopLeftDataPanel"
@@ -226,10 +266,10 @@
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 
-		if_operation
-		{
-			"image"		"../logo/tough_break_logo"
-		}
+//		if_operation
+//		{
+//			"image"		"../logo/tough_break_logo"
+//		}
 	}	
 	
 	"TFCharacterImage"
@@ -1628,6 +1668,41 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 			}		
+		}
+	}
+
+	"ShowDemoPlaybackButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ShowDemoPlaybackButton"
+		"xpos"			"c-285"
+		"ypos"			"356"
+		"wide"			"250"
+		"tall"			"21"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"HudFontSmallestBold"
+		"labelText"		"Demo Playback"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"command"		"engine demoui"
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
+		if_competitive
+		{
+			"ypos"		"372"
 		}
 	}
 
@@ -4095,41 +4170,6 @@
 			"angles_x"		"10"
 			"angles_y"		"130"
 			"angles_z"		"0"
-		}
-	}
-	
-	"ShowDemoPlaybackButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ShowDemoPlaybackButton"
-		"xpos"			"c-285"
-		"ypos"			"356"
-		"wide"			"250"
-		"tall"			"21"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"Demo Playback"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine demoui"
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-		
-		if_competitive
-		{
-			"ypos"		"372"
 		}
 	}
 
