@@ -833,7 +833,7 @@
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"20"
 			"zpos"			"3"
 		}
 
@@ -843,7 +843,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"110"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"20"
 			"zpos"			"3"
 		}
 
@@ -853,7 +853,7 @@
 			"xpos"			"225"
 			"ypos"			"110"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"20"
 			"zpos"			"3"
 		}
 	}
@@ -883,7 +883,7 @@
 			"xpos"			"156"
 			"ypos"			"106"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"20"
 			"visible"		"1"
 			"fgcolor"		"Black"
 		}
@@ -894,7 +894,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"111"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"20"
 			"visible"		"1"
 			"fgcolor"		"Black"
 		}
@@ -905,7 +905,7 @@
 			"xpos"			"226"
 			"ypos"			"111"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"20"
 			"visible"		"1"
 			"fgcolor"		"Black"
 		}
