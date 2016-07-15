@@ -1,0 +1,10 @@
+hudanimations_manifest
+{
+
+	"file"		"scripts/hudanimations.txt"
+	"file"		"scripts/hudanimations_tf_hitindicator.txt"
+	"file"		"scripts/hudanimations_tf_smallubervalue.txt"
+	"file"		"scripts/hudanimations_tf_largeubervalue.txt"
+	"file"		"scripts/hudanimations_tf_combined.txt"
+	"file"		"scripts/hudanimations_tf.txt"
+}

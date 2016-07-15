@@ -1,0 +1,98 @@
+// hudanimations_tf_largeubervalue.txt
+
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"100"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	
+	Animate	PlayerStatusHealthValueTargetID 			FgColor		"CustomLightGreen"		Linear 0.0 0.0
+	Animate	PlayerStatusKillerHealthValue 				FgColor		"CustomLightGreen"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueTargetIDBigger 		FgColor		"CustomGreen"		Linear 0.0 0.0
+
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+	
+	Animate	PlayerStatusHealthValueTargetID 			FgColor		"TanLight"		Linear 0.0 0.0
+	Animate	PlayerStatusKillerHealthValue 				FgColor		"TanLight"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueTargetIDBigger		FgColor		"TanLight"		Linear 0.0 0.0
+}
+
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	
+	Animate	PlayerStatusHealthValueTargetID 			FgColor		"CustomYellow"		Linear 0.0 0.0
+	Animate	PlayerStatusKillerHealthValue 				FgColor		"CustomYellow"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueTargetIDBigger 		FgColor		"CustomYellow"		Linear 0.0 0.0
+	
+	RunEvent HudHealthDyingPulseLoop	0.25
+}
+
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+	
+	Animate	PlayerStatusHealthValueTargetID 			FgColor		"TanLight"		Linear 0.0 0.0
+	Animate	PlayerStatusKillerHealthValue 				FgColor		"TanLight"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueTargetIDBigger		FgColor		"TanLight"		Linear 0.0 0.0
+}
+
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup	Position	"c-90 -63"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 63"	Spline 0.001 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup	Position	"c-90 63"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 -63"	Spline 0.001 0.2
+}
+
+event HudMedicCharged
+{
+	Animate	ChargeLabel 	FgColor		"CustomLightGreen"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"CustomGreen"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter 	FgColor		"CustomLightGreen"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"CustomGreen"		Linear 0.3 0.4
+	
+	Animate	ChargeLabelSmall 	FgColor		"CustomGreen"	Linear 0.0 0.0
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	
+	Animate	ChargeLabelSmall 	FgColor		"TanLight"	Linear 0.0 0.0001
+}
+
+// hudanimations_tf_largeubervalue.txt

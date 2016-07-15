@@ -1,0 +1,27 @@
+event DamagedPlayer
+{
+
+// COD-like Hit Indicator. 
+// To use it, change "visible" to "1" for "CODxhair" (line 348) in the hudlayout.res file:
+
+	Animate 		CODxhairLeftTop  		FgColor 	"CustomWhite" 				Linear 0.0 0.0001
+	Animate 		CODxhairLeftTop 		FgColor 	"CustomTransparent" 		Linear 0.15 0.1	
+	Animate 		CODxhairLeftBottom 		FgColor 	"CustomWhite" 				Linear 0.0 0.0001
+	Animate 		CODxhairLeftBottom 		FgColor 	"CustomTransparent" 		Linear 0.15 0.1
+	Animate 		CODxhairRightTop 		FgColor 	"CustomWhite" 				Linear 0.0 0.0001
+	Animate 		CODxhairRightTop 		FgColor 	"CustomTransparent" 		Linear 0.15 0.1
+	Animate 		CODxhairRightBottom 	FgColor 	"CustomWhite" 				Linear 0.0 0.0001
+	Animate 		CODxhairRightBottom 	FgColor 	"CustomTransparent" 		Linear 0.15 0.1
+
+// You can also use any custom crosshair as hit indicator as well:
+//-----------------------------------------------------------------------------------------------------
+//				| 	Custom crosshair name	|		|	1st line: crosshair color	|
+//				| 	as presented in the		|		|	when you hit someone;		|
+//				| 	hudlayout.res			|		|	2nd line: default 			|
+//				|							|		|	crosshair color				|
+//-----------------------------------------------------------------------------------------------------
+
+	Animate 		Dot 					FgColor 	"CustomRed" 				Linear 0.0 0.0001
+	Animate 		Dot 					FgColor 	"CustomWhite" 				Linear 0.15 0.1
+
+}

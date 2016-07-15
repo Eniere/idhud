@@ -1520,6 +1520,22 @@
 					"desc_token"		"#MMenu_PlayList_Training_Desc"
 				}
 
+				"CreateServerEntry"
+				{
+					"ControlName"	"CMainMenuPlayListEntry"
+					"fieldName"		"CreateServerEntry"
+					"xpos"			"0"
+					"ypos"			"253"
+					"tall"			"45"
+					"wide"			"p1"
+					"proportionaltoparent"	"1"
+
+					"image_name"		"main_menu/main_menu_button_custom_server"
+					"button_token"		"#MMenu_PlayList_CreateServer_Button"
+					"button_command"	"OpenCreateMultiplayerGameDialog"
+					"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
+				}
+
 				"ScrollBar"
 				{
 					"ControlName"	"ScrollBar"
@@ -4615,7 +4631,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map8Button"
-		"labelText"		""
+		"labelText"		"Map8"
 		"command"		engine map8"
 		"xpos"			"c115"
 		"ypos"			"323"
