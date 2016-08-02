@@ -71,10 +71,10 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	"PlayerStatusHealthValueTargetIDBigger"
+	"PlayerStatusHealthValueTargetID"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueTargetIDBigger"
+		"fieldName"		"PlayerStatusHealthValueTargetID"
 		"xpos"			"2"
 		"xpos_minmode"	"1"		//"7"
 		"ypos"			"11"
@@ -92,10 +92,10 @@
 		"font"				"HudFontSmallBold"
 		"fgcolor"  "TanLight"
 	}
-	"PlayerStatusHealthValueTargetIDBiggerBlur"
+	"PlayerStatusHealthValueTargetIDBlur"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueTargetIDBiggerBlur"
+		"fieldName"		"PlayerStatusHealthValueTargetIDBlur"
 		"xpos"			"2"
 		"xpos_minmode"	"1"		//"7"
 		"ypos"			"11"

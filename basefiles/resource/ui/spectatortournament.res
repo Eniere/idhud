@@ -6,24 +6,24 @@
 		"fieldName"		"specgui"
 		"wide"			"f0"
 		"tall"			"480"
-		
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-		"team1_player_base_offset_x"		"0"			//they ignore it, idk why
-		"team1_player_base_y"				"129"
-		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"24"
-		"team2_player_base_offset_x"		"303"
-		"team2_player_base_y"				"129"
-		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"24"
-
+				
+		"team1_player_base_offset_x"		"-75"
+		"team1_player_base_y"				"0"
+		"team1_player_delta_x"				"-47"
+		"team1_player_delta_y"				"0"
+		"team2_player_base_offset_x"		"25"
+		"team2_player_base_y"				"0"
+		"team2_player_delta_x"				"47"
+		"team2_player_delta_y"				"0"
+		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"125"
-			"tall"			"25"
+			"wide"			"50"
+			"tall"			"33"
 			"zpos"			"1"
 			
 			"color_ready"	"0 255 0 220"
@@ -33,12 +33,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Default"
-				"xpos"			"40"
-				"ypos"			"4"
+				"font"			"DefaultVerySmall"
+				"xpos"			"5"
+				"ypos"			"24"
 				"zpos"			"5"
-				"wide"			"83"
-				"tall"			"20"
+				"wide"			"50"
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -48,7 +48,6 @@
 					
 				if_mvm
 				{
-					"tall"				"8"
 					"xpos"				"0"
 					"ypos"				"25"
 					"wide"				"55"
@@ -61,11 +60,11 @@
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"4"
-				"ypos"			"4"
+				"xpos"			"2"
+				"ypos"			"2"
 				"zpos"			"2"
-				"wide"			"18"
-				"tall"			"18"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -73,11 +72,11 @@
 				
 				if_mvm
 				{
-					"xpos"				"5"
-					"ypos"				"4"
-					"wide"				"20"
-					"tall"				"20"
-					"image"				"../vgui/hud_connecting"
+					"xpos"			"5"
+					"ypos"			"4"
+					"wide"			"20"
+					"tall"			"20"
+					"image"			"../vgui/hud_connecting"
 				}
 			}
 			
@@ -105,10 +104,10 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"17"
-				"ypos"				"-1"
+				"xpos"				"22"
+				"ypos"				"-3"
 				"zpos"				"3"
-				"wide"				"60"
+				"wide"				"32"
 				"tall"				"32"
 				"visible"			"1"
 				"enabled"			"1"	
@@ -172,28 +171,22 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Default"
-				"xpos"			"91"
-				"ypos"			"13"
+				"font"			"DefaultSmall"
+				"xpos"			"30"
+				"ypos"			"18"
 				"zpos"			"5"
-				"wide"			"30"
-				"tall"			"20"
+				"wide"			"23"
+				"tall"			"10"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"north-east"
+				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
 				
 				if_mvm
 				{
-					"ypos"				"17"
-					"font"				"DefaultSmall"
-					"xpos"				"30"
-					"ypos"				"18"
-					"wide"				"23"
-					"tall"				"10"
-					"textAlignment"		"west"
+					"ypos"			"17"
 				}
 			}
 			
@@ -201,17 +194,17 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"Default"
-				"xpos"			"91"
-				"ypos"			"13"
+				"font"			"DefaultSmall"
+				"xpos"			"25"
+				"ypos"			"17"
 				"zpos"			"6"
-				"wide"			"30"
-				"tall"			"20"
+				"wide"			"25"
+				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"	"north-east"
+				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
 			}
 			
@@ -227,7 +220,7 @@
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
@@ -247,10 +240,7 @@
 			"wide"					"500"
 			"tall"					"180"
 	
-			"team1_player_base_offset_x"	"-75"
-			"team1_player_base_y"			"0"
 			"team1_player_delta_x"			"52"
-			"team1_player_delta_y"			"0"
 		}		
 	}
 
@@ -259,7 +249,7 @@
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
-		"tall"			"0"
+		"tall"			"33"
 	}
 	"BottomBar"
 	{

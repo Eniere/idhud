@@ -273,15 +273,16 @@
 			}
 			"Medic"
 			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_x_minmode"	"3"
-				"angles_y"		"240"		//78
-				"angles_z"		"0"
-				"origin_x"		"150"
-				"origin_y"		"-5"
-				"origin_z"		"-96"
-				"origin_z_minmode"	"-60"
+				"fov"					"20"
+				"angles_x"				"-12"
+				"angles_x_minmode"		"0"
+				"angles_y"				"240"
+				"angles_z"				"-10"
+				"angles_z_minmode"		"0"
+				"origin_x"				"150"
+				"origin_y"				"-5"
+				"origin_z"				"-96"
+				"origin_z_minmode"		"-60"
 			}
 			"Heavy"
 			{
