@@ -59,17 +59,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
+		"xpos"			"c-300"
 		"xpos_minmode"	"c-300"
-		"xpos"			"c-200"	[$X360]
-		"ypos"			"50"	[$WIN32]
-		"ypos_minmode"	"3"		[$WIN32]
-		"ypos"			"67"	[$X360]
+		"ypos"			"70"		//50
+		"ypos_minmode"	"3"
 		"ypos_hidef"	"79"
 		"ypos_lodef"	"85"
-		"wide"			"600"	[$WIN32]
+		"wide"			"600"
 		"wide_minmode"	"300"
-		"wide"			"400"	[$X360]
 		"tall"			"18"
 		"tall_hidef"		"23"
 		"autoResize"		"0"
