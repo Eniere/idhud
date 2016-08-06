@@ -7,7 +7,7 @@
 	{
 		"xpos"					"r138"
 		"ypos"					"r69"
-		"visible"				"0"
+		"visible"				"1"
 	}
 	
 	"ChargeLabel"
