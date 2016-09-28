@@ -35,8 +35,7 @@
 		"fieldName"		"ShowDemoUIButton"
 		"xpos"			"c-10"			//"c-285"
 		"ypos"			"99"
-		//"zpos"			"-60"
-		"zpos"			"1"
+		"zpos"			"0"
 		"wide"			"250"
 		"tall"			"26"
 		"autoResize"	"0"
@@ -52,7 +51,7 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine demoui"
+		"command"		"engine demoui; demoui2"
 		
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
@@ -124,7 +123,7 @@
 		"command"					"engine rpass"
 		"xpos"						"c221"
 		"ypos"						"141"
-		"zpos"						"1"
+		"zpos"						"0"
 		"wide"						"17"
 		"tall"						"17"
 		"autoResize"				"1"
@@ -148,6 +147,7 @@
 		"sound_armed"				""
 		"sound_depressed"			""
 		"sound_released"			"UI/item_store_add_to_cart.wav"
+		"stay_armed_on_click"		"1"
 	}
 	"ConnectButton"
 	{
@@ -304,7 +304,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map2Button"
-		"labelText"		"cp_snakewater (u10)"
+		"labelText"		"cp_snakewater (u13)"
 		"command"		"engine map2"
 		"xpos"			"c115"
 		"ypos"			"257"
@@ -391,7 +391,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map5Button"
-		"labelText"		"cp_reckoner (b2a)"
+		"labelText"		"cp_reckoner (b3)"
 		"command"		"engine map5"
 		"xpos"			"c-10"
 		"ypos"			"301"
@@ -449,7 +449,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map7Button"
-		"labelText"		"cp_granary (rc3)"
+		"labelText"		"cp_granary (rc4)"
 		"command"		"engine map7"
 		"xpos"			"c-10"
 		"ypos"			"323"
