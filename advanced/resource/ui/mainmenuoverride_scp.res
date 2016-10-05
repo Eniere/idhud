@@ -1,4 +1,4 @@
-//#base "../../basefiles/resource/ui/MainMenuOverride.res"
+#base "../../basefiles/resource/ui/MainMenuOverride.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -15,17 +15,28 @@
 	{
 		"wide"			"0"
 	}
-
-	"DemoUIBGPanel"
+	
+	"DemoUIPanelBGL"
+	{
+		"wide"			"0"
+	}
+	
+	"ShowDemoUIButtonL"
+	{
+		"wide"			"0"
+	}
+	
+	"DemoUIPanelBG"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"DemoUIBGPanel"
+		"fieldName"		"DemoUIPanelBG"
 		"xpos"			"c-15"
 		"ypos"			"92"				//166
-		//"zpos"			"-1"
+		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"39"
 		"visible"		"1"
+		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 	}

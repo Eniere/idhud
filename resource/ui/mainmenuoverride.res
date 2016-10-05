@@ -1,5 +1,5 @@
 //	Uncomment the line below to enable the Server Control Panel in the Main Menu:
-//	#base "../../advanced/resource/ui/mainmenuoverride_scp.res"
+	#base "../../advanced/resource/ui/mainmenuoverride_scp.res"
 
 	#base "../../basefiles/resource/ui/MainMenuOverride.res"
 
@@ -19,23 +19,24 @@
 		"wide"			"0"
 	}
 
-	"DemoUIBGPanel"
+	"DemoUIPanelBGL"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"DemoUIBGPanel"
+		"fieldName"		"DemoUIPanelBGL"
 		"xpos"			"c-290"
-		"ypos"			"359
-		//"zpos"			"-1"
+		"ypos"			"359"
+		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"39"
-		"visible"		"1"
+		"visible"		"0"
+		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 	}
-	"ShowDemoUIButton"
+	"ShowDemoUIButtonL"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ShowDemoUIButton"
+		"fieldName"		"ShowDemoUIButtonL"
 		"xpos"			"c-285"
 		"ypos"			"365"
 		"zpos"			"0"
@@ -43,7 +44,7 @@
 		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"font"			"HudFontSmallBold"
