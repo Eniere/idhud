@@ -13,7 +13,7 @@ hudanimations_manifest
 //	"file"			"advanced/scripts/hudanimations_tf - combined uber layout.txt"
 
 //	Uncomment the line below to enable hit indicator:	
-//	"file"			"scripts/hudanimations_tf - hit indicator.txt"
+	"file"			"scripts/hudanimations_tf - hit indicator.txt"
 	
 	"file"			"scripts/hudanimations_tf - idhud.txt"
 	"file"			"scripts/hudanimations_tf.txt"
