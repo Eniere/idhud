@@ -1,5 +1,5 @@
 //	Uncomment the line below to enable the Server Control Panel in the Main Menu:
-	#base "../../advanced/resource/ui/mainmenuoverride_scp.res"
+//	#base "../../advanced/resource/ui/mainmenuoverride_scp.res"
 
 	#base "../../basefiles/resource/ui/MainMenuOverride.res"
 
