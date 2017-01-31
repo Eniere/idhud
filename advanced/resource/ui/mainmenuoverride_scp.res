@@ -323,7 +323,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map2Button"
-		"labelText"		"cp_snakewater (u13)"
+		"labelText"		"cp_snakewater"
 		"command"		"engine map2"
 		"xpos"			"c115"
 		"ypos"			"257"
@@ -381,7 +381,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map4Button"
-		"labelText"		"koth_product (rc8)"
+		"labelText"		"cp_reckoner (rc1)"
 		"command"		"engine map4"
 		"xpos"			"c115"
 		"ypos"			"279"
@@ -410,7 +410,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map5Button"
-		"labelText"		"cp_reckoner (b3)"
+		"labelText"		"koth_product (rc8)"
 		"command"		"engine map5"
 		"xpos"			"c-10"
 		"ypos"			"301"

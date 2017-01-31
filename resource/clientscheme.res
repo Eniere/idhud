@@ -67,7 +67,7 @@ Scheme
 			"1"
 			{
 				"name"			"xhairs"
-				"tall"			"32"
+				"tall"			"24"
 				"antialias"		"0"
 				"additive"		"0"
 				"outline"		"1"
@@ -199,6 +199,45 @@ Scheme
 				"tall"			"14"
 				"antialias"		"1"
 				"additive"		"0"
+			}
+		}
+		"Seeker"
+		{
+			"1"
+			{
+				"name"			"tf2cross"
+				"tall"			"12"
+				"weight"		"0"
+				"antialias"		"1"
+				"additive"		"0"
+				"outline"		"0"
+				"dropshadow"	"0"
+			}
+		}
+		"SeekerOutline"
+		{
+			"1"
+			{
+				"name"			"tf2cross"
+				"tall"			"12"
+				"weight"		"0"
+				"antialias"		"0"
+				"additive"		"0"
+				"outline"		"1"
+				"dropshadow"	"0"
+			}
+		}
+		"SeekerShadow"
+		{
+			"1"
+			{
+				"name"			"tf2cross"
+				"tall"			"12"
+				"weight"		"0"
+				"antialias"		"1"
+				"additive"		"0"
+				"outline"		"0"
+				"dropshadow"	"1"
 			}
 		}
 		"DefaultOutline"
@@ -777,5 +816,10 @@ Scheme
 		{
 			"font" "resource/fonts/padlocks.ttf"
 			"name" "padlocks"
+		"11" 
+		{
+			"font" "resource/fonts/tf2cross.ttf"
+			"name" "tf2cross"
+		}
 	}
 }

@@ -182,10 +182,10 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"zpos"				"2"
-		"xpos"				"c-26"
-		"ypos"				"c-28"
-		"wide"				"51"
-		"tall"				"52"
+		"xpos"				"c-25"
+		"ypos"				"c-26"
+		"wide"				"50"
+		"tall"				"49"
 		"font"				"CrosshairsOutline32"
 		"labelText"			"k"
 		"textAlignment"		"center"
@@ -422,4 +422,22 @@
 			"textAlignment"		"center" 
 		}
 	}
+
+	"SeekerCrosshair"
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"SeekerCrosshair"
+		"visible"   		"0"
+		"visible_minmode"	"0"
+		"xpos"				"c-27"
+		"ypos"				"c-25"
+		"wide"				"49"
+		"tall"				"50"
+		"fgcolor"			"CustomWhite"
+		"labelText"			"x"
+		"font"				"Seeker"				//SeekerOutline, SeekerShadow
+		"textAlignment"		"center"
+		"enabled"			"1"
+		"zpos"				"1"
+    }
 }
