@@ -293,7 +293,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map1Button"
-		"labelText"		"cp_badlands"
+		"labelText"		"cp_process"
 		"command"		"engine map1"
 		"xpos"			"c-10"
 		"ypos"			"257"
@@ -323,7 +323,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map2Button"
-		"labelText"		"cp_snakewater"
+		"labelText"		"cp_prolands_b2c"
 		"command"		"engine map2"
 		"xpos"			"c115"
 		"ypos"			"257"
@@ -352,7 +352,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map3Button"
-		"labelText"		"cp_process"
+		"labelText"		"cp_gullywash"
 		"command"		"engine map3"
 		"xpos"			"c-10"
 		"ypos"			"279"
@@ -381,7 +381,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map4Button"
-		"labelText"		"cp_reckoner (rc1)"
+		"labelText"		"koth_product_rc8"
 		"command"		"engine map4"
 		"xpos"			"c115"
 		"ypos"			"279"
@@ -410,7 +410,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map5Button"
-		"labelText"		"koth_product (rc8)"
+		"labelText"		"cp_snakewater"
 		"command"		"engine map5"
 		"xpos"			"c-10"
 		"ypos"			"301"
@@ -439,7 +439,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map6Button"
-		"labelText"		"cp_gullywash"
+		"labelText"		"cp_sunshine"
 		"command"		"engine map6"
 		"xpos"			"c115"
 		"ypos"			"301"
@@ -468,7 +468,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map7Button"
-		"labelText"		"cp_granary (rc4)"
+		"labelText"		"cp_reckoner_rc2"
 		"command"		"engine map7"
 		"xpos"			"c-10"
 		"ypos"			"323"
