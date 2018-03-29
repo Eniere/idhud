@@ -323,7 +323,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map2Button"
-		"labelText"		"cp_prolands_b2c"
+		"labelText"		"cp_sunshine"
 		"command"		"engine map2"
 		"xpos"			"c115"
 		"ypos"			"257"
@@ -381,7 +381,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map4Button"
-		"labelText"		"koth_product_rc8"
+		"labelText"		"cp_granary_pro"
 		"command"		"engine map4"
 		"xpos"			"c115"
 		"ypos"			"279"
@@ -439,7 +439,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map6Button"
-		"labelText"		"cp_sunshine"
+		"labelText"		"koth_product"
 		"command"		"engine map6"
 		"xpos"			"c115"
 		"ypos"			"301"
@@ -468,7 +468,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Map7Button"
-		"labelText"		"cp_reckoner_rc2"
+		"labelText"		"cp_prolands"
 		"command"		"engine map7"
 		"xpos"			"c-10"
 		"ypos"			"323"
