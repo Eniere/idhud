@@ -6,7 +6,12 @@
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
-	{	
+	{
+	}
+
+	"FooterLine"
+	{
+		"zpos"			"-49"
 	}
 
 	"ShowPromoCodesButton"
