@@ -218,7 +218,7 @@
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011_widescreen"
+			"image"		"../console/background_xmas2020_widescreen"
 		}		
 	}
 					
@@ -643,24 +643,6 @@
 				"keyboardinputenabled" "0"
 			}		
 		}
-	}
-
-	"StreamListPanel"
-	{
-		"ControlName"	"CTFStreamListPanel"
-		"fieldName"		"StreamListPanel"
-		"xpos"			"c5"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"350"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
 	}
 
 	"QuestLogButton"
@@ -1725,24 +1707,104 @@
 				{
 					"0"
 					{
-						"item"		"Blue Moon Cosmetic Key"
+						"item"		"Winter 2020 Cosmetic Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Jungle Inferno Contracts Pass"
-						"show_market"	"0"
+						"item"		"Winter 2020 Cosmetic Case"
+						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Winter 2017 Cosmetic Key"
+						"item"		"Winter 2020 War Paint Key"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Winter 2017 War Paint Key"
+						"item"		"Winter 2020 War Paint Case"
+						"show_market"	"1"
+					}
+					"4"
+					{
+						"item"		"Taunt: The Pooped Deck"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Taunt: Time Out Therapy"
+						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Taunt: Rocket Jockey"
+						"show_market"	"0"
+					}
+					"7"
+					{
+						"item"		"Taunt: The Boston Boarder"
+						"show_market"	"0"
+					}
+					"8"
+					{
+						"item"		"Taunt: Scorcher's Solo"
+						"show_market"	"0"
+					}
+					"9"
+					{
+						"item"		"Taunt: Texas Truckin"
+						"show_market"	"0"
+					}
+					"10"
+					{
+						"item"		"Taunt: Spin-to-Win"
+						"show_market"	"0"
+					}
+					"11"
+					{
+						"item"		"Taunt: The Fist Bump"
+						"show_market"	"0"
+					}
+					"12"
+					{
+						"item"		"Map Token Pier"
+						"show_market"	"0"
+					}
+					"13"
+					{
+						"item"		"Strange Filter: Pier (Community)"
 						"show_market"	"0"
 					}					
+					"14"
+					{
+						"item"		"Map Token SnowVille"
+						"show_market"	"0"
+					}
+					"15"
+					{
+						"item"		"Strange Filter: SnowVille (Community)"
+						"show_market"	"0"
+					}
+					"16"
+					{
+						"item"		"Map Token Snowfall"
+						"show_market"	"0"
+					}
+					"17"
+					{
+						"item"		"Strange Filter: Snowfall (Community)"
+						"show_market"	"0"
+					}
+					"18"
+					{
+						"item"		"Map Token Wutville"
+						"show_market"	"0"
+					}
+					"19"
+					{
+						"item"		"Strange Filter: Wutville (Community)"
+						"show_market"	"0"
+					}
 				}
 			}
 
@@ -1915,9 +1977,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ShowPromoCodesButton"
-		"xpos"			"c-285"
-		"ypos"			"379"
-		"zpos"			"-60"
+		"xpos"			"c30"
+		"ypos"			"385"
+		"zpos"			"5"
 		"wide"			"250"
 		"tall"			"26"
 		"autoResize"	"0"
