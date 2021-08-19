@@ -816,6 +816,7 @@ Scheme
 		{
 			"font" "resource/fonts/padlocks.ttf"
 			"name" "padlocks"
+		}
 		"11" 
 		{
 			"font" "resource/fonts/tf2cross.ttf"
