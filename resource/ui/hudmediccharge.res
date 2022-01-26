@@ -54,8 +54,37 @@
 		"ypos_minmode"			"r46"
 	}
 	
+	"ResistIconAnchor"
+	{
+		"ControlName" 			"EditablePanel"
+		"fieldName" 			"ResistIconAnchor"
+		"xpos" 					"c-11"
+		"ypos" 					"c15"
+		"xpos_minmode" 			"c-49"
+		"ypos_minmode" 			"c-20"
+		"wide" 					"22"
+		"tall" 					"22"
+		"visible" 				"1"
+		"visible_minmode" 		"1"
+		"enabled" 				"1"
+	}
+	
 	"ResistIcon"
 	{
-		"wide"					"0"
+		"ControlName" 			"ImagePanel"
+		"fieldName" 			"ResistIcon"
+		"xpos" 					"0"
+		"ypos" 					"0"
+		"zpos" 					"999"
+		"wide" 					"22"
+		"tall" 					"22"
+		"visible" 				"1"
+		"visible_minmode" 		"1"
+		"enabled" 				"1"
+		"image" 				"../HUD/defense_buff_bullet_blue"
+		"scaleImage" 			"1"
+		"pin_to_sibling" 		"ResistIconAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 }
