@@ -773,7 +773,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"5" 
+		"5"
 		{
 			"font" "resource/TF2Professor.ttf"
 			"name" "TF2 Professor"
@@ -786,7 +786,7 @@ Scheme
 				"range" "0x0000 0x00FF"
 			}
 		}	
-		"6" 
+		"6"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
@@ -804,22 +804,22 @@ Scheme
 			}
 		}			
 		"7" "resource/ocra.ttf"
-		"8" 
+		"8"
 		{
 			"font" "resource/fonts/Surface.otf"
 			"name" "Surface"
 		}
-		"9" 
+		"9"
 		{
 			"font" "resource/fonts/xhairs.otf"
 			"name" "xhairs"
 		}
-		"10" 
+		"10"
 		{
 			"font" "resource/fonts/padlocks.ttf"
 			"name" "padlocks"
 		}
-		"11" 
+		"11"
 		{
 			"font" "resource/fonts/tf2cross.ttf"
 			"name" "tf2cross"
