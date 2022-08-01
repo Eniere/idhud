@@ -1707,23 +1707,28 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2021 Cosmetic Key"
+						"item"		"Summer 2022 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2021 Cosmetic Case"
+						"item"		"Summer 2022 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Tour of Duty Ticket"
+						"item"		"Taunt: Doctor's Defibrillators"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Tour of Duty Ticket"
-						"show_market"	"1"
+						"item"		"Taunt: Shooter's Stakeout"
+						"show_market"	"0"
+					}
+					"4"
+					{
+						"item"		"Taunt: The Hot Wheeler"
+						"show_market"	"0"
 					}
 				}
 			}
