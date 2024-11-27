@@ -14,6 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"medal_width"		"20"
+		"medal_column_width" "18"
 		"avatar_width"		"65"
 		"spacer"			"5"
 		"name_width"		"118"
