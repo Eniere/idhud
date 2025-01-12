@@ -15,7 +15,7 @@
 		"tabPosition"		"0"
 		"medal_width"		"20"
 		"medal_column_width" "18"
-		"avatar_width"		"65"
+		"avatar_width"		"28"
 		"spacer"			"5"
 		"name_width"		"118"
 		"nemesis_width"		"25"
