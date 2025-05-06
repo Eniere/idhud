@@ -14,12 +14,12 @@
 		"wide"					"f0"
 		"tall"					"480"
 	}
-	
+
 	HudDeathNotice
 	{
-		"MaxDeathNotices" 		"6"
+		"MaxDeathNotices" 		"5"
 	}
-	
+
 	HudCloseCaption
 	{
 		"xpos"					"c-250"
@@ -33,7 +33,7 @@
 		"ItemFadeOutTime"		"0.3"
 		"topoffset"				"0"
 	}
-	
+
 	HudTournament
 	{
 		"fieldName"				"HudTournament"
@@ -46,7 +46,7 @@
 		"wide"					"250"
 		"tall"					"80"
 	}
-	
+
 	HudTournamentSetup
 	{
 		"fieldName"				"HudTournamentSetup"
@@ -58,7 +58,7 @@
 		"wide"					"180"
 		"tall"					"65"
 	}
-	
+
 	"CTFStreakNotice"
 	{
 		"fieldName"				"CTFStreakNotice"
@@ -71,7 +71,7 @@
 		"bgcolor_override"		"0 0 0 0"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	DisguiseStatus
 	{
 		"fieldName" 			"DisguiseStatus"
