@@ -23,3 +23,5 @@ http://teamfortress.tv/thread/16751/improved-default-hud
 http://etf2l.org/forum/customise/topic-28385
 
 Use Notepad++ (http://notepad-plus-plus.org) to preview or edit files.
+
+Page on comfig.app: https://comfig.app/huds/page/improved-default-hud/
