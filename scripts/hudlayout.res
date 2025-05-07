@@ -1,7 +1,8 @@
-//	Crosshairs section moved to separate file (idhud-master\scripts\hudcrosshairs.res)
+// Crosshairs section moved to separate file (idhud/scripts/hudcrosshairs.res)
+// Uncomment (remove "//") from the second #base line of this file to allow the HUD to load custom crosshairs
 
 #base "../basefiles/hudlayout.res"
-#base "../scripts/hudcrosshairs.res"
+//#base "../scripts/hudcrosshairs.res"
 
 "Resource/HudLayout.res"
 {
@@ -14,12 +15,12 @@
 		"wide"					"f0"
 		"tall"					"480"
 	}
-	
+
 	HudDeathNotice
 	{
 		"MaxDeathNotices" 		"6"
 	}
-	
+
 	HudCloseCaption
 	{
 		"xpos"					"c-250"
@@ -33,7 +34,7 @@
 		"ItemFadeOutTime"		"0.3"
 		"topoffset"				"0"
 	}
-	
+
 	HudTournament
 	{
 		"fieldName"				"HudTournament"
@@ -46,7 +47,7 @@
 		"wide"					"250"
 		"tall"					"80"
 	}
-	
+
 	HudTournamentSetup
 	{
 		"fieldName"				"HudTournamentSetup"
@@ -58,7 +59,7 @@
 		"wide"					"180"
 		"tall"					"65"
 	}
-	
+
 	"CTFStreakNotice"
 	{
 		"fieldName"				"CTFStreakNotice"
@@ -71,7 +72,7 @@
 		"bgcolor_override"		"0 0 0 0"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	DisguiseStatus
 	{
 		"fieldName" 			"DisguiseStatus"
