@@ -4,7 +4,7 @@ Scheme
 {
 	Colors
 	{
-		"CustomRed"				"255 80 80 255"		
+		"CustomRed"				"255 80 80 255"
 		"CustomPink"			"255 80 255 255"
 		"CustomGray"			"20 20 20 255"
 		"CustomBlack"			"0 0 0 255"
@@ -18,7 +18,7 @@ Scheme
 	Fonts
 	{
 
-		"Crosshairs24"							//1.17; 
+		"Crosshairs24"							//1.17;
 		{										//There and below — crosshair number in the table
 			"1"
 			{
@@ -29,7 +29,7 @@ Scheme
 				"outline"		"0"
 			}
 		}
-		"Crosshairs25"							//1.10; 
+		"Crosshairs25"							//1.10;
 		{
 			"1"
 			{
@@ -40,7 +40,7 @@ Scheme
 				"outline"		"0"
 			}
 		}
-		"Crosshairs28"							//1.8; 1.13; 1.14; 1.15; 
+		"Crosshairs28"							//1.8; 1.13; 1.14; 1.15;
 		{
 			"1"
 			{
@@ -51,7 +51,7 @@ Scheme
 				"outline"		"0"
 			}
 		}
-		"Crosshairs32"							//1.9; 
+		"Crosshairs32"							//1.9;
 		{
 			"1"
 			{
@@ -62,7 +62,7 @@ Scheme
 				"outline"		"0"
 			}
 		}
-		"CrosshairsOutline32"					//1.11; 1.12; 
+		"CrosshairsOutline32"					//1.11; 1.12;
 		{
 			"1"
 			{
@@ -73,7 +73,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"CrosshairsOutline15"					//1.4; 
+		"CrosshairsOutline15"					//1.4;
 		{
 			"1"
 			{
@@ -84,7 +84,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"CrosshairsOutline16"					//1.1; 1.2; 1.3; 1.5; 
+		"CrosshairsOutline16"					//1.1; 1.2; 1.3; 1.5;
 		{
 			"1"
 			{
@@ -95,7 +95,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"CrosshairsOutline24"					//1.6; 1.7; 
+		"CrosshairsOutline24"					//1.6; 1.7;
 		{
 			"1"
 			{
@@ -116,7 +116,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"CODHitmarker"							//3.1; 3.2; 3.3; 3.4; 
+		"CODHitmarker"							//3.1; 3.2; 3.3; 3.4;
 		{
 			"1"
 			{
@@ -754,7 +754,7 @@ Scheme
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
-			}	
+			}
 			"polish"
 			{
 				"range" "0x0000 0xFFFF"
@@ -767,7 +767,7 @@ Scheme
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
-			}	
+			}
 			"polish"
 			{
 				"range" "0x0000 0xFFFF"
@@ -780,12 +780,12 @@ Scheme
 			"turkish"
 			{
 				"range" "0x0000 0x00FF"
-			}	
+			}
 			"polish"
 			{
 				"range" "0x0000 0x00FF"
 			}
-		}	
+		}
 		"6"
 		{
 			"font" "resource/TF2Build.ttf"
@@ -793,7 +793,7 @@ Scheme
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
-			}	
+			}
 			"polish"
 			{
 				"range" "0x0000 0xFFFF"
@@ -802,11 +802,11 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
+		}
 		"7" "resource/ocra.ttf"
 		"8"
 		{
-			"font" "resource/fonts/Surface.otf"
+			"font" "resource/fonts/surface.otf"
 			"name" "Surface"
 		}
 		"9"
