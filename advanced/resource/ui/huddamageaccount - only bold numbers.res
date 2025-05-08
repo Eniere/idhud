@@ -7,7 +7,7 @@
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"CustomGreen"
-		"NegativeColor"			"CustomRed"
+		"NegativeColor"			"CustomYellow"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMediumBold"
 		"delta_item_font_big"	"HudFontMediumBold"
