@@ -1,14 +1,4 @@
-"idhud-master"
-{
-"ui_version" "3"
-}
-
 "idhud"
 {
-"ui_version" "3"
-}
-
-"hud"
-{
-"ui_version" "3"
+    "ui_version" "3"
 }
