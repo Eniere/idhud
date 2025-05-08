@@ -3,6 +3,12 @@
 This is not a custom HUD in its usual meaning, but some fixes for the standard Team Fortress 2 UI such as adding HP numbers on target IDs, reworked Medic UI, popular custom crosshairs and more.
 Improved default HUD development is complete. No new features are planned — only support for the upcoming major TF2 updates.
 
+Many thanks to all the contributors:
+@Tiagoquix
+@FlaminSarge
+@Wormsweat
+Special thanks to @Tiagoquix. Since I can no longer actively develop and update IDHUD, his productive help is extremely important.
+
 Gallery: https://web.archive.org/web/20230516150753/https://imgur.com/a/l9qai
 
 How-to: https://wiki.teamfortress.com/wiki/User:Eniere/Improved_Default_HUD
@@ -14,12 +20,8 @@ Discussions:
 Page on comfig.app: https://comfig.app/huds/page/improved-default-hud/  
 
 ### Changelog
-#### Version 3.9.2 (January 26th, 2022)
+#### Version 3.9.3 (May 8th, 2025)
 - updated to support latest updates;
-- vaccinator icon fix;
-- missed resource/fonts/Surface.otf font file is back;
-- cleaned up from unused files;
-- removed double crosshair when coaching;
-- minor "under-the-hood" changes.
+- many of "under-the-hood" changes.
 
 Use [Notepad++](http://notepad-plus-plus.org) to preview and edit files.
