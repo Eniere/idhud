@@ -1,7 +1,5 @@
-//	Install HUD fonts (idhud-master\resource\fonts\) before editing!
-
-#base "../basefiles/hudlayout.res"
-#base "../scripts/hudcrosshairs.res"
+// If there are any problems, try installing HUD fonts (idhud/resource/fonts/) into your system
+// To enable a crosshair, change the respective crosshair's "visible" value from "0" to "1"
 
 "Resource/HudLayout.res"
 {
@@ -208,7 +206,7 @@
 		"textAlignment"		"center"
 		"fgcolor"			"CustomWhite"
 	}
-	
+
 	RoundBracketsCross		//1.13
 	{
 		"controlName"		"CExLabel"
@@ -225,7 +223,7 @@
 		"textAlignment"		"center"
 		"fgcolor"			"CustomWhite"
 	}
-	
+
 	RoundBracketsDot		//1.14
 	{
 		"controlName"		"CExLabel"
@@ -242,7 +240,7 @@
 		"textAlignment"		"center"
 		"fgcolor"			"CustomWhite"
 	}
-	
+
 	RoundBrackets			//1.15
 	{
 		"controlName"		"CExLabel"
@@ -368,7 +366,7 @@
 			"zpos"				"1"
 			"font"				"CODHitmarker"
 			"labelText"			"\"
-			"textAlignment"		"center" 
+			"textAlignment"		"center"
 		}
 		"CODxhairLeftBottom"
 		{
@@ -385,7 +383,7 @@
 			"zpos"				"1"
 			"font"				"CODHitmarker"
 			"labelText"			"/"
-			"textAlignment"		"center" 
+			"textAlignment"		"center"
 		}
 		"CODxhairRightTop"
 		{
@@ -402,7 +400,7 @@
 			"zpos"				"1"
 			"font"				"CODHitmarker"
 			"labelText"			"/"
-			"textAlignment"		"center" 
+			"textAlignment"		"center"
 		}
 		"CODxhairRightBottom"
 		{
@@ -419,7 +417,7 @@
 			"zpos"				"1"
 			"font"				"CODHitmarker"
 			"labelText"			"\"
-			"textAlignment"		"center" 
+			"textAlignment"		"center"
 		}
 	}
 
