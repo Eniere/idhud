@@ -1,7 +1,4 @@
-//	Uncomment the line below to enable the Server Control Panel in the Main Menu:
-//	#base "../../advanced/resource/ui/mainmenuoverride_scp.res"
-
-	#base "../../basefiles/resource/ui/MainMenuOverride.res"
+#base "../../basefiles/resource/ui/MainMenuOverride.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -18,7 +15,7 @@
 	{
 		"wide"			"0"
 	}
-	
+
 	"VRBGPanel"
 	{
 		"wide"			"0"
@@ -61,11 +58,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"command"		"engine demoui; demoui2"
-		
+
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
-		
+
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
