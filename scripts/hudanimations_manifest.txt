@@ -1,15 +1,6 @@
-// Uncomment (remove "//") to enable desired preferences
-// Remember to add "//" if changing from one Uber preference to another; default is small uber value
 hudanimations_manifest
 {
-	"file"			"scripts/hudanimations.txt"													// Default game file; don't touch!
-
-	"file"			"advanced/scripts/hudanimations_tf - small uber value.txt"					// Small ubercharge value under the crosshair (default IDHUD setting)
-//	"file"			"advanced/scripts/hudanimations_tf - large uber value.txt"					// Large ubercharge value
-//	"file"			"advanced/scripts/hudanimations_tf - combined uber layout.txt"				// Large ubercharge value and small value under crosshair (combined)
-
-//	"file"			"scripts/hudanimations_tf - hit indicator.txt"								// Uncomment to enable hit indicator
-
-	"file"			"scripts/hudanimations_tf - idhud.txt"										// IDHUD file; don't touch!
-	"file"			"scripts/hudanimations_tf.txt"												// Default game file; don't touch!
+	"file"			"scripts/hudanimations.txt"
+	"file"			"scripts/hudanimations_custom.txt"
+	"file"			"scripts/hudanimations_tf.txt"
 }
