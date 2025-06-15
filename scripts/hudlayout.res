@@ -1,8 +1,4 @@
-// Crosshairs section moved to separate file (idhud/scripts/hudcrosshairs.res)
-// Uncomment (remove "//") from the second #base line of this file to allow the HUD to load custom crosshairs
-
 #base "../basefiles/hudlayout.res"
-//#base "../scripts/hudcrosshairs.res"
 
 "Resource/HudLayout.res"
 {
