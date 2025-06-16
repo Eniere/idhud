@@ -1,4 +1,4 @@
-![banner](https://raw.githubusercontent.com/mastercomfig/hud-db/main/hud-resources/improved-default-hud/improved-default-hud-banner.webp)
+![banner](improved-default-hud-banner.webp)
 
 This is not a custom HUD in its usual meaning, but some fixes for the standard Team Fortress 2 UI such as adding HP numbers on target IDs, reworked Medic UI, popular custom crosshairs and more.
 Improved default HUD development is complete. No new features are planned — only support for the upcoming major TF2 updates.
