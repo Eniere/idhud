@@ -11,8 +11,8 @@
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,8 +25,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -39,8 +39,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -53,7 +53,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusKillerHealthValue"
 	{
@@ -66,11 +66,11 @@
 		"tall"				"9"
 		"visible"			"1"
 		"enabled"			"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labeltext"			"%Health%"
 		"font"				"HudFontSmallBold"
 		"fgcolor_override"  "TanLight"
-	}	
+	}
 	"PlayerStatusKillerHealthValueBlur"
 	{
 		"ControlName"	"Label"
@@ -82,9 +82,9 @@
 		"tall"				"9"
 		"visible"			"1"
 		"enabled"			"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labeltext"			"%Health%"
 		"font"				"HudFontSmallBoldBlur"
 		"fgcolor_override"  "CustomBlack"
-	}		
+	}
 }
