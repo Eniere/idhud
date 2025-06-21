@@ -3053,79 +3053,6 @@ Scheme
 // IDHUD FONTS
 // ==============================
 
-////////////////
-// SURFACE
-////////////////
-		"Surface14"
-		{
-			"1"
-			{
-				"name"			"Surface"
-				"tall"			"14"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"Surface14Outline"
-		{
-			"1"
-			{
-				"name"			"Surface"
-				"tall"			"14"
-				"additive"		"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-
-		"Surface18"
-		{
-			"1"
-			{
-				"name"			"Surface"
-				"tall"			"18"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"Surface18Outline"
-		{
-			"1"
-			{
-				"name"			"Surface"
-				"tall"			"18"
-				"additive"		"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-
-		"Surface24"
-		{
-			"1"
-			{
-				"name"			"Surface"
-				"tall"			"24"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"Surface24Outline"
-		{
-			"1"
-			{
-				"name"			"Surface"
-				"tall"			"24"
-				"additive"		"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-
-
 /////////////////////
 // DEFAULT OUTLINE
 /////////////////////
@@ -6401,10 +6328,5 @@ Scheme
 		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
-		"18"
-		{
-			"font" "resource/surface.otf"
-			"name" "Surface"
-		}
 	}
 }
