@@ -195,7 +195,7 @@
 
 		"render_texture"	"0"
 		"fov"				"80"
-		//"allow_rot"		"1"		// Disabled intentionally
+		//"allow_rot"		"1"
 		"allow_manip" 		"1"
 
 		"model"
