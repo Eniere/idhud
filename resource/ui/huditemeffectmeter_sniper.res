@@ -10,12 +10,14 @@
 		"ypos"			"r51"	[$WIN32]
 		"xpos_minmode"	"r130"	[$WIN32]
 		"ypos_minmode"	"r43"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r124"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -29,13 +31,13 @@
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -58,7 +60,7 @@
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -69,7 +71,7 @@
 		"zpos"					"2"
 		"wide"					"40"
 		"wide_minmode"			"50"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -77,8 +79,8 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
-	
+	}
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -87,7 +89,7 @@
 		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"20"	
+		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
