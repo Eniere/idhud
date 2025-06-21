@@ -1,5 +1,6 @@
 The HUD files are licensed under the "MIT License". See the "LICENSE-MIT.txt" file for more details.
 The HUD files are under copyright of both Eniere (year 2014) and Tiagoquix (year 2025).
+You can simply use only "Improved Default HUD team" for copyright attribution purposes.
 
 The HUD logo is licensed under the "Creative Commons Attribution 4.0 International" license. See the "LICENSE-CCBY4.txt" file for more details.
 The HUD logo is under copyright of the "Improved Default HUD team" (year 2025). Please use this for attribution.
