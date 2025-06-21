@@ -20,12 +20,12 @@
 		"teambg_2_lodef"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -42,10 +42,10 @@
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
 	}
@@ -64,16 +64,16 @@
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
 	}
-	
+
 	"TargetNameLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"HudFontSmall"
@@ -95,7 +95,7 @@
 		"brighttext"		"0"
 	}
 	"TargetDataLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"FontStoreOriginalPrice"
@@ -129,20 +129,20 @@
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
-		"enabled"		"0"	
+		"enabled"		"0"
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}	
-	
+	}
+
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"43"		//40
-		"xpos_minmode"	"43"		//38
+		"xpos"			"43"
+		"xpos_minmode"	"43"
 		"ypos"			"20"
 		"ypos_minmode"	"16"
 		"zpos"			"12"
@@ -152,11 +152,11 @@
 		"tall_minmode"		"7"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_soldier"
+		"image"			"../hud/leaderboard_class_heavy"
 		"scaleImage"	"1"
 	}
-	
-	"KillStreakIcon"				//fix the pos
+
+	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
@@ -172,7 +172,7 @@
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}
-	
+
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -183,8 +183,8 @@
 		"wide"			"32"
 		"tall"			"36"
 		"visible"		"1"
-		"enabled"		"1"	
-		
+		"enabled"		"1"
+
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
@@ -200,7 +200,7 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
-		
+
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -233,7 +233,7 @@
 		}
 
 		"MoveableKeyLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"TFFontMedium"
@@ -251,7 +251,7 @@
 			"textAlignment"		"North"
 			"dulltext"		"0"
 			"brighttext"		"0"
-		}	
+		}
 	}
 	"AvatarImage"
 	{
@@ -267,7 +267,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
-	}	
+	}
 }
