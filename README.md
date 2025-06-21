@@ -22,14 +22,21 @@ Page on comfig.app: https://comfig.app/huds/page/improved-default-hud/
 
 Use [Notepad++](http://notepad-plus-plus.org) to preview and edit files.
 
+## Notes
+
 ### Recommended ConVars
 The following are some ConVar recommendations for a better experience with the HUD.
 ```
-cl_spec_carrieditems 						"0"      // Hides the loadout items being used by the player you are spectating
-cl_use_tournament_specgui 					"1"      // Displays status portraits of all players while spectating in 6v6 tournament mode
-tf_hud_show_servertimelimit 				"1"      // Show server time limit in addition to round time
-tf_hud_target_id_alpha 						"255"    // Make HUD target ID background opaque to improve visibility
-tf_hud_target_id_disable_floating_health 	"1"      // Places TargetID HealthBar inside the character nameplate
+cl_spec_carrieditems 						0      // Hides the loadout items being used by the player you are spectating
+cl_use_tournament_specgui 					1      // Displays status portraits of all players while spectating in 6v6 tournament mode
+tf_hud_show_servertimelimit 				1      // Show server time limit in addition to round time
+tf_hud_target_id_alpha 						255    // Make HUD target ID background opaque to improve visibility
+tf_hud_target_id_disable_floating_health 	1      // Places TargetID HealthBar inside the character nameplate
 ```
 Note: if you use mastercomfig, `tf_hud_show_servertimelimit` is enabled by default for all presets, and `tf_hud_target_id_alpha` can be controlled using the "Panels" module.  
 The rest of the commands can be managed via the advanced options menu or directly through the console.
+
+### Spectator tournament in different aspect ratios 
+If you play on 4:3 or 16:10 rather than the 16:9 aspect ratio, you may have to edit the line `team2_player_base_offset_x` in the `idhud/resource/ui/spectatortournament.res` according to the comment.
+The default value is adjusted for the 16:9 aspect ratio.
+This is only applicable if you enable `cl_use_tournament_specgui`.
