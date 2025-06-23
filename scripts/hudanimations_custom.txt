@@ -1,6 +1,6 @@
 event HudHealthBonusPulse
 {
-	Animate		PlayerStatusHealthBonusImage 			Alpha		"255"				Linear 0.0 0.2
+	Animate		PlayerStatusHealthBonusImage 			Alpha		"100"				Linear 0.0 0.2
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"0"					Linear 0.2 0.4
 	Animate		PlayerStatusHealthValueTargetID 		FgColor		"CustomGreen"		Linear 0.0 0.0
 	Animate		PlayerStatusKillerHealthValue 			FgColor		"CustomGreen"		Linear 0.0 0.0
