@@ -1,17 +1,17 @@
-![banner](improved-default-hud-banner.webp)
+![banner](improved_default_hud_banner.png)
 
 This is not a custom HUD in its usual meaning, but some fixes for the standard Team Fortress 2 UI such as adding HP numbers on target IDs, reworked Medic UI, popular custom crosshairs and more.
 Improved default HUD development is complete. No new features are planned — only support for the upcoming major TF2 updates.
 
-Many thanks to all the contributors: @Tiagoquix, @FlaminSarge, @Wormsweat. Special thanks to @Tiagoquix. Since I can no longer actively develop and update IDHUD, his productive help is extremely important.
+*Eniere:*
+> Many thanks to all the contributors: @Tiagoquix, @FlaminSarge, @Wormsweat.  
+> Special thanks to @Tiagoquix. Since I can no longer actively develop and update IDHUD, his productive help is extremely important.
 
 Gallery: https://web.archive.org/web/20230516150753/https://imgur.com/a/l9qai
 
-How-to: https://wiki.teamfortress.com/wiki/User:Eniere/Improved_Default_HUD
-
 Discussions:
-- http://teamfortress.tv/thread/16751/improved-default-hud
-- http://etf2l.org/forum/customise/topic-28385
+- https://teamfortress.tv/thread/16751/improved-default-hud
+- https://etf2l.org/forum/customise/topic-28385
 
 Page on comfig.app: https://comfig.app/huds/page/improved-default-hud/  
 
@@ -20,7 +20,8 @@ Page on comfig.app: https://comfig.app/huds/page/improved-default-hud/
 - updated to support latest updates;
 - many of "under-the-hood" changes.
 
-Use [Notepad++](http://notepad-plus-plus.org) to preview and edit files.
+On Windows, use [Notepad++](https://notepad-plus-plus.org) to preview and edit files.
+On Linux, Kate from KDE is recommended. Download it from your distribution's repository.
 
 ## Notes
 
@@ -33,12 +34,12 @@ tf_hud_show_servertimelimit 				1      // Show server time limit in addition to 
 tf_hud_target_id_alpha 						255    // Make HUD target ID background opaque to improve visibility
 tf_hud_target_id_disable_floating_health 	1      // Places TargetID HealthBar inside the character nameplate
 ```
-Note: if you use mastercomfig, `tf_hud_show_servertimelimit` is enabled by default for all presets, and `tf_hud_target_id_alpha` can be controlled using the "Panels" module.  
+- If you use mastercomfig, `tf_hud_show_servertimelimit` is enabled by default for all presets, and `tf_hud_target_id_alpha` can be controlled using the "Panels" module.  
 The rest of the commands can be managed via the advanced options menu or directly through the console.
+- `cl_use_tournament_specgui 1` is more for competitive game modes such as 6v6, Prolander and Highlander. Enabling it out of those game modes may result in some weird behavior in custom game modes.
 
-2nd note: `cl_use_tournament_specgui 1` is more for competitive game modes such as 6v6, Prolander and Highlander. Enabling it out of those game modes may result in some weird behavior in custom game modes.
+### Spectator tournament GUI in different aspect ratios
+*This is only applicable if you enable `cl_use_tournament_specgui`.*
 
-### Spectator tournament in different aspect ratios 
-If you play on 4:3 or 16:10 rather than the 16:9 aspect ratio, you may have to edit the line `team2_player_base_offset_x` in the `idhud/resource/ui/spectatortournament.res` according to the comment.
+If you play on 4:3 or 16:10 rather than the 16:9 aspect ratio, you may have to edit the line `team2_player_base_offset_x` in the `idhud/resource/ui/spectatortournament.res` according to the comment.  
 The default value is adjusted for the 16:9 aspect ratio.
-This is only applicable if you enable `cl_use_tournament_specgui`.
