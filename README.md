@@ -30,8 +30,8 @@ Currently maintained by [Tiagoquix](https://github.com/Tiagoquix).
 - Loadout screen keyboard controls for zoom, rotate, move and spotlight functionalities
 - Better spectator tournament support (`cl_use_tournament_specgui 1`)
 - No duplicate crosshair when coaching
-- Miscellaneous scoreboard improvements
-- Minor improvements to 3D class portraits
+- Minor scoreboard improvements
+- Minor improvements to 3D class portraits angles
 - Darker background for close captions (developer commentary)
 - Maximum visible death notices increased from 4 to 5
 
