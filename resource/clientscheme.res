@@ -1407,57 +1407,53 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Tahoma"
-				"tall"			"24"
-				"tall_hidef"	"32"
-				"weight"		"500"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"		"Tahoma"
+				"tall"		"8"
+				"weight"	"500"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"			"Tahoma"
-				"tall"			"24"
-				"tall_hidef"	"32"
-				"weight"		"500"
-				"italic"		"1"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"		"Tahoma"
+				"tall"		"8"
+				"weight"	"500"
+				"italic"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"			"Tahoma"
-				"tall"			"24"
-				"tall_hidef"	"32"
-				"weight"		"900"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"		"Tahoma"
+				"tall"		"8"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"			"Tahoma"
-				"tall"			"24"
-				"tall_hidef"	"32"
-				"weight"		"900"
-				"italic"		"1"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"		"Tahoma"
+				"tall"		"8"
+				"weight"	"900"
+				"italic"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"			"Tahoma"
-				"tall"			"16"
+				"name"		"Tahoma"
+				"tall"		"16"
 				"tall_hidef"	"24"
-				"weight"		"900"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 
