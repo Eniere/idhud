@@ -31,7 +31,6 @@ Currently maintained by [Tiagoquix](https://github.com/Tiagoquix).
 - Loadout screen controls for rotating, spotlight...
 - No duplicate crosshair when coaching
 - Miscellaneous scoreboard improvements
-- Miscellaneous improvements for HUD minmode
 
 # Notes
 
