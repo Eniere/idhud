@@ -58,21 +58,21 @@ If you play on 4:3 or 16:10 rather than the 16:9 aspect ratio, you may have to e
 The default value is adjusted for the 16:9 aspect ratio.
 
 # Frequently asked questions (FAQ)
-**Could you make the HP numbers, the ammo counter and many other things centralized for a better gameplay experience?**  
+#### Could you make the HP numbers, the ammo counter and many other things centralized for a better gameplay experience?
 Yes, we could. However, we don't have plans to. IDHUD is meant to be simple while still retaining most of the default HUD experience, and that includes keeping things at the corners of the screen, which is how the default HUD operates.
 
 Some custom maps also expect the HUD to be the game's default, and so they put things on the center of the screen. Many popular HUDs have problems with this because they often obsfucate such elements due to their centralized nature, which ends up making such elements hard to read. [This map](https://steamcommunity.com/sharedfiles/filedetails/?id=2487430950) is a good example of this problem.
 
 If you want the default HUD, but centralized, check out the [Middle Mann Hud](https://gamebanana.com/mods/445578).
 
-**Why don't you provide support for custom crosshairs?**  
+#### Why don't you provide support for custom crosshairs?
 Because they don't work with the [Ambassador](https://wiki.teamfortress.com/wiki/Ambassador)'s dynamic crosshair.  
 Also, they don't hide themselves while taunting, and could cause conflicts in some custom game modes with custom crosshairs.
 
-**Why don't you provide support for hitmakers?**  
+#### Why don't you provide support for hitmakers?
 Because we already have hitsounds in the game. :)  
 Also, they usually tend to work better with custom crosshairs, which we don't support (see question above).
 
-**Why don't you provide support for viewing the BLU character in the loadout screen?**  
+#### Why don't you provide support for viewing the BLU character in the loadout screen?
 Because it only works in the main menu or in a local server, due to the fact that it uses the `r_skin` command, which is protected by `sv_cheats`.  
 Even when using the `r_skin` command, not all things work as expected — Australium weapons have graphical corruptions, and Warpaints don't change their team colors accordingly.
