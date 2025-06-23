@@ -23,7 +23,7 @@ Currently maintained by [Tiagoquix](https://github.com/Tiagoquix).
 # Features
 - No gray bars when spectating
 - Larger combat text numbers (damage, healing, metal spent...)
-- Last damage & healing done next to health cross
+- Last damage and healing done next to health cross
 - Better target ID readability (for both players and buildings)
 - Keyboard shortcuts in the backpack, loadout screen and MOTD
 - High-quality item previews in the backpack, loadout screen, Mann Co. store and more (no additional files needed; done via HUD file tweaks)
