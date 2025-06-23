@@ -1,15 +1,10 @@
 ![banner](improved_default_hud_banner.png)
 
-This is not a custom HUD in its usual meaning, but instead it focuses on adding some fixes for the standard Team Fortress 2 UI. See the (Features)[#features] section for more information.
+This is not a custom HUD in its usual meaning, but instead it focuses on adding some fixes for the standard Team Fortress 2 UI. See the [Features](#features) section for more information.
 
 Our mission is to keep the default look of the Team Fortress 2 HUD while only adding what we consider to be missing that is present in many popular HUDs.
 
-See the (FAQ)[#frequently-asked-questions-faq] for some possible questions you may have.
-
-*Eniere (original creator):*
-> Many thanks to all the contributors: @Tiagoquix, @FlaminSarge, @Wormsweat.
-> 
-> Special thanks to @Tiagoquix. Since I can no longer actively develop and update IDHUD, his productive help is extremely important.
+See the [FAQ](#frequently-asked-questions-faq) for some possible questions you may have.
 
 Gallery (outdated, for now): https://web.archive.org/web/20230516150753/https://imgur.com/a/l9qai
 
@@ -22,6 +17,10 @@ Page on comfig.app: https://comfig.app/huds/page/improved-default-hud/
 On Windows, use [Notepad++](https://notepad-plus-plus.org) to preview and edit files.
 
 On Linux, Kate from KDE is recommended. Download it from your distribution's repository.
+
+HUD originally created by @Eniere.
+
+Currently mantained by @Tiagoquix.
 
 # Features
 - No gray bars when spectating
