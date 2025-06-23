@@ -27,10 +27,11 @@ Currently maintained by [Tiagoquix](https://github.com/Tiagoquix).
 - Better target ID readability (for both players and buildings)
 - Keyboard shortcuts in the backpack, loadout screen and MOTD
 - High-quality item previews in the backpack, loadout screen, Mann Co. store and more (no additional files needed; done via HUD file tweaks)
+- Loadout screen keyboard controls for zoom, rotate, move and spotlight functionalities
 - Better spectator tournament support (`cl_use_tournament_specgui 1`)
-- Loadout screen controls for rotating, spotlight...
 - No duplicate crosshair when coaching
 - Miscellaneous scoreboard improvements
+- Minor improvements to 3D class portraits
 
 # Notes
 
