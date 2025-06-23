@@ -65,80 +65,6 @@
 		"font"			"HudFontSmallest"
 	}
 
-	"ChargeLabelSmall"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ChargeLabelSmall"
-		"xpos"					"0"
-		"xpos_minmode"			"-38"
-		"ypos"					"24"
-		"ypos_minmode"			"-11"
-		"zpos"					"2"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"#TF_UberchargeMinHUD"
-		"labelText_minmode"		"#TF_UberchargeMinHUD"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"Default"
-	}
-
-	"ChargeLabelSmallBlur"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ChargeLabelSmallBlur"
-		"xpos"					"0"
-		"xpos_minmode"			"-38"
-		"ypos"					"24"
-		"ypos_minmode"			"-11"
-		"zpos"					"2"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"#TF_UberchargeMinHUD"
-		"labelText_minmode"		"#TF_UberchargeMinHUD"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"DefaultBlur"
-		"fgcolor_override"  	"CustomBlack"
-	}
-
-	"ChargeLabelSmallBlur2"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ChargeLabelSmallBlur2"
-		"xpos"					"0"
-		"xpos_minmode"			"-38"
-		"ypos"					"24"
-		"ypos_minmode"			"-11"
-		"zpos"					"2"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"#TF_UberchargeMinHUD"
-		"labelText_minmode"		"#TF_UberchargeMinHUD"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"DefaultBlur"
-		"fgcolor_override"  	"CustomBlack"
-	}
-
 	"ChargeMeter"
 	{
 		"ControlName"	"ContinuousProgressBar"
@@ -259,21 +185,6 @@
 		"scaleImage"	"1"
 	}
 
-	"ResistIconAnchor"
-	{
-		"ControlName" 			"EditablePanel"
-		"fieldName" 			"ResistIconAnchor"
-		"xpos" 					"c-11"
-		"ypos" 					"c15"
-		"xpos_minmode" 			"c-49"
-		"ypos_minmode" 			"c-20"
-		"wide" 					"22"
-		"tall" 					"22"
-		"visible" 				"1"
-		"visible_minmode" 		"1"
-		"enabled" 				"1"
-	}
-
 	"ResistIcon"
 	{
 		"ControlName" 			"ImagePanel"
@@ -288,8 +199,5 @@
 		"enabled" 				"1"
 		"image" 				"../HUD/defense_buff_bullet_blue"
 		"scaleImage" 			"1"
-		"pin_to_sibling" 		"ResistIconAnchor"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
 	}
 }
