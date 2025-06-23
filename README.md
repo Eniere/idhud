@@ -32,6 +32,8 @@ Currently maintained by [Tiagoquix](https://github.com/Tiagoquix).
 - No duplicate crosshair when coaching
 - Miscellaneous scoreboard improvements
 - Minor improvements to 3D class portraits
+- Darker background for close captions (developer commentary)
+- Maximum visible death notices increased from 4 to 5
 
 # Notes
 
