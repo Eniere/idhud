@@ -773,4 +773,42 @@
 		"enabled"		"1"
 		"fgcolor_override" "TanDark"
 	}
+
+	"SelectClassLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SelectClassLabel"
+		"font"			"DefaultVerySmall"
+		"labelText"		"1–9"
+		"textAlignment"	"west"
+		"xpos"			"c340"
+		"ypos"			"340"
+		"zpos"			"15"
+		"wide"			"75"
+		"tall"			"10"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "TanDark"
+	}
+
+	"SelectClassButton"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SelectClassButton"
+		"font"			"DefaultVerySmall"
+		"labelText"		"Select class:"
+		"textAlignment"	"east"
+		"xpos"			"c264"
+		"ypos"			"340"
+		"zpos"			"15"
+		"wide"			"75"
+		"tall"			"10"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "TanDark"
+	}
 }
