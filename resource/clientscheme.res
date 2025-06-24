@@ -22,14 +22,10 @@ Scheme
 		// IDHUD colors
 		///////////////
 		"CustomRed"				"255 80 80 255"
-		"CustomPink"			"255 80 255 255"
 		"CustomGray"			"20 20 20 255"
 		"CustomBlack"			"0 0 0 255"
-		"CustomWhite"			"255 255 255 255"
 		"CustomGreen"			"80 255 80 255"
 		"CustomYellow"			"255 255 80 255"
-		"CustomLightGreen"		"150 255 150 255"
-		"CustomTransparent"		"0 0 0 0"
 
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -3049,148 +3045,9 @@ Scheme
 // IDHUD FONTS
 // ==============================
 
-/////////////////////
-// DEFAULT OUTLINE
-/////////////////////
-		"DefaultOutline"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
-				"outline"	"1"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
-				"tall"		"20"	[$X360]
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 767"
-				"outline"	"1"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"768 1023"
-				"antialias"	"1"
-				"outline"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1024 1199"
-				"antialias"	"1"
-				"outline"	"1"
-			}
-			"5" // Misyl: Proportional
-			{
-				"name"		"Verdana"
-				"tall"		"9"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
-				"outline"	"1"
-			}
-			"6"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"900"
-				"outline"	"1"
-			}
-			"7"
-			{
-				"name"		"Arial"
-				"tall"		"12"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"800"
-				"outline"	"1"
-			}
-		}
-
 ////////////////////
 // DEFAULT SHADOW
 ////////////////////
-
-		"DefaultShadow"
-		{
-			"1"
-			{
-				"name"			"Verdana"
-				"tall"			"12"
-				"weight"		"900"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"480 599"
-				"dropshadow"	"1"
-			}
-			"2"
-			{
-				"name"			"Verdana"
-				"tall"			"13"	[$WIN32]
-				"tall"			"20"	[$X360]
-				"weight"		"900"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"600 767"
-				"dropshadow"	"1"
-			}
-			"3"
-			{
-				"name"			"Verdana"
-				"tall"			"14"
-				"weight"		"900"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"768 1023"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-			"4"
-			{
-				"name"			"Verdana"
-				"tall"			"20"
-				"weight"		"900"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"1024 1199"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-			"5" // Misyl: Proportional
-			{
-				"name"			"Verdana"
-				"tall"			"9"
-				"weight"		"900"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-			"6"
-			{
-				"name"			"Verdana"
-				"tall"			"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
-				"dropshadow"	"1"
-			}
-			"7"
-			{
-				"name"			"Arial"
-				"tall"			"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
-				"dropshadow"	"1"
-			}
-		}
 
 		"DefaultVerySmallShadow"
 		{
@@ -3243,108 +3100,9 @@ Scheme
 			}
 		}
 
-//////////////////
-// DEFAULT BLUR
-//////////////////
-
-		"DefaultBlur"
-		{
-			"1"
-			{
-				"name"			"Verdana"
-				"tall"			"12"
-				"weight"		"900"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"480 599"
-				"blur"			"3"
-			}
-			"2"
-			{
-				"name"			"Verdana"
-				"tall"			"13"	[$WIN32]
-				"tall"			"20"	[$X360]
-				"weight"		"900"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"600 767"
-				"blur"			"3"
-			}
-			"3"
-			{
-				"name"			"Verdana"
-				"tall"			"14"
-				"weight"		"900"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"768 1023"
-				"antialias"		"1"
-				"blur"			"3"
-			}
-			"4"
-			{
-				"name"			"Verdana"
-				"tall"			"20"
-				"weight"		"900"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"1024 1199"
-				"antialias"		"1"
-				"blur"			"3"
-			}
-			"5" // Misyl: Proportional
-			{
-				"name"			"Verdana"
-				"tall"			"9"
-				"weight"		"900"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"		"1"
-				"blur"			"3"
-			}
-			"6"
-			{
-				"name"			"Verdana"
-				"tall"			"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
-				"blur"			"3"
-			}
-			"7"
-			{
-				"name"			"Arial"
-				"tall"			"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
-				"blur"			"3"
-			}
-		}
-
 //////////////////////
 // HUD FONT SHADOW
 //////////////////////
-		"HudFontSmallShadow"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"14"
-				"tall_lodef"	"16"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}
-
-		"HudFontMediumShadow"
-		{
-			"1"
-			{
-				"name"			"TF2"
-				"tall"			"24"
-				"tall_lodef"	"28"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}
 
 		"HudFontMediumSmallSecondaryShadow"
 		{
@@ -3361,51 +3119,9 @@ Scheme
 			}
 		}
 
-		"HudFontGiantBoldShadow"
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"44"
-				"tall_lodef"	"52"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}
-
 ///////////////////////
 // HUD FONT BLUR
 ///////////////////////
-		"HudFontMediumSmallSecondaryBlur"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-				"blur"		"3"
-			}
-		}
-
-		"HudFontGiantBoldBlur"
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"44"
-				"tall_lodef"	"52"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-				"blur"			"3"
-			}
-		}
 
 		"HudFontSmallBoldBlur"
 		{
@@ -3419,6 +3135,7 @@ Scheme
 				"blur"			"3"
 			}
 		}
+
 		"HudFontBiggerBoldBlur"
 		{
 			"1"
@@ -3436,32 +3153,6 @@ Scheme
 //////////////////////////
 // OTHER FONT DEFINTIONS
 //////////////////////////
-		"SpectatorKeyHintsShadow"
-		{
-			"1"
-			{
-				"name"			"Verdana"
-				"tall"			"8"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}
-
-		"ScoreboardMediumBlur"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"20"
-				"weight"		"500"
-				"range"			"0x0000 0x007F"	//	Basic Latin
-				"antialias" 	"1"
-				"additive"		"0"
-				"blur"			"3"
-			}
-		}
 
 		"ClockSubTextShadow"
 		{
@@ -3490,21 +3181,6 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-
-		"ClockSubTextTinyShadow"
-		{
-			"1"
-			{
-				"name"			"Verdana"
-				"tall"			"8"
-				"tall_hidef"	"7"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}
-	}
 
 	//
 	//////////////////// BORDERS //////////////////////////////
