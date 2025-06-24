@@ -21,6 +21,8 @@
 
 		"disable_manipulation"	"1"
 
+		"inventory_image_type"	"1"
+
 		"model"
 		{
 			"angles_x"		"10"

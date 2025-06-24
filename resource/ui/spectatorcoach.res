@@ -56,7 +56,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
 	}
 	"HealthPositioning"
@@ -107,7 +107,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
-	}	
+	}
 	"DistanceLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -142,7 +142,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Coach_StudentCommands"
 		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"		
+		"font"			"SpectatorKeyHints"
 	}
 
 	"SwitchCamModeKeyLabel"
@@ -159,7 +159,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"		
+		"font"			"SpectatorKeyHints"
 	}
 	"SwitchCamModeLabel"
 	{
@@ -234,7 +234,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
 		"xpos"			"r125"	[$WIN32]
-		"ypos"			"30"	[$WIN32]	
+		"ypos"			"30"	[$WIN32]
 		"wide"			"125"	[$WIN32]
 		"tall"			"20"
 		"autoResize"		"0"
@@ -268,7 +268,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"Slot1Label"
 		"xpos"			"r125"	[$WIN32]
-		"ypos"			"40"	[$WIN32]	
+		"ypos"			"40"	[$WIN32]
 		"wide"			"125"	[$WIN32]
 		"tall"			"20"
 		"autoResize"		"0"
@@ -302,7 +302,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"Slot2Label"
 		"xpos"			"r125"	[$WIN32]
-		"ypos"			"50"	[$WIN32]	
+		"ypos"			"50"	[$WIN32]
 		"wide"			"125"	[$WIN32]
 		"tall"			"20"
 		"autoResize"		"0"
@@ -327,31 +327,32 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		
+
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
-		
+
 		"text_xpos"		"10"
 		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
+			"inventory_image_type" 	"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"
@@ -369,7 +370,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
+
 		"attriblabel"
 		{
 			"ControlName"	"CExLabel"
@@ -389,5 +390,5 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
-	}	
+	}
 }
