@@ -3419,6 +3419,7 @@ Scheme
 				"blur"			"3"
 			}
 		}
+
 		"HudFontBiggerBoldBlur"
 		{
 			"1"
