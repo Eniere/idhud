@@ -18,20 +18,20 @@
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
-		
+
 		"item_ypos"		"60"
 		"item_mod_wide"	"40"
-		
+
 		"item_panels"			"16"
 		"item_columns"			"4"
 		"item_offcenter_x"		"-90"
 		"item_xdelta"			"8"
 		"item_ydelta"			"8"
-		
+
 		"item_panel_bgcolor"			"51 47 46 255"
 		"item_panel_bgcolor_mouseover"	"156 146 128 255"
 		"item_panel_bgcolor_selected"	"176 166 148 255"
-		
+
 		"classicon_xdelta"		"5"
 
 		"modelpanels_kv"
@@ -47,7 +47,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			
+
 			"model_xpos"	"18"
 			"model_ypos"	"5"
 			"model_wide"	"53"
@@ -55,19 +55,20 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type" 	"1"
 			}
 
 			"use_item_sounds" "1"
 		}
-		
+
 		"modelpanel_labels_kv"
 		{
 			"font"			"HudFontSmallestBold"
@@ -78,14 +79,14 @@
 			"wide"			"16"
 			"tall"			"10"
 			"autoResize"	"1"
-			"pinCorner"		"0"	
+			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			
+
 			"use_item_sounds" "1"
 		}
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -100,13 +101,13 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -136,7 +137,7 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-	
+
 		"SaxtonImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -152,7 +153,7 @@
 			"scaleImage"	"1"
 		}
 	}
-		
+
 	"featured_item_panel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -167,16 +168,16 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"model_xpos"	"0"
 		"model_ypos"	"0"
 		"model_wide"	"140"
 		"model_tall"	"80"
 		"model_only"	"1"
-		
+
 		"inset_eq_x"	"2"
 		"inset_eq_y"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"inventory_image_type" "1"
@@ -200,7 +201,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}		
+	}
 	"FeaturedItemPrice"
 	{
 		"ControlName"	"CExLabel"
@@ -217,7 +218,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}		
+	}
 	"FeaturedItemSymbol"
 	{
 		"ControlName"	"ImagePanel"
@@ -250,7 +251,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
+
 	"CheckoutButton"
 	{
 		"ControlName"	"CExButton"
@@ -275,7 +276,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"TextContainerPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -302,7 +303,7 @@
 			"image"			"store/store_home_background"
 			"scaleImage"	"1"
 		}
-		
+
 		"IntroTitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -320,7 +321,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"46 43 42 255"
-		}		
+		}
 
 		"IntroRichText"
 		{
@@ -340,7 +341,7 @@
 			"wrap"			"1"
 			"text"			"#Store_IntroText_Winter3"
 			"fgcolor"		"46 43 42 255"
-			
+
 			"image_up_arrow"				"scroll_up_off"
 			"image_up_arrow_mouseover"		"scroll_up_on"
 			"image_down_arrow"				"scroll_down_off"
@@ -348,7 +349,7 @@
 			"image_line"		"ArmoryScrollbarWell"
 			"image_box"			"ArmoryScrollbarBox"
 		}
-		
+
 		"SaxtonSignatureImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -380,7 +381,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"46 43 42 255"
-		}		
+		}
 
 		"PromotionsTitleLabel"
 		{
@@ -398,8 +399,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}		
-		
+		}
+
 		"PromotionBonusItem"
 		{
 			"ControlName"	"EditablePanel"
@@ -432,7 +433,7 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor"		"46 43 42 255"
-		}		
+		}
 		"PromotionImage_BonusItem"
 		{
 			"ControlName"	"ImagePanel"
@@ -466,8 +467,8 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor"		"46 43 42 255"
-		}		
-		
+		}
+
 		"PromotionHat"
 		{
 			"ControlName"	"EditablePanel"
@@ -500,7 +501,7 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor"		"46 43 42 255"
-		}		
+		}
 		"PromotionImage_Hat"
 		{
 			"ControlName"	"ImagePanel"
@@ -534,7 +535,7 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor"		"46 43 42 255"
-		}		
+		}
 	}
 
 	"ReloadSchemeButton"

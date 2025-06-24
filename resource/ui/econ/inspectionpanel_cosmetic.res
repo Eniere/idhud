@@ -15,13 +15,13 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		
+
 		"small_vertical_break_size"		"0"
 		"medium_vertical_break_size"	"6"
 		"big_vertical_break_size"		"7"
 		"horizontal_break_size"			"3"
 		"paint_style_buttons_y"			"c-140"
-		
+
 		"control_button_width"			"70"
 		"control_button_height"			"15"
 		"control_button_y"				"c-190"
@@ -42,7 +42,7 @@
 			"PaintBackgroundType"	"0"
 			"bgcolor_override" "0 0 0 255"
 			"proportionaltoparent" "1"
-		
+
 			"fullscreen_fade_to_black_duration"	"0.32"
 			"fullscreen_modelpanel_origin_x"	"275"
 			"fullscreen_modelpanel_origin_y"	"0"
@@ -75,8 +75,8 @@
 				"defaultFgColor_override"	"118 107 94 255"
 				"armedFgColor_override"		"128 117 104 255"
 				"depressedFgColor_override"	"236 227 203 255"
-			}		
-	
+			}
+
 			"RotateRightButton"
 			{
 				"ControlName"	"CExButton"
@@ -127,12 +127,12 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"Command"		"zoom_toggle"
-		
+
 				"paintbackground"	"0"
-		
+
 				"image_drawcolor"	"118 107 94 200"
 				"image_armedcolor"	"246 247 213 255"
-		
+
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -146,11 +146,11 @@
 					"enabled"		"1"
 					"image"			"store/store_zoom"
 					"scaleImage"	"1"
-				}				
+				}
 			}
 		}
 	}
-	
+
 	"ScrollBar"
 	{
 		"ControlName"	"ScrollBar"
@@ -162,13 +162,13 @@
 		"zpos"			"1000"
 		"visible"		"1"
 		"nobuttons"		"1"
-		
+
 		"Slider"
 		{
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"118 107 94 255"
 		}
-		
+
 		"UpButton"
 		{
 			"ControlName"	"Button"
@@ -177,7 +177,7 @@
 			"tall"			"0"
 			"wide"			"0"
 		}
-		
+
 		"DownButton"
 		{
 			"ControlName"	"Button"
@@ -187,7 +187,7 @@
 			"wide"			"0"
 		}
 	}
-	
+
 	// Fullscreen background panel
 	"BgPanel"
 	{
@@ -203,7 +203,7 @@
 		"PaintBackgroundType"	"0"
 		"bgcolor_override" "0 0 0 128"
 	}
-	
+
 	// Rounded dialog border
 	"DialogFrame"
 	{
@@ -219,7 +219,7 @@
 		"paintbackground"	"0"
 		"border"		"TFFatLineBorderOpaque"
 		"PaintBorder"	"1"
-		
+
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"
 		{
@@ -235,7 +235,7 @@
 			"paintborder"	"1"
 			"border"		"StoreInnerShadowBorder"
 		}
-		
+
 		"ItemNameLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -253,8 +253,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-		}		
-				
+		}
+
 		// Scrollable editable panel for right-hand side of preview, for all text details
 		"DetailsView"
 		{
@@ -270,7 +270,7 @@
 			"bgcolor_override"	"0 0 0 0"
 			"skip_autoresize"	"1"
 			"autoresize"		"0"
-			
+
 			"ScrollableChild"
 			{
 				"ControlName"	"EditablePanel"
@@ -285,7 +285,7 @@
 				"bgcolor_override"	"0 0 0 0"
 				"skip_autoresize"	"1"
 				"autoresize"		"0"
-				
+
 				//
 				// All the controls below get laid out off of the item name label's position and the break sizes defined at the top of this file
 				//
@@ -304,8 +304,8 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"118 107 94 255"
-				}		
-				
+				}
+
 				"RestrictionsLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -321,8 +321,8 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"200 80 60 255"
-				}		
-				
+				}
+
 				"RestrictionsTextLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -338,8 +338,8 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"200 80 60 255"
-				}		
-				
+				}
+
 				"UsedByLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -355,8 +355,8 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"173 165 146 255"
-				}		
-				
+				}
+
 				"UsedByTextLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -371,8 +371,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-				}		
-				
+				}
+
 				"SlotLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -388,8 +388,8 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"173 165 146 255"
-				}		
-				
+				}
+
 				"SlotTextLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -404,8 +404,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-				}		
-				
+				}
+
 				"ArmoryTextLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -420,8 +420,8 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"labeltext"		"%armory_text%"
-				}			
-				
+				}
+
 				"AttributesLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -451,7 +451,7 @@
 					"PaintBackgroundType"	"2"
 					"bgcolor_override"		"215 206 182 255"
 				}
-				
+
 				"ItemWikiPageButton"
 				{
 					"ControlName"	"CExButton"
@@ -476,12 +476,12 @@
 			}
 		}
 	}
-	
+
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
+
 		"xpos"			"c-230"
 		"ypos"			"c-160"
 		"zpos"			"1"
@@ -491,15 +491,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"render_texture"	"0"
 		"fov"			"40"
 		"allow_rot"		"1"
 
-		"paintbackground" "1"		
+		"paintbackground" "1"
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
-		
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -514,13 +514,13 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
 		}
 	}
-		
+
 	"PreviewItemModelPanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"PreviewItemModelPanel"
 		"xpos"			"c-230"
@@ -531,7 +531,7 @@
 		"visible"		"1"
 		"paintbackground"	"0"
 		"paintborder"	"0"
-		
+
 		"model_xpos"	"10"
 		"model_ypos"	"10"
 		"model_wide"	"200"
@@ -540,9 +540,9 @@
 		"attrib_only"	"0"
 		"model_only"	"1"
 		"paint_icon_hide"	"0"
-		
+
 		"text_ypos"		"10"
-		
+
 		"itemmodelpanel"
 		{
 			"inventory_image_type"	"1"
@@ -550,12 +550,12 @@
 			"force_square_image"	"1"
 		}
 	}
-	
+
 	"ItemIcon1"
 	{
 		"ControlName"	"CStorePreviewItemIcon"
 		"fieldName"		"ItemIcon1"
-		
+
 		"xpos"			"c-215"
 		"ypos"			"c56"
 		"zpos"			"13"
@@ -566,7 +566,7 @@
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
-		
+
 		"bgblockout"
 		{
 			"ControlName"	"EditablePanel"
@@ -581,14 +581,14 @@
 			"PaintBackgroundType"	"2"
 			"bgcolor_override" "51 47 46 255"
 		}
-		
+
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			
+
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			
+
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -597,15 +597,16 @@
 			"attrib_only"	"0"
 			"model_only"	"1"
 			"paint_icon_hide"	"0"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type" 	"1"
 			}
 		}
 	}
-	
+
 	"ClassUsageImage1"
 	{
 		"ControlName"	"CStorePreviewClassIcon"
@@ -702,7 +703,7 @@
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"IconsMoveLeftButton"
 	{
 		"ControlName"	"CExButton"
@@ -729,8 +730,8 @@
 		"defaultFgColor_override"	"118 107 94 255"
 		"armedFgColor_override"		"128 117 104 255"
 		"depressedFgColor_override"	"236 227 203 255"
-	}		
-	
+	}
+
 	"IconsMoveRightButton"
 	{
 		"ControlName"	"CExButton"
@@ -757,8 +758,8 @@
 		"defaultFgColor_override"	"118 107 94 255"
 		"armedFgColor_override"		"128 117 104 255"
 		"depressedFgColor_override"	"236 227 203 255"
-	}	
-	
+	}
+
 	"ClassUsageMouseoverLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -805,12 +806,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"gofullscreen"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"118 107 94 200"
 		"image_armedcolor"		"128 117 104 255"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -824,7 +825,7 @@
 			"enabled"		"1"
 			"image"			"store/store_fullscreen"
 			"scaleImage"	"1"
-		}				
+		}
 	}
 
 	"OptionsButton"
@@ -850,12 +851,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"options"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"	"118 107 94 200"
 		"image_armedcolor"	"246 247 213 255"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -869,9 +870,9 @@
 			"enabled"		"1"
 			"image"			"glyph_options"
 			"scaleImage"	"1"
-		}				
+		}
 	}
-	
+
 	"TeamNavPanel"
 	{
 		"ControlName"		"CNavigationPanel"
@@ -885,14 +886,14 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
 		"auto_layout_vertical_buffer"	"-4"
 		"display_vertically"	"1"
 		"align"				"west"
-		
+
 		"ButtonSettings"
 		{
 			"wide"				"19"
@@ -905,29 +906,29 @@
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
-			
+
 			"fgcolor"			"TanDark"
 			"defaultFgColor_override" "TanDark"
 			"armedFgColor_override" "TanDark"
 			"depressedFgColor_override" "TanDark"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"paintbackground"	"0"
 			"paintbackgroundtype"	"0"
 			"defaultBgColor_Override"	"0 0 0 255"
-			
+
 			"paintborder"		"0"
-			
+
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
 			"image_selectedcolor"	"255 255 255 255"
-			
+
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -940,9 +941,9 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-			}				
+			}
 		}
-		
+
 		"Buttons"
 		{
 			"all"
@@ -951,11 +952,11 @@
 				"image_default"		"store/store_redteam"
 				"image_armed"		"store/store_redteam"
 				"image_selected"	"store/store_redteam"
-				
+
 				"SubImage"
 				{
 					"image"			"store/store_redteam"
-				}				
+				}
 			}
 			"scout"
 			{
@@ -963,11 +964,11 @@
 				"image_default"		"store/store_blueteam"
 				"image_armed"		"store/store_blueteam"
 				"image_selected"	"store/store_blueteam"
-				
+
 				"SubImage"
 				{
 					"image"			"store/store_blueteam"
-				}				
+				}
 			}
 		}
 	}
@@ -993,7 +994,7 @@
 
 	//---
 	// Hack - put these two labels off-screen, since we have cycle text to take the place of both of them
-	
+
 	"PaintNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1011,7 +1012,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}		
+	}
 
 	"StyleNameLabel"
 	{
@@ -1030,10 +1031,10 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}		
-	
+	}
+
 	//---
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1057,12 +1058,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"	"118 107 94 255"
 		"image_armedcolor"	"246 247 213 255"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1076,7 +1077,7 @@
 			"enabled"		"1"
 			"image"			"close_button"
 			"scaleImage"	"1"
-		}				
+		}
 	}
 
 	"mouseoveritempanel"

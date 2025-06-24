@@ -18,9 +18,9 @@
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
-		
+
 		"item_panels"			"0"
-		
+
 		"classicon_xdelta"		"5"
 
 		"modelpanels_kv"
@@ -36,7 +36,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			
+
 			"model_xpos"	"18"
 			"model_ypos"	"5"
 			"model_wide"	"53"
@@ -44,19 +44,20 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type" 	"1"
 			}
 
 			"use_item_sounds" "1"
 		}
-		
+
 		"modelpanel_labels_kv"
 		{
 			"font"			"HudFontSmallestBold"
@@ -67,14 +68,14 @@
 			"wide"			"16"
 			"tall"			"10"
 			"autoResize"	"1"
-			"pinCorner"		"0"	
+			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			
+
 			"use_item_sounds" "1"
 		}
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -89,13 +90,13 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -125,7 +126,7 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-	
+
 		"MannCoImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -155,7 +156,7 @@
 			"scaleImage"	"1"
 		}
 	}
-		
+
 	"featured_item_panel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -170,16 +171,16 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"model_xpos"	"0"
 		"model_ypos"	"5"
 		"model_wide"	"140"
 		"model_tall"	"70"
 		"model_only"	"1"
-		
+
 		"inset_eq_x"	"2"
 		"inset_eq_y"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"inventory_image_type" "1"
@@ -203,7 +204,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}		
+	}
 	"FeaturedItemPrice"
 	{
 		"ControlName"	"CExLabel"
@@ -220,7 +221,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}		
+	}
 	"FeaturedItemSymbol"
 	{
 		"ControlName"	"ImagePanel"
@@ -253,7 +254,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
+
 	"CheckoutButton"
 	{
 		"ControlName"	"CExButton"
@@ -278,7 +279,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"TextContainerPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -290,7 +291,7 @@
 		"tall"			"260"
 		"visible"		"0"
 		"border"		"GrayDialogBorder"
-		
+
 		"TitleBG"
 		{
 			"ControlName"	"EditablePanel"
@@ -303,7 +304,7 @@
 			"visible"		"1"
 			"border"		"StoreFreeTrialBorder"
 		}
-		
+
 		"FreeTrialTitle"
 		{
 			"ControlName"	"CExLabel"
@@ -358,7 +359,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 		}
-		
+
 		"FreeTrialPoint1Dot"
 		{
 			"ControlName"	"ImagePanel"
@@ -373,7 +374,7 @@
 			"image"			"loadout_dotted_line"
 			"tileImage"		"1"
 			"tileVertically" "0"
-		}				
+		}
 		"FreeTrialPoint1"
 		{
 			"ControlName"	"CExLabel"
@@ -407,7 +408,7 @@
 			"image"			"loadout_dotted_line"
 			"tileImage"		"1"
 			"tileVertically" "0"
-		}				
+		}
 		"FreeTrialPoint2"
 		{
 			"ControlName"	"CExLabel"
@@ -441,7 +442,7 @@
 			"image"			"loadout_dotted_line"
 			"tileImage"		"1"
 			"tileVertically" "0"
-		}				
+		}
 		"FreeTrialPoint3"
 		{
 			"ControlName"	"CExLabel"
@@ -475,7 +476,7 @@
 			"image"			"loadout_dotted_line"
 			"tileImage"		"1"
 			"tileVertically" "0"
-		}				
+		}
 		"FreeTrialPoint4"
 		{
 			"ControlName"	"CExLabel"
@@ -514,7 +515,7 @@
 			"enabled"		"1"
 			"fgcolor"		"178 82 22 255"
 		}
-		
+
 		"BonusTextLabel"
 		{
 			"ControlName"	"CExLabel"

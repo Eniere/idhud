@@ -14,14 +14,14 @@
 		"text_wide"		"180"
 		"text_forcesize" "2"
 	}
-	
+
 	"LoadingSpinner"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LoadingSpinner"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -43,15 +43,15 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		
+
 		"itemmodelpanel"
 		{
 			"ControlName"		"CEmbeddedItemModelPanel"
 			"fieldName"		"itemmodelpanel"
-	
+
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"1"		
+			"zpos"			"1"
 			"wide"			"140"
 			"tall"			"100"
 			"autoResize"		"0"
@@ -60,7 +60,7 @@
 			"enabled"		"1"
 			"useparentbg"		"1"
 			"proportionaltoparent" "1"
-		
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 
@@ -74,7 +74,9 @@
 			"fov"					"75"
 
 			"model_rotate_yaw_speed"	"50"
-		
+
+			"inventory_image_type" 	"1"
+
 			"model"
 			{
 				"force_pos"	"1"
@@ -92,7 +94,7 @@
 				"modelname"		""
 			}
 		}
-	
+
 		"namelabel"
 		{
 			"ControlName"	"CExLabel"
@@ -112,7 +114,7 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
-		
+
 		"attriblabel"
 		{
 			"ControlName"	"CExLabel"
@@ -152,7 +154,7 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"0"
 		}
-	
+
 		"collectionlistlabel"
 		{
 			"ControlName"	"CExLabel"
@@ -172,7 +174,7 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"0"
 		}
-			
+
 		"collectionhighlight"
 		{
 			"ControlName"	"EditablePanel"
@@ -186,7 +188,7 @@
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"		"215 206 182 255"
 		}
-		
+
 		"equippedlabel"
 		{
 			"ControlName"	"CExLabel"
@@ -207,7 +209,7 @@
 			"bgcolor_override"		"0 0 0 255"
 			"PaintBackgroundType"	"2"
 		}
-	
+
 		"paint_icon"
 		{
 			"ControlName"	"CItemMaterialCustomizationIconPanel"
@@ -345,7 +347,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-		
+
 		"contained_item_panel"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -360,9 +362,9 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"useparentbg"	"0"
-		
+
 			"enabled"		"1"
-		
+
 			"model_xpos"	"1"
 			"model_ypos"	"1"
 			"model_wide"	"16"
@@ -370,16 +372,17 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"model_only"	"1"
-		
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-		
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type" 	"1"
 			}
-		
+
 			"use_item_sounds"	"1"
 		}
 	}

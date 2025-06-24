@@ -43,13 +43,13 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			
+
 			"text_ypos"			"20"
 			"text_center"		"1"
 			"model_hide"		"1"
 			"resize_to_text"	"1"
 			"padding_height"	"15"
-			
+
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
@@ -95,9 +95,9 @@
 			"tileImage"		"0"
 			"tileVertically" "0"
 			"drawcolor"		"112 176 74 255"
-		}				
+		}
 		"tool_modelpanel"
-		{		
+		{
 			"ControlName"	"CItemModelPanel"
 			"fieldName"		"tool_modelpanel"
 			"xpos"			"10"
@@ -122,8 +122,9 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type" 	"1"
 			}
-		}	
+		}
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -169,10 +170,10 @@
 			"tileImage"		"0"
 			"tileVertically" "0"
 			"drawcolor"		"71 98 145 255"
-		}	
+		}
 
 		"subject_modelpanel"
-		{		
+		{
 			"ControlName"	"CItemModelPanel"
 			"fieldName"		"subject_modelpanel"
 			"xpos"			"465"
@@ -196,8 +197,9 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type" 	"1"
 			}
-		}	
+		}
 
 		// Dynamically sized and moded based on the current page
 		"paint_model"
@@ -228,6 +230,7 @@
 				"force_use_model"		"1"
 				"use_item_rendertarget" "0"
 				"allow_rot"				"1"
+				"inventory_image_type" 	"1"
 			}
 		}
 
@@ -271,7 +274,7 @@
 				"UseAvatarRadio"
 				{
 					"ControlName"		"RadioButton"
-					"fieldName"			"UseAvatarRadio"	
+					"fieldName"			"UseAvatarRadio"
 					"xpos"				"10"
 					"ypos"				"10"
 					"wide"				"330"
@@ -387,7 +390,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
-			
+
 			"NextButton"
 			{
 				"ControlName"	"CExButton"
