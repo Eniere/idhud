@@ -1,6 +1,6 @@
 ![banner](improved_default_hud_banner.png)
 
-This is not a custom HUD in its usual meaning; instead, our focus is to add some fixes and improvements for the standard Team Fortress 2 UI, while still keeping its style.
+This is not a custom HUD in its usual meaning; instead, the focus is to add some fixes and improvements for the standard Team Fortress 2 UI, while keeping the style.
 
 See the [features](#features) section for more information.  
 See the [FAQ](#frequently-asked-questions-faq) for some possible questions you may have.
