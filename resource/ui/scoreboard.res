@@ -1155,7 +1155,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"KillsLabel"
 			"font"				"ScoreboardVerySmall"
-			"labelText"			"KILLS"
+			"labelText"			"#TF_KILLS"
 			"textAlignment"		"east"
 			"xpos"				"55"
 			"ypos"				"25"
@@ -1172,7 +1172,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"DeathsLabel"
 			"font"				"ScoreboardVerySmall"
-			"labelText"			"DEATHS"
+			"labelText"			"#TF_PVE_Deaths"
 			"textAlignment"		"east"
 			"xpos"				"110"
 			"ypos"				"25"
@@ -1183,6 +1183,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			"allcaps"			"1"
 		}
 		"AssistsLabel"
 		{
