@@ -31,6 +31,7 @@ Currently maintained by [Tiagoquix](https://github.com/Tiagoquix).
 - Minor scoreboard improvements
 - Minor adjustments to 3D class portraits angles
 - More death notices on the screen at once
+- Linux support
 
 # Notes
 
